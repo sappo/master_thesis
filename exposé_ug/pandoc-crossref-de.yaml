@@ -1,0 +1,27 @@
+secPrefix:
+  - Abschnitt
+  - Abschnitte
+
+figureTitle: Abbildung
+lofTitle: Abbildungsverzeichnis
+figPrefix:
+  - Abb.
+  - Abbildungen
+
+tableTitle: Tabelle
+lotTitle: Tabellenverzeichnis
+tblPrefix:
+  - Tabelle
+  - Tabellen
+
+listingTitle: Auflistung
+lolTitle: Auflistungsverzeichnis
+lstPrefix:
+  - Auflistung
+  - Auflistungen
+
+EquationTitle: Formel
+EqnTitle: Formel
+eqnPrefix:
+  - Formel
+  - Formeln
