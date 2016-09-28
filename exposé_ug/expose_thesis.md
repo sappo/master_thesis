@@ -17,7 +17,7 @@ nocite: |
 Die Masterarbeit soll in Zusammenarbeit mit der Firma Detim Consulting GmbH
 geschrieben werden. Dazu wird ein Problemfeld bei dem Kunden Universum Group,
 der Detim Consulting GmbH, in deren Geschäftsfeld dem Inkasso-, Liquiditäts-,
-und Risikomanagment, gewählt.
+und Risikomanagement, gewählt.
 
 # Problemfeld
 
@@ -42,7 +42,7 @@ gilt das sog. Schadensminderungsprinzip. Das bedeutet, das alle angekauften
 Forderungen eines Kunden nur einmalig abgemahnt werden dürfen. Daher müssen hier
 Personendubletten gefunden und zusammengeführt werden.
 
-Das aktuelle System zur Personenidentifizieurng ist durch einen externen
+Das aktuelle System zur Personenidentifizierung ist durch einen externen
 Dienstleister realisiert. Dieser bereinigt und prüft Namen und Adressen.
 Allerdings skaliert das System dabei nur innerhalb eines vorgegebenen
 Kontingent.
@@ -72,7 +72,7 @@ Wissensbasis durch Literaturarbeit in folgenden Grundlagen geschaffen werden:
 * Charakteristiken von persönlichen Namen
 * Möglichkeiten von Eingabefehler persönlicher Daten bei unterschiedlichen
   Medien
-* Duplikaterkennung (Phonetisch, Regelbasierend, …)
+* Duplikatserkennung (phonetisch, regelbasierend, …)
 * Fehlerkorrektur von Namen und Adressen
 
 Weitere Methoden sind:
@@ -91,7 +91,7 @@ Die erwarteten Ergebnisse der Masterarbeit sind:
 * Analyse der Möglichkeiten zur Adressbereinigung und -validierung
 * Analyse der Personenidentifikation anhand bereinigter und validierter
   Adressen
-* Design eines Identifikationschecksystems zur Erkennung von Dublikaten
+* Design eines Identifikationschecksystems zur Erkennung von Duplikaten
 * Prototyp der wesentlichen Funktionen
 * Evaluation des Prototypen, anhand der Erwartungen aus der Analyse
 
