@@ -2,10 +2,10 @@
 # Expose Masterarbeit
 
 author: Kevin Sapper
-title: Automatisierte Personen-Identifikation auf Basis von Adressdaten
-referent: Prof. Dr.
-coreferent: Prof. Dr.
-handler: Thomas Strauß
+title: Skalierbares Echtzeit Entity Resolution Streaming Framework (Working Titel)
+referent: Prof. Dr. Reinhold Kröger
+coreferent: Prof. Dr. Adrian Ulges
+handler: Thomas Strauß (Universum Group)
 company: Detim Consulting GmbH / Universum Group
 
 nocite: |
@@ -19,33 +19,61 @@ geschrieben werden. Dazu wird ein Problemfeld bei dem Kunden Universum Group,
 der Detim Consulting GmbH, in deren Geschäftsfeld dem Inkasso-, Liquiditäts-,
 und Risikomanagement, gewählt.
 
-# Problemfeld
+# Problemfeld Universum Group
 
-Die Universum Group bietet Lösungen für Onlineshops zur Bonitätsprüfung,
-Adressprüfung und Forderungsankauf. Dabei wird dem Händler bei entsprechender
-Bonität seines Kunden das Angebot gemacht, die Forderung, nach Ablauf einer
-Zahlungsperiode, zu 100 % zu übernehmen. Sowohl bei der Risikobewertung, während
-der Bonitätsprüfung, als auch beim Inkassomanagement müssen Kunden eindeutig
-identifiziert werden. Dabei ist Hauptmerkmal zur Identifizierung von Kunden
-deren Adresse und eventuell das Geburtsdatum. Das Problem an dieser Stelle ist,
-dass der Kunde selbst die Daten erfasst und diese nicht anhand von
-Personalausweis oder Ähnlichem überprüft werden können. Fehler bei der
-Datenerhebung sind, beispielsweise unterschiedliche Schreibweisen, insbesondere
-bei Adressen, Tippfehler, welche bei Namen nicht auffallen, Abkürzungen, etwa
-Str. für Straße, oder akademische Titel und Adelstitel, welche in
-Onlineformularen nicht standardisiert sind. Bei der Bonitätsprüfung dient die
-Personenidentifizierung dazu, Kunden mit positiver oder negativer Zahlungsmoral
-zu erkennen und anzunehmen bzw. abzulehnen. Je genauer die
-Personenidentifikation ist, desto aussagekräftiger sind die Bonitätsauskunfte
-von externen Dienstleister, beispielsweise der Schufa. Beim Inkassomanagement
-gilt das sog. Schadensminderungsprinzip. Das bedeutet, das alle angekauften
-Forderungen eines Kunden nur einmalig abgemahnt werden dürfen. Daher müssen hier
-Personendubletten gefunden und zusammengeführt werden.
+Die Universum Group bietet Lösungen für Onlineshops zur Bonitäts- und
+Adressprüfung, sowie dem Forderungsankauf, der Onlineshop-Kunden. Dabei wird dem
+Händler bei entsprechender Bonität seines Kunden das Angebot gemacht, die
+Forderung, nach Ablauf einer Zahlungsperiode, zu 100 % zu übernehmen. Damit eine
+möglichst zuverlässige Aussage, über die Bonität des Kunden, getroffen werden
+kann, muss zunächst herausgefunden werden, ob der Kunde bereits bei der
+Universum Group bekannt ist. Das Problem an dieser Stelle ist, dass der Kunde
+Online seine Daten selbst erfasst und diese nicht anhand von Personalausweis
+oder ähnlichen Dokumenten überprüft werden können. Fehler bei der Datenerhebung
+sind, beispielsweise unterschiedliche Schreibweisen, insbesondere bei Adressen,
+Tippfehler, welche bei Namen nicht offensichtlich sind, unterschiedliche
+Konventionen, etwa Str. für Straße, oder akademische Titel und Adelstitel,
+welche in Onlineformularen nicht standardisiert erfasst werden. Bei der
+Bonitätsprüfung dient die Personenidentifizierung dazu, Kunden mit positiver
+oder negativer Zahlungsmoral zu erkennen und anzunehmen bzw. abzulehnen. Je
+genauer die Personenidentifikation ist, desto aussagekräftiger sind die
+Bonitätsauskunfte von externen Dienstleister, beispielsweise der Schufa. Beim
+Inkassomanagement gilt zudem das sog. Schadensminderungsprinzip. Das bedeutet,
+das alle angekauften Forderungen eines Kunden nur einmalig abgemahnt werden
+dürfen. Daher müssen hier Personendubletten gefunden und zusammengeführt werden.
 
-Das aktuelle System zur Personenidentifizierung ist durch einen externen
-Dienstleister realisiert. Dieser bereinigt und prüft Namen und Adressen.
-Allerdings skaliert das System dabei nur innerhalb eines vorgegebenen
-Kontingent.
+Das aktuelle System zur Personenidentifizierung funktioniert nur bei der
+Bonitätsprüfung und ist durch einen externen Dienstleister realisiert. Dieser
+bereinigt und prüft Namen und Adressen. Allerdings skaliert das System dabei nur
+innerhalb eines vorgegebenen monatlichen Kontingents.
+
+# Duplikatserkennung
+
+Die Methoden zur Duplikatserkennung stammen ursprünglich aus dem
+Gesundheitsbereich (Felegi & Sunter 1969). Je nach Fachgebiet gibt es
+unterschiedliche Fachbegriffe. Statistiker und Epidemiologen sprechen von
+*record* oder *data linkage* während Informatiker das Problem unter *entity
+resolution*, *data* oder *field matching*, *duplicate detection*, *object
+identification* oder *merge/purge* kennen. Dabei geht es nicht um die reine
+Personenidentifikation, sondern vielmehr um die Identifikation von Entitäten
+aller Art, beispielsweise Kunden, Patienten, Produkte oder Orte. Dabei können
+die Entitäten nicht durch ein einzigartiges Attribute identifiziert werden.
+Zudem sind die Datensätze oft fehlerhaft, beispielsweise durch
+Rechtschreibfehler oder unterschiedliche Konventionen. Die Methoden zur
+Entitätsauflösung arbeiten meist auf Datensatzpaaren und liefern als Ergebnis
+einen Ähnlichkeitswert (engl. similarity score). Über den Ähnlichkeitswert kann
+bestimmt werden, ob ein Datensatzpaare übereinstimmt (engl. match) oder nicht.
+
+Zur Bestimmung der Ähnlichkeit eines Datensatzpaares unterscheiden Elmagarmid et
+al. [@elmagarmid_duplicate_2007] zwischen Attributevergleichs- (engl. field
+matching) und Datensatzvergleichsmethoden (engl. detecting duplicate records).
+Methoden zum Attributevergleich sind zeichenbasierend (edit distance, affine gap
+distance, Jaro distance metric oder Q-gram distance), tokenbasierend (atomic
+strings, Q-grams mit tf.idf), phonetisch (soundex) oder nummerisch. Die
+Datensatzvergleichsmethoden sind probabilistisch (Naive Bayes), überwachtes bzw.
+semi-überwachtes Lernen (Support Vector Maschine, Markov Chain Monte Carlo),
+aktives Lernen (ALIAS), distanzebasierend (siehe Attributevergleich - Datensatz
+als konkatenierter String) oder regelbasierend (AJAX).
 
 # Zielsetzung {#sec:ziele}
 
