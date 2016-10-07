@@ -2,12 +2,14 @@
 # Expose Masterarbeit
 
 author: Kevin Sapper
-title: Skalierbares Echtzeit Entity Resolution Streaming Framework (Working Titel)
+title: Analyse, Design, Entwicklung und Evaluation eines skalierbaren, Echtzeit Entity Resolution Streaming Framework
 referent: Prof. Dr. Reinhold Kröger
 coreferent: Prof. Dr. Adrian Ulges
 handler: Thomas Strauß (Universum Group)
 company: Detim Consulting GmbH / Universum Group
 
+bibliography: ../thesis.bib
+csl: din-1505-2-numeric.csl
 nocite: |
 
 ---
@@ -57,23 +59,78 @@ resolution*, *data* oder *field matching*, *duplicate detection*, *object
 identification* oder *merge/purge* kennen. Dabei geht es nicht um die reine
 Personenidentifikation, sondern vielmehr um die Identifikation von Entitäten
 aller Art, beispielsweise Kunden, Patienten, Produkte oder Orte. Dabei können
-die Entitäten nicht durch ein einzigartiges Attribute identifiziert werden.
+die Entitäten nicht durch ein einzigartiges Attribut identifiziert werden.
 Zudem sind die Datensätze oft fehlerhaft, beispielsweise durch
 Rechtschreibfehler oder unterschiedliche Konventionen. Die Methoden zur
 Entitätsauflösung arbeiten meist auf Datensatzpaaren und liefern als Ergebnis
-einen Ähnlichkeitswert (engl. similarity score). Über den Ähnlichkeitswert kann
-bestimmt werden, ob ein Datensatzpaare übereinstimmt (engl. match) oder nicht.
+eine Menge von Übereinstimmungen. Eine Übereinstimmung verknüpft zwei Entitäten.
+Zusätzlich kann über einen optionalen Ähnlichkeitswert (engl. similarity score)
+, normalerweise zwischen 0 und 1, die Intensität der Übereinstimmung angegeben
+[@kopcke_frameworks_2010].
 
 Zur Bestimmung der Ähnlichkeit eines Datensatzpaares unterscheiden Elmagarmid et
-al. [@elmagarmid_duplicate_2007] zwischen Attributevergleichs- (engl. field
-matching) und Datensatzvergleichsmethoden (engl. detecting duplicate records).
-Methoden zum Attributevergleich sind zeichenbasierend (edit distance, affine gap
-distance, Jaro distance metric oder Q-gram distance), tokenbasierend (atomic
-strings, Q-grams mit tf.idf), phonetisch (soundex) oder nummerisch. Die
+al. [@elmagarmid_duplicate_2007] zwischen Attributsvergleichs- (engl. field
+matching) und Datensatzvergleichsmethoden (engl. record matching). Methoden zum
+Attributsvergleich sind zeichenbasierend (edit distance, affine gap distance,
+Jaro distance metric oder Q-gram distance), tokenbasierend (atomic strings,
+Q-grams mit tf.idf), phonetisch (soundex) oder nummerisch. Die
 Datensatzvergleichsmethoden sind probabilistisch (Naive Bayes), überwachtes bzw.
-semi-überwachtes Lernen (Support Vector Maschine, Markov Chain Monte Carlo),
-aktives Lernen (ALIAS), distanzebasierend (siehe Attributevergleich - Datensatz
-als konkatenierter String) oder regelbasierend (AJAX).
+semi-überwachtes Lernen (SVMLight, Markov Chain Monte Carlo), aktives Lernen
+(ALIAS), distanzebasierend (siehe Attributsvergleich - Datensatz als
+konkatenierter String) oder regelbasierend (AJAX). Die Ausführung der
+Vergleichsmethoden ist enorm teuer, da diese das Kreuzprodukt zweier Mengen
+bilden müssen. Um die Ausführungszeit zu reduzieren wird versucht den Suchraum
+auf die wahrscheinlichsten Duplikatsvorkommen zu begrenzen. Diese Vorgehen
+werden als Blocking bezeichnet. Elmagarmid et al. nennen Standard Blocking,
+Sorted Neighboorhodd Approach, Clustering und Canopies, sowie Set Joins als
+Vorgehensweisen. (Referenzen zu den Methoden folgen noch!)
+
+Da es keine Methode zur Entity Resolution gibt, welche allen anderen überlegen
+ist, wurden Ende der 90er Jahre begonnen Frameworks zu entwickeln, welche
+verschiedene Methoden miteinander kombinieren. Einen Vergleich dieser Frameworks
+wurde durch Köpcke & Rahm 2010 [@kopcke_frameworks_2010] durchgeführt. Ein
+Framework besteht aus verschiedenen Matchern. Ein Matcher ist dabei ein
+Algorithmus, welcher die Ähnlichkeit zweier Datensätze ermittelt. Ähnlich wie
+Elmagarmid et al. unterscheiden Köpcke & Rahm zwischen Attributs- und
+Kontextbasierenden Matchern. Als Kontext bezeichnen Sie die semantische
+Beziehung bzw. Hierarchie zwischen den Attributen. Um die Matcher miteinander zu
+kombinieren nutzen die Frameworks min. eine Matching Strategie. Eine Strategie
+ist, die Ähnlichkeitswerte verschiedener Matcher nummerisch zu kombinieren,
+beispielsweise durch eine gewichtete Summe oder einen gewichteten Durchschnitt.
+Ein anderer Ansatz ist Regel-basierend. Eine einfache Regel besteht aus einer
+logischen Verbindung und Match-Konditionen, beispielsweise einem Schwellenwert.
+Die dritter und komplexeste Strategie ist Workflow-basierend. Hierbei kann eine
+Sequenz von Matchern die Ergebnisse iterativ einschränken. Einen passenden
+Workflow zu finden kann selbst Domainexperten vor eine große Herausforderung
+stellen. Daher gibt es trainingbasierende Ansätze passende Parameter für Matcher
+oder Kombinationsfunktionen (z.B. Gewicht für Matcher) zu bestimmen. Solche
+Ansätze sind etwa, Naive Bayes, Logistic Regression, Support Vector Maschine
+oder Decision Trees. (Referenzen zu den Ansätzen folgen noch!)
+
+Ein Großteil der Forschung in Entity Resolution konzentriert sich auf die
+Qualität der Vergleichsergebnisse. Die von Köpcke & Rahm verglichenen Frameworks
+konzentrieren sich alle Samt darauf zwei statische Mengen zu miteinander
+vergleichen. Bei großen Datenmengen kann dies durchaus mehrere Stunden dauern.
+Daher gibt es in den letzten Jahre einige Ansätze und Frameworks, welche
+MapReduce zum skaliere nutzen [@kolb_parallel_2013,
+@malhotra_graph-parallel_2014]. Zudem gibt es immer mehr Bedarf
+Vergleichsergebnisse in nahe Echtzeit zu liefern. Erste Ergebnisse Entity
+Resolution skalierbar und in nahe Echtzeit zu erreichen, präsentieren Christen &
+Gayler in [@christen_towards_2008] 2008, unter Verwendung von Inverted Indexing
+Techniken. Dabei betrachten Sie vor allem die Anforderungen eines Anfragestroms
+(engl. query stream). Ihre Anforderungen sind einen Strom von Anfragedatesätzen,
+gegen potentielle riesige Datenmengen, im Subsekundenbereich pro Anfrage
+abzuarbeiten. Dabei sollen die Treffer der Anfrage mit einem Ähnlichkeitswert
+versehen sein. Zudem muss es möglich sein die Menge an Anfragen zu skalieren.
+Das Hauptproblem ist hierbei die Skalierung. Um skalieren zu können wird
+versucht die Abarbeitung des Suchraums zu parallelisieren. Eine Studie von Kwon,
+Balazinska, Howe, & Rolia [@kwon_study_2011] in MapReduce Anwendungen zeigt, das
+selbst geringe Ungleichgewichte bei der Verteilung des Suchraums auf Mapper bzw.
+Reducer, aufgrund der Komplexität der Matching Algorithmen, zu deutlich längeren
+Laufzeiten und damit Gesamtlaufzeiten führt. In einem ihrer Beispiele sind bei
+einer Gesamtzeit von 5 Minuten die meisten Mapper innerhalb von 30 Sekunden
+fertig. Auch beim Streaming kann diese sog. Datenschiefe (engl. data skew) den
+Durchsatz eines Clusters signifikant mindern.
 
 # Zielsetzung {#sec:ziele}
 
@@ -127,7 +184,7 @@ Die erwarteten Ergebnisse der Masterarbeit sind:
 
 * Adressdatenbank zur Validierung. Kann für Testzwecke aus OpenStreetMap
   extrahiert werden.
-* Namesregister zum Abgleich von Vor- und Nachnamen.
+* Namensregister zum Abgleich von Vor- und Nachnamen.
 * Historie an fehlerhaften und korrigierten Personen- und Adressdaten.
 
 # Literatur
