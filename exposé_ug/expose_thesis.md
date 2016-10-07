@@ -134,57 +134,50 @@ Durchsatz eines Clusters signifikant mindern.
 
 # Zielsetzung {#sec:ziele}
 
-Die Personenidentifizierung soll zukünftig schnell, zuverlässig und skalierbar
-sein. Personen sollen trotz abweichender Namen, Adressen und Geburtsdaten
-möglichst genau identifiziert werden. Bei Abweichungen soll ein Ähnlichkeitswert
-(Score) bestimmt werden, der mit Hilfe einer Toleranz für die Identifikation
-genutzt werden soll, um Personen zu erkennen. Dazu müssen die Eingabedaten
-bereinigt werden. Die Adressbereinigung und Adressvalidierung soll sich auf
-Adressen im deutschen Sprachraum konzentrieren. Als Primärziel ist dabei
-Deutschland zu betrachten. Die Lösung muss allerdings auch vorsehen andere
-Länder mit überschaubarem Aufwand anzubinden. Bei den Namen sollen
-Vertauschungen bei Vor- und Nachname, sowie etwaige Titel im Namen erkannt
-werden. Die gewählten Algorithmen, die Architektur und das Design sollen in
-einem Proof of Concept evaluiert werden. Für das Proof of Concept soll, sofern
-möglich auf Open Source Lösungen gesetzt werden.
+Im Rahmen der Thesis soll ein Entity Resolution Framework für Datensatzströme
+entstehen. Als Basis soll ein (Event) Stream Processing Framework genutzt
+werden. Das Framework soll eine Reihe von Matchern, sowie Kombinationsfunktionen
+der Matcher unterstützen. Hauptaugenmerk ist jedoch die Skalierbarkeit. Gelöst
+werden soll das Data Skew Problem bei verschiedenen Blocking Strategien. Eine
+weitere Schwierigkeit ist, dass die Datenmenge nicht statisch ist, sondern neue
+Datensätze jederzeit hinzukommen können. Beim Erweitern des Suchraums soll
+beachtet werden, dass kein Data Skew auftritt. Dadurch soll vermieden werden,
+dass der Durchsatz innerhalb des Clusters signifikant sinkt. Idealerweise soll
+der Durchsatz, sowie die Qualität der Suchergebnisse, mit bereits bekannten
+Veröffentlichungen verglichen werden. Das Framework soll dabei kein Domainwissen
+eines bestimmten Entitätstypen berücksichtigen.
 
 # Methoden
 
 Zur Umsetzung der in [@sec:ziele] beschriebenen Ziele muss zunächst eine
 Wissensbasis durch Literaturarbeit in folgenden Grundlagen geschaffen werden:
 
-* Formate von Adressen im Euroraum
-* Charakteristiken von persönlichen Namen
-* Möglichkeiten von Eingabefehler persönlicher Daten bei unterschiedlichen
-  Medien
-* Duplikatserkennung (phonetisch, regelbasierend, …)
-* Fehlerkorrektur von Namen und Adressen
+* Algorithmen zur Entity Resolution
+* Entity Resolution Frameworks - traditionell, MapReduce, Streaming
+* Streaming Frameworks und Topologien
+* Data Skew bei verteilten und parallelen Anwendungen
 
 Weitere Methoden sind:
 
-* OOP-Entwurf
-* Schnittstellen-Entwurf
+* UML-Entwurf
 * Proof of Concept
-* Funktionelle Leistungsbewertung anhand realer Anwendungsfälle
+* Funktionelle Leistungsbewertung anhand von Datensätzen in wissenschaftlichen
+  Publikationen
 
 # Erwartete Ergebnisse
 
 Die erwarteten Ergebnisse der Masterarbeit sind:
 
-* Analyse der Adressaufbauten im deutschen bzw. europäischen Sprachraum.
-* Analyse der Möglichkeiten zur Namensbereinigung
-* Analyse der Möglichkeiten zur Adressbereinigung und -validierung
-* Analyse der Personenidentifikation anhand bereinigter und validierter
-  Adressen
-* Design eines Identifikationschecksystems zur Erkennung von Duplikaten
+* Analyse der Entity Resolution Algorithmen
+* Analyse der Entity Resolution Frameworks
+* Analyse von (Event) Stream Processing Frameworks, für gegebenen Anwendungsfall
+* Design eines Entity Resolution Streaming Framework
 * Prototyp der wesentlichen Funktionen
-* Evaluation des Prototypen, anhand der Erwartungen aus der Analyse
+* Evaluation des Prototypen, gegen öffentliche Datensätze existierender
+  Veröffentlichungen
 
 # Vorbedingungen
 
-* Adressdatenbank zur Validierung. Kann für Testzwecke aus OpenStreetMap
-  extrahiert werden.
-* Namensregister zum Abgleich von Vor- und Nachnamen.
-* Historie an fehlerhaften und korrigierten Personen- und Adressdaten.
+* Datensätze zum evaluieren und trainieren des Frameworks bzw. der Algorithmen
 
 # Literatur
