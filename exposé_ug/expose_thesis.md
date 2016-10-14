@@ -2,9 +2,9 @@
 # Expose Masterarbeit
 
 author: Kevin Sapper
-title: Analyse, Design, Entwicklung und Evaluation eines skalierbaren, Echtzeit Entity Resolution Streaming Framework
-referent: Prof. Dr. Reinhold Kröger
-coreferent: Prof. Dr. Adrian Ulges
+title: Analyse, Design, Entwicklung und Evaluation eines skalierbaren, Nahe-Echtzeit Entity Resolution Framework für Streaming-Daten
+referent: Prof. Dr. Adrian Ulges
+coreferent: Prof. Dr. Reinhold Kröger
 handler: Thomas Strauß (Universum Group)
 company: Detim Consulting GmbH / Universum Group
 
@@ -12,7 +12,6 @@ bibliography: ../thesis.bib
 csl: din-1505-2-numeric.csl
 link-citations: true
 nocite: |
-
 ---
 
 # Einleitung
@@ -145,7 +144,7 @@ Processing Framework, beispielsweise Esper, genutzt werden. Das Framework soll
 eine Reihe von Matchern sowie Kombinationsfunktionen der Matcher unterstützen.
 Die Implementierung der Matcher soll größtenteils aus Standard-Bibliotheken
 erfolgen. Auch bei den Maschine Learning Kombinationsfunktionen soll
-weitestgehend existierende Lösungen, etwa WEKA [@HFH.ea:WEKA:09], dass auch im
+weitestgehend existierende Lösungen, etwa WEKA [@HFH.EA:WEKA:09], dass auch im
 dedoop Framework [@KR:Parallel:13] Anwendung findet, genutzt werden. Das
 Hauptaugenmerk der Thesis hingegen soll die Skalierbarkeit sein. Dabei muss ein
 existierender Datenbestand zunächst so geclustert werden, dass die Entity
