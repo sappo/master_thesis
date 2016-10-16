@@ -187,8 +187,10 @@ Vergleich, künstlich in das System gestreamt werden.
 Zur Umsetzung der in [@sec:ziele] beschriebenen Ziele muss zunächst eine
 Wissensbasis durch Literaturarbeit in folgenden Grundlagen geschaffen werden:
 
-* Algorithmen zur Entity Resolution
+* Matcher-Algorithmen zur Entity Resolution
+* Kombinationsfunktionen zur Entity Resolution
 * Blocking und Indexing Strategien für Entity Resolution
+* Clustering Algorithmen
 * Data Skew bei verteilten und parallelen Anwendungen
 * Load-Balancing für Streaminganwendungen
 * Entity Resolution Frameworks - traditionell, MapReduce, Streaming
@@ -205,7 +207,9 @@ Weitere Methoden sind:
 
 Die erwarteten Ergebnisse der Masterarbeit sind:
 
-* Analyse von Entity Resolution Algorithmen
+* Analyse von Entity Resolution Matchern
+* Analyse von Entity Resolution Kombinationsfunktionen
+* Analyse von Clustering bei Blocking und Indexing
 * Analyse von Entity Resolution Frameworks
 * Analyse von Stream Processing Frameworks und ggf. (Complex) Event Processing
   Frameworks
