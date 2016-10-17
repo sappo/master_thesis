@@ -71,17 +71,18 @@ al. [@EIV:Duplicate:07] zwischen Attributsvergleichs- (engl. field
 matching) und Datensatzvergleichsmethoden (engl. record matching). Methoden zum
 Attributsvergleich sind zeichenbasierend (edit distance, affine gap distance,
 Jaro distance metric oder Q-gram distance), tokenbasierend (atomic strings,
-Q-grams mit tf.idf), phonetisch (soundex) oder nummerisch. Die
+Q-grams mit tf.idf [@GIKS:Text:03]), phonetisch (soundex) oder nummerisch. Die
 Datensatzvergleichsmethoden sind probabilistisch (Naive Bayes), überwachtes bzw.
-semi-überwachtes Lernen (SVMLight, Markov Chain Monte Carlo), aktives Lernen
-(ALIAS), distanzebasierend (siehe Attributsvergleich - Datensatz als
-konkatenierter String) oder regelbasierend (AJAX). Die Ausführung der
+semi-überwachtes Lernen (SVMLight [@Joa:Svmlight:99], Markov Chain Monte Carlo
+[@GRS:Introducing:96]), aktives Lernen (ALIAS [@SB:Interactive:02]),
+distanzebasierend (siehe Attributsvergleich - Datensatz als konkatenierter
+String) oder regelbasierend (AJAX [@GFS.EA:Declarative:01]). Die Ausführung der
 Vergleichsmethoden ist enorm teuer, da diese das Kreuzprodukt zweier Mengen
 bilden müssen. Um die Ausführungszeit zu reduzieren, wird versucht, den Suchraum
 auf die wahrscheinlichsten Duplikatsvorkommen zu begrenzen. Diese Vorgehen
 werden als Blocking oder Indexing bezeichnet. Elmagarmid et al. nennen Standard
 Blocking, Sorted Neighboorhood Approach, Clustering und Canopies, sowie Set
-Joins als Vorgehensweisen. (Referenzen zu den Methoden folgen noch!)
+Joins als Vorgehensweisen.
 
 Da es keine Methode zur Entity Resolution gibt, welche allen anderen überlegen
 ist, wurden Ende der 90er Jahre begonnen, Frameworks zu entwickeln, welche
@@ -104,7 +105,7 @@ passenden Workflow zu finden, kann selbst Domainexperten vor eine große
 Herausforderung stellen. Daher gibt es trainingbasierende Ansätze, passende
 Parameter für Matcher oder Kombinationsfunktionen (z.B. Gewicht für Matcher) zu
 bestimmen. Solche Ansätze sind etwa Naive Bayes, Logistic Regression, Support
-Vector Maschine oder Decision Trees. (Referenzen zu den Ansätzen folgen noch!)
+Vector Maschine oder Decision Trees.
 
 Ein Großteil der Forschung in Entity Resolution konzentriert sich auf die
 Qualität der Vergleichsergebnisse. Die von Köpcke & Rahm verglichenen Frameworks
@@ -179,7 +180,7 @@ potentiell die schwierigste Phase durchlaufen muss.
 
 Idealerweise soll der Durchsatz sowie die Qualität der Suchergebnisse mit
 bereits bekannten Veröffentlichungen verglichen werden. Da diese meist auf
-statischen Daten arbeiten, müssen die zu prüfenden Datenmenge(n), für einen
+statischen Daten arbeiten, müssen die zu prüfenden Datenmengen, für einen
 Vergleich, künstlich in das System gestreamt werden.
 
 # Methoden
@@ -190,7 +191,7 @@ Wissensbasis durch Literaturarbeit in folgenden Grundlagen geschaffen werden:
 * Matcher-Algorithmen zur Entity Resolution
 * Kombinationsfunktionen zur Entity Resolution
 * Blocking und Indexing Strategien für Entity Resolution
-* Clustering Algorithmen
+* Clusteringmethoden für Blocking und Indexing
 * Data Skew bei verteilten und parallelen Anwendungen
 * Load-Balancing für Streaminganwendungen
 * Entity Resolution Frameworks - traditionell, MapReduce, Streaming
@@ -209,7 +210,7 @@ Die erwarteten Ergebnisse der Masterarbeit sind:
 
 * Analyse von Entity Resolution Matchern
 * Analyse von Entity Resolution Kombinationsfunktionen
-* Analyse von Clustering bei Blocking und Indexing
+* Analyse von Clusteringmethoden für Blocking und Indexing
 * Analyse von Entity Resolution Frameworks
 * Analyse von Stream Processing Frameworks und ggf. (Complex) Event Processing
   Frameworks
