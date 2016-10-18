@@ -1,0 +1,19 @@
+Citation Key:
+[authorsAlpha]:[veryshorttitle]:[shortyear]
+
+Postscript:
+// The bib(la)tex fields are ordered according to this array.
+// If a field is not in this list, it will show up at the end in random order.
+var order = ['author', 'shorttitle', 'title', 'year', 'month', 'booktitle', 'isbn', 'journal', 'volume', 'number', 'pages', 'issn', 'url', 'doi', 'file', 'keywords', 'abstract', 'timestamp'];
+this.fields.sort(function(a, b) {
+  var oa = order.indexOf(a.name);
+  var ob = order.indexOf(b.name);
+  if (oa < 0) { return 1; } // a is not in order, so put it at the end
+  if (ob < 0) { return -1; } // b is not in order, so put it at the end
+  return oa - ob;
+});
+
+// Replaces '+' sign in citation key with '.EA' as pandoc cannot handle them
+if (this.item.__citekey__) {
+  this.item.__citekey__ = this.item.__citekey__.replace("+", ".EA");
+}
