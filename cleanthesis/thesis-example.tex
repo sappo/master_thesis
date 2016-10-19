@@ -14,6 +14,7 @@
 	titlepage=on,				% own page for each title page
 	captions=tableabove,		% display table captions above the float env
 	draft=false,				% value for draft version
+    $if(lang)$$babel-lang$,$endif$
 ]{scrreprt}%
 
 % **************************************************
@@ -24,36 +25,35 @@
 % **************************************************
 % Information and Commands for Reuse
 % **************************************************
-\newcommand{\thesisTitle}{The Clean Thesis Style}
-\newcommand{\thesisName}{Ricardo Langner}
-\newcommand{\thesisSubject}{Documentation}
-\newcommand{\thesisDate}{August 26, 2015}
-\newcommand{\thesisVersion}{My First Draft}
+\newcommand{\thesisTitle}{$title$}
+\newcommand{\thesisName}{$author$}
+\newcommand{\thesisSubject}{$subject$}
+\newcommand{\thesisDate}{$date$}
+\newcommand{\thesisVersion}{$version$}
 
-\newcommand{\thesisFirstReviewer}{Jane Doe}
-\newcommand{\thesisFirstReviewerUniversity}{\protect{Clean Thesis Style University}}
-\newcommand{\thesisFirstReviewerDepartment}{Department of Clean Thesis Style}
+\newcommand{\thesisFirstReviewer}{$referentName$}
+\newcommand{\thesisFirstReviewerUniversity}{\protect{$referentUniversity$}}
+\newcommand{\thesisFirstReviewerDepartment}{$referentFaculty$}
 
-\newcommand{\thesisSecondReviewer}{John Doe}
-\newcommand{\thesisSecondReviewerUniversity}{\protect{Clean Thesis Style University}}
-\newcommand{\thesisSecondReviewerDepartment}{Department of Clean Thesis Style}
+\newcommand{\thesisSecondReviewer}{$coreferentName$}
+\newcommand{\thesisSecondReviewerUniversity}{\protect{$coreferentUniversity$}}
+\newcommand{\thesisSecondReviewerDepartment}{$coreferentFaculty$}
 
-\newcommand{\thesisFirstSupervisor}{Jane Doe}
-\newcommand{\thesisSecondSupervisor}{John Smith}
+\newcommand{\thesisFirstSupervisor}{$handlerName$}
+\newcommand{\thesisFirstSupervisorCompany}{$handlerCompany$}
 
-\newcommand{\thesisUniversity}{\protect{Clean Thesis Style University}}
-\newcommand{\thesisUniversityDepartment}{Department of Clean Thesis Style}
-\newcommand{\thesisUniversityInstitute}{Institut for Clean Thesis Dev}
+\newcommand{\thesisUniversity}{\protect{$universityName$}}
+\newcommand{\thesisUniversityDepartment}{$universityFaculty$}
+\newcommand{\thesisUniversityInstitute}{$universityDegreeCourse$}
 \newcommand{\thesisUniversityGroup}{Clean Thesis Group (CTG)}
-\newcommand{\thesisUniversityCity}{City}
-\newcommand{\thesisUniversityStreetAddress}{Street address}
-\newcommand{\thesisUniversityPostalCode}{Postal Code}
+\newcommand{\thesisUniversityCity}{$universityCity$}
+\newcommand{\thesisUniversityStreetAddress}{$universityStreetAddress$}
+\newcommand{\thesisUniversityPostalCode}{$universityPostalCode$}
+\newcommand{\thesisUniversityLogo}{$universityLogo$}
 
 % **************************************************
 % Load and Configure Packages
 % **************************************************
-\usepackage[utf8]{inputenc}		% defines file's character encoding
-\usepackage[ngerman]{babel} % babel system, adjust the language of the content
 \usepackage[					% clean thesis style
 	figuresep=colon,%
 	sansserif=false,%
@@ -62,9 +62,6 @@
 	hangsubsection=true,%
 	colorize=full,%
 	colortheme=bluemagenta,%
-	bibsys=bibtex,%
-	bibfile=bib-refs,%
-	bibstyle=alphabetic,%
 ]{cleanthesis}
 
 \hypersetup{					% setup the hyperref-package options
@@ -78,6 +75,25 @@
 	bookmarksnumbered=true,		%
 	bookmarksopen=true			%
 }
+
+% **************************************************
+% Language and Encoding
+% **************************************************
+
+$if(lang)$
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[shorthands=off,$for(babel-otherlangs)$$babel-otherlangs$,$endfor$main=$babel-lang$]{babel}
+$if(babel-newcommands)$
+  $babel-newcommands$
+$endif$
+\else
+  \usepackage{polyglossia}
+  \setmainlanguage[$polyglossia-lang.options$]{$polyglossia-lang.name$}
+$for(polyglossia-otherlangs)$
+  \setotherlanguage[$polyglossia-otherlangs.options$]{$polyglossia-otherlangs.name$}
+$endfor$
+\fi
+$endif$
 
 % Sort lot and lof by chapter
 %\makeatletter
@@ -100,6 +116,16 @@ $for(header-includes)$
 $header-includes$
 $endfor$
 
+$if(natbib)$
+\usepackage{natbib}
+\bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
+$endif$
+$if(biblatex)$
+\usepackage[$if(biblio-style)$style=$biblio-style$,$endif$$for(biblatexoptions)$$biblatexoptions$$sep$,$endfor$]{biblatex}
+$for(bibliography)$
+\addbibresource{$bibliography$}
+$endfor$
+$endif$
 $if(listings)$
 \usepackage{listings}
 $endif$
@@ -135,13 +161,13 @@ $endif$
 % --------------------------
 % rename document parts
 % --------------------------
-\renewcaptionname{ngerman}{\figurename}{Abb.}
-\renewcaptionname{ngerman}{\tablename}{Tab.}
+%\renewcaptionname{ngerman}{\figurename}{Abb.}
+%\renewcaptionname{ngerman}{\tablename}{Tab.}
+%\renewcaptionname{english}{\figurename}{Fig.}
+%\renewcaptionname{english}{\tablename}{Tab.}
 \renewcommand\listfigurename{}  % Clear default header
 \renewcommand\listtablename{}   % Clear default header
 \renewcommand\listoflistings{\listof{codelisting}{Auflistungsverzeichnis}}
-%\renewcaptionname{english}{\figurename}{Fig.}
-%\renewcaptionname{english}{\tablename}{Tab.}
 
 % --------------------------
 % Front matter
@@ -157,10 +183,11 @@ $abstract$              		% INCLUDE: the abstracts (english and german)
 \cleardoublepage
 $endif$
 %
-\input{content/acknowledgement} % INCLUDE: acknowledgement
-\cleardoublepage
+%\input{content/acknowledgement} % INCLUDE: acknowledgement
+%\cleardoublepage
 %
 \setcounter{tocdepth}{2}		% define depth of toc
+\pdfbookmark[0]{Inhaltsverzeichnis}{Inhaltsverzeichnis}
 \tableofcontents				% display table of contents
 \cleardoublepage
 
@@ -178,6 +205,20 @@ $body$
 % --------------------------
 % Back matter
 % --------------------------
+$if(natbib)$
+$if(bibliography)$
+$if(biblio-title)$
+$if(book-class)$
+\renewcommand\bibname{$biblio-title$}
+$else$
+\renewcommand\refname{$biblio-title$}
+$endif$
+$endif$
+\bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
+
+$endif$
+\cleardoublepage
+$endif$
 $if(biblatex)$
 {%
 \setstretch{1.1}
@@ -196,11 +237,11 @@ $if(graphics)$
 \makeatletter
 \@starttoc{lof}% Print List of Figures
 \makeatother
-\blindtext
 \cleardoublepage
 $endif$
 
-\listoflistings
+\listoflistings% Print List of Listings
+\cleardoublepage
 
 $if(tables)$
 \chapter*{Tabellenverzeichnis}\label{tabellenverzeichnis}
@@ -211,13 +252,11 @@ $if(tables)$
 \cleardoublepage
 $endif$
 
-\input{content/colophon}
-\cleardoublepage
+%\input{content/colophon}
+%\cleardoublepage
 
 \input{content/declaration}
-\clearpage
-\newpage
-\mbox{}
+\cleardoublepage
 
 % **************************************************
 % End of Document CONTENT

@@ -2,7 +2,7 @@
 %
 % ------------------------------------  --> cover title page
 \begin{titlepage}
-	\pdfbookmark[0]{Cover}{Cover}
+	\pdfbookmark[0]{Deckblatt}{Deckblatt}
 	\flushright
 	\hfill
 	\vfill
@@ -17,15 +17,14 @@
 
 % ------------------------------------  --> main title page
 \begin{titlepage}
-	\pdfbookmark[0]{Titlepage}{Titlepage}
+	\pdfbookmark[0]{Titelseite}{Titelseite}
 	\tgherosfont
 	\centering
 
 	{\Large \thesisUniversity} \\[4mm]
-	\includegraphics[width=6cm]{gfx/Clean-Thesis-Logo} \\[2mm]
+	\includegraphics[width=6cm]{hsrm_logo.png} \\[2mm]
 	\textsf{\thesisUniversityDepartment} \\
 	\textsf{\thesisUniversityInstitute} \\
-	\textsf{\thesisUniversityGroup} \\
 
 	\vfill
 	{\large \thesisSubject} \\[5mm]
@@ -35,31 +34,32 @@
 	\vfill
 	\begin{minipage}[t]{.27\textwidth}
 		\raggedleft
-		\textit{1. Reviewer}
+		\textit{Referent}
 	\end{minipage}
 	\hspace*{15pt}
 	\begin{minipage}[t]{.65\textwidth}
 		{\Large \thesisFirstReviewer} \\
-	  	{\small \thesisFirstReviewerDepartment} \\[-1mm]
-		{\small \thesisFirstReviewerUniversity}
+		{\small \thesisFirstReviewerUniversity} \\[-1mm]
+	  	{\small \thesisFirstReviewerDepartment}
 	\end{minipage} \\[5mm]
 	\begin{minipage}[t]{.27\textwidth}
 		\raggedleft
-		\textit{2. Reviewer}
+		\textit{Koreferent}
 	\end{minipage}
 	\hspace*{15pt}
 	\begin{minipage}[t]{.65\textwidth}
 		{\Large \thesisSecondReviewer} \\
-	  	{\small \thesisSecondReviewerDepartment} \\[-1mm]
-		{\small \thesisSecondReviewerUniversity}
+		{\small \thesisSecondReviewerUniversity} \\[-1mm]
+	  	{\small \thesisSecondReviewerDepartment}
 	\end{minipage} \\[10mm]
 	\begin{minipage}[t]{.27\textwidth}
 		\raggedleft
-		\textit{Supervisors}
+		\textit{Betreuer}
 	\end{minipage}
 	\hspace*{15pt}
 	\begin{minipage}[t]{.65\textwidth}
-		\thesisFirstSupervisor\ and \thesisSecondSupervisor
+        {\Large \thesisFirstSupervisor} \\
+	  	{\small \thesisFirstSupervisorCompany}
 	\end{minipage} \\[10mm]
 
 	\thesisDate \\
@@ -75,12 +75,11 @@
 	\textbf{\thesisName} \\
 	\textit{\thesisTitle} \\
 	\thesisSubject, \thesisDate \\
-	Reviewers: \thesisFirstReviewer\ and \thesisSecondReviewer \\
-	Supervisors: \thesisFirstSupervisor\ and \thesisSecondSupervisor \\[1.5em]
+	Referenten: \thesisFirstReviewer\ und \thesisSecondReviewer \\
+	Betreuer: \thesisFirstSupervisor \\[1.5em]
 	\textbf{\thesisUniversity} \\
-	\textit{\thesisUniversityGroup} \\
 	\thesisUniversityInstitute \\
 	\thesisUniversityDepartment \\
 	\thesisUniversityStreetAddress \\
-	\thesisUniversityPostalCode\ and \thesisUniversityCity
+	\thesisUniversityPostalCode\ \thesisUniversityCity
 }
