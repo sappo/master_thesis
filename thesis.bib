@@ -531,17 +531,224 @@ ein logarithmisches Verhalten auf.},
   urldate = {2016-10-16}
 }
 
+@article{Chr:Survey:12,
+  author = {Christen, P.},
+  title = {A {{Survey}} of {{Indexing Techniques}} for {{Scalable Record Linkage}} and {{Deduplication}}},
+  year = {2012},
+  month = sep,
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  volume = {24},
+  number = {9},
+  pages = {1537--1555},
+  issn = {1041-4347},
+  doi = {10.1109/TKDE.2011.127},
+  file = {Christen - 2012 - A Survey of Indexing Techniques for Scalable Recor.pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/GKUMF3ZW/Christen - 2012 - A Survey of Indexing Techniques for Scalable Recor.pdf:application/pdf;Christen - 2012 - A Survey of Indexing Techniques for Scalable Recor.html:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/UZJE36QF/Christen - 2012 - A Survey of Indexing Techniques for Scalable Recor.html:text/html},
+  keywords = {blocking,Complexity theory,Couplings,Data linkage,data matching,Encoding,entity resolution,experimental evaluation,Indexing,index techniques,Scalability},
+  abstract = {Record linkage is the process of matching records from several databases that refer to the same entities. When applied on a single database, this process is known as deduplication. Increasingly, matched data are becoming important in many application areas, because they can contain information that is not available otherwise, or that is too costly to acquire. Removing duplicate records in a single database is a crucial step in the data cleaning process, because duplicates can severely influence the outcomes of any subsequent data processing or data mining. With the increasing size of today's databases, the complexity of the matching process becomes one of the major challenges for record linkage and deduplication. In recent years, various indexing techniques have been developed for record linkage and deduplication. They are aimed at reducing the number of record pairs to be compared in the matching process by removing obvious nonmatching pairs, while at the same time maintaining high matching quality. This paper presents a survey of 12 variations of 6 indexing techniques. Their complexity is analyzed, and their performance and scalability is evaluated within an experimental framework using both synthetic and real data sets. No such detailed survey has so far been published.},
+  timestamp = {2016-10-24T07:44:23Z}
+}
+
+@inproceedings{EPP.EA:Parallel:15,
+  author = {Efthymiou, V. and Papadakis, G. and Papastefanatos, G. and Stefanidis, K. and Palpanas, T.},
+  shorttitle = {Parallel Meta-Blocking},
+  title = {Parallel Meta-Blocking: {{Realizing}} Scalable Entity Resolution over Large, Heterogeneous Data},
+  year = {2015},
+  month = oct,
+  booktitle = {2015 {{IEEE International Conference}} on {{Big Data}} ({{Big Data}})},
+  pages = {411--420},
+  doi = {10.1109/BigData.2015.7363782},
+  file = {Efthymiou et al. - 2015 - Parallel meta-blocking Realizing scalable entity .pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/VW7WRG9C/Efthymiou et al. - 2015 - Parallel meta-blocking Realizing scalable entity .pdf:application/pdf;Efthymiou et al. - 2015 - Parallel meta-blocking Realizing scalable entity .html:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/ZMDGSZRA/Efthymiou et al. - 2015 - Parallel meta-blocking Realizing scalable entity .html:text/html},
+  keywords = {Big data,blocking graph,Complexity theory,Context,data exchange,data handling,Erbium,load balancing algorithm,Load management,MapReduce,parallel meta-blocking,parallel processing,quadratic complexity,resource allocation,Scalability,scalable entity resolution,Servers},
+  abstract = {Entity resolution constitutes a crucial task for many applications, but has an inherently quadratic complexity. Typically, it scales to large volumes of data through blocking: similar entities are clustered into blocks so that it suffices to perform comparisons only within each block. Meta-blocking further increases efficiency by cleaning the overlapping blocks from unnecessary comparisons. However, even Meta-blocking can be time-consuming: applying it to blocks with 7.4 million entities and 2.21011 comparisons takes almost 8 days on a modern high-end server. In this paper, we parallelize Meta-blocking based on MapReduce. We propose a simple strategy that explicitly creates the core concept of Meta-blocking, the blocking graph. We then describe an advanced strategy that creates the blocking graph implicitly, reducing the overhead of data exchange. We also introduce a load balancing algorithm that distributes the computationally intensive workload evenly among the available compute nodes. Our experimental analysis verifies the superiority of our advanced strategy and demonstrates an almost linear speedup for all meta-blocking techniques with respect to the number of available nodes.},
+  timestamp = {2016-10-24T07:45:44Z}
+}
+
+@inproceedings{Lo:curse:09,
+  author = {Lin, Jimmy and {others}},
+  shorttitle = {The Curse of Zipf and Limits to Parallelization},
+  title = {The Curse of Zipf and Limits to Parallelization: {{A}} Look at the Stragglers Problem in Mapreduce},
+  year = {2009},
+  booktitle = {7th {{Workshop}} on {{Large}}-{{Scale Distributed Systems}} for {{Information Retrieval}}},
+  volume = {1},
+  url = {http://www.umiacs.umd.edu/~jimmylin/publications/Lin_2009.pdf},
+  file = {[PDF] umd.edu:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/DJ2AU6KV/Lin and others - 2009 - The curse of zipf and limits to parallelization A.pdf:application/pdf},
+  timestamp = {2016-10-24T07:32:39Z},
+  urldate = {2016-10-24}
+}
+
+@article{GKZN:CohEEL:16,
+  author = {Gruetze, Toni and Kasneci, Gjergji and Zuo, Zhe and Naumann, Felix},
+  shorttitle = {{{CohEEL}}},
+  title = {{{CohEEL}}: {{Coherent}} and Efficient Named Entity Linking through Random Walks},
+  year = {2016},
+  month = mar,
+  journal = {Web Semantics: Science, Services and Agents on the World Wide Web},
+  volume = {37},
+  pages = {75--89},
+  issn = {15708268},
+  url = {http://linkinghub.elsevier.com/retrieve/pii/S1570826816000172},
+  doi = {10.1016/j.websem.2016.03.001},
+  file = {Gruetze et al. - 2016 - CohEEL Coherent and efficient named entity linkin.pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/UDSQKXIW/Gruetze et al. - 2016 - CohEEL Coherent and efficient named entity linkin.pdf:application/pdf},
+  abstract = {In recent years, the ever-growing amount of documents on the Web as well as in digital libraries led to a considerable increase of valuable textual information about entities. Harvesting entity knowledge from these large text collections is a major challenge. It requires the linkage of textual mentions within the documents with their real-world entities. This process is called entity linking. Solutions to this entity linking problem have typically aimed at balancing the rate of linking correctness (precision) and the linking coverage rate (recall). While entity links in texts could be used to improve various Information Retrieval tasks, such as text summarization, document classification, or topic-based clustering, the linking precision is the decisive factor. For example, for topic-based clustering a method that produces mostly correct links would be more desirable than a high-coverage method that leads to more but also more uncertain clusters. We propose an efficient linking method that uses a random walk strategy to combine a precision-oriented and a recall-oriented classifier in such a way that a high precision is maintained, while recall is elevated to the maximum possible level without affecting precision. An evaluation on three datasets with distinct characteristics demonstrates that our approach outperforms seminal work in the area and shows higher precision and time performance than the most closely related state-of-the-art methods.},
+  timestamp = {2016-10-24T08:16:40Z},
+  urldate = {2016-10-24},
+  language = {en}
+}
+
+@inproceedings{SKLN:Combination:16,
+  author = {Samiei, Ahmad and Koumarelas, Ioannis and Loster, Michael and Naumann, Felix},
+  title = {Combination of {{Rule}}-Based and {{Textual Similarity Approaches}} to {{Match Financial Entities}}},
+  year = {2016},
+  booktitle = {Proceedings of the {{Second International Workshop}} on {{Data Science}} for {{Macro}}-{{Modeling}}},
+  isbn = {978-1-4503-4407-4},
+  pages = {4:1--4:2},
+  url = {http://doi.acm.org/10.1145/2951894.2951905},
+  doi = {10.1145/2951894.2951905},
+  file = {Samiei et al. - 2016 - Combination of Rule-based and Textual Similarity A.pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/NUVKZPAX/Samiei et al. - 2016 - Combination of Rule-based and Textual Similarity A.pdf:application/pdf;Samiei et al. - 2016 - Combination of Rule-based and Textual Similarity A.html:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/Q8H36H64/Samiei et al. - 2016 - Combination of Rule-based and Textual Similarity A.html:text/html},
+  timestamp = {2016-10-24T08:20:13Z},
+  publisher = {{ACM}},
+  urldate = {2016-10-24},
+  series = {DSMM'16},
+  address = {New York, NY, USA}
+}
+
+@article{PHN:Progressive:15,
+  author = {Papenbrock, T. and Heise, A. and Naumann, F.},
+  title = {Progressive {{Duplicate Detection}}},
+  year = {2015},
+  month = may,
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  volume = {27},
+  number = {5},
+  pages = {1316--1329},
+  issn = {1041-4347},
+  doi = {10.1109/TKDE.2014.2359666},
+  file = {Papenbrock et al. - 2015 - Progressive Duplicate Detection.pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/3B2E9955/Papenbrock et al. - 2015 - Progressive Duplicate Detection.pdf:application/pdf;Papenbrock et al. - 2015 - Progressive Duplicate Detection.html:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/5EPEKMXJ/Papenbrock et al. - 2015 - Progressive Duplicate Detection.html:text/html},
+  keywords = {Algorithm design and analysis,Clustering algorithms,data cleaning,data handling,dataset quality maintenance,Detection algorithms,Duplicate detection,efficiency improvement,entity resolution,execution time,Heuristic algorithms,overall process gain maximization,Partitioning algorithms,pay-as-you-go,progressive duplicate detection methods,Progressiveness,real world entities,Runtime,Sorting},
+  abstract = {Duplicate detection is the process of identifying multiple representations of same real world entities. Today, duplicate detection methods need to process ever larger datasets in ever shorter time: maintaining the quality of a dataset becomes increasingly difficult. We present two novel, progressive duplicate detection algorithms that significantly increase the efficiency of finding duplicates if the execution time is limited: They maximize the gain of the overall process within the time available by reporting most results much earlier than traditional approaches. Comprehensive experiments show that our progressive algorithms can double the efficiency over time of traditional duplicate detection and significantly improve upon related work.},
+  timestamp = {2016-10-24T08:22:10Z}
+}
+
+@article{VHD.EA:Reach:14,
+  author = {Vogel, Tobias and Heise, Arvid and Draisbach, Uwe and Lange, Dustin and Naumann, Felix},
+  shorttitle = {Reach for Gold},
+  title = {Reach for Gold: {{An}} Annealing Standard to Evaluate Duplicate Detection Results},
+  year = {2014},
+  month = sep,
+  journal = {Journal of Data and Information Quality},
+  volume = {5},
+  number = {1-2},
+  pages = {1--25},
+  issn = {19361955},
+  url = {http://dl.acm.org/citation.cfm?doid=2667565.2629687},
+  doi = {10.1145/2629687},
+  file = {Vogel et al. - 2014 - Reach for gold An annealing standard to evaluate .pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/M87Q3WCV/Vogel et al. - 2014 - Reach for gold An annealing standard to evaluate .pdf:application/pdf},
+  timestamp = {2016-10-24T08:22:58Z},
+  urldate = {2016-10-24},
+  language = {en}
+}
+
+@article{ABE.EA:Stratosphere:14,
+  author = {Alexandrov, Alexander and Bergmann, Rico and Ewen, Stephan and Freytag, Johann-Christoph and Hueske, Fabian and Heise, Arvid and Kao, Odej and Leich, Marcus and Leser, Ulf and Markl, Volker and Naumann, Felix and Peters, Mathias and Rheinl{\"a}nder, Astrid and Sax, Matthias J. and Schelter, Sebastian and H{\"o}ger, Mareike and Tzoumas, Kostas and Warneke, Daniel},
+  title = {The {{Stratosphere Platform}} for {{Big Data Analytics}}},
+  year = {2014},
+  month = dec,
+  journal = {The VLDB Journal},
+  volume = {23},
+  number = {6},
+  pages = {939--964},
+  issn = {1066-8888},
+  url = {http://dx.doi.org/10.1007/s00778-014-0357-y},
+  doi = {10.1007/s00778-014-0357-y},
+  file = {Alexandrov et al. - 2014 - The Stratosphere Platform for Big Data Analytics.pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/KDZHRWA2/Alexandrov et al. - 2014 - The Stratosphere Platform for Big Data Analytics.pdf:application/pdf},
+  keywords = {Big data,Data cleansing,Distributed systems,Graph processing,Parallel databases,Query Optimization,Query processing,Text mining},
+  abstract = {We present Stratosphere, an open-source software stack for parallel data analysis. Stratosphere brings together a unique set of features that allow the expressive, easy, and efficient programming of analytical applications at very large scale. Stratosphere's features include "in situ" data processing, a declarative query language, treatment of user-defined functions as first-class citizens, automatic program parallelization and optimization, support for iterative programs, and a scalable and efficient execution engine. Stratosphere covers a variety of "Big Data" use cases, such as data warehousing, information extraction and integration, data cleansing, graph analysis, and statistical analysis applications. In this paper, we present the overall system architecture design decisions, introduce Stratosphere through example queries, and then dive into the internal workings of the system's components that relate to extensibility, programming model, optimization, and query execution. We experimentally compare Stratosphere against popular open-source alternatives, and we conclude with a research outlook for the next years.},
+  timestamp = {2016-10-24T08:24:15Z},
+  urldate = {2016-10-24}
+}
+
+@article{HNST:Scalable:12,
+  author = {Herschel, M. and Naumann, F. and Szott, S. and Taubert, M.},
+  title = {Scalable {{Iterative Graph Duplicate Detection}}},
+  year = {2012},
+  month = nov,
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  volume = {24},
+  number = {11},
+  pages = {2094--2108},
+  issn = {1041-4347},
+  doi = {10.1109/TKDE.2011.99},
+  file = {Herschel et al. - 2012 - Scalable Iterative Graph Duplicate Detection.pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/W7IDEIN5/Herschel et al. - 2012 - Scalable Iterative Graph Duplicate Detection.pdf:application/pdf;Herschel et al. - 2012 - Scalable Iterative Graph Duplicate Detection.html:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/UM2S4QW8/Herschel et al. - 2012 - Scalable Iterative Graph Duplicate Detection.html:text/html},
+  keywords = {Classification algorithms,Databases,data cleaning,data integration,DDG,Duplicate detection,duplicate detection in graph data,entity resolution,graph theory,Image edge detection,iterative methods,Motion pictures,object representations,parallelization,real-world objects,record linkage,relational database management system,Relational databases,Runtime,Scalability,scalable iterative graph duplicate detection,Sorting},
+  abstract = {Duplicate detection determines different representations of real-world objects in a database. Recent research has considered the use of relationships among object representations to improve duplicate detection. In the general case where relationships form a graph, research has mainly focused on duplicate detection quality/effectiveness. Scalability has been neglected so far, even though it is crucial for large real-world duplicate detection tasks. We scale-up duplicate detection in graph data (DDG) to large amounts of data and pairwise comparisons, using the support of a relational database management system. To this end, we first present a framework that generalizes the DDG process. We then present algorithms to scale DDG in space (amount of data processed with bounded main memory) and in time. Finally, we extend our framework to allow batched and parallel DDG, thus further improving efficiency. Experiments on data of up to two orders of magnitude larger than data considered so far in DDG show that our methods achieve the goal of scaling DDG to large volumes of data.},
+  timestamp = {2016-10-24T08:25:33Z}
+}
+
+@inproceedings{KTR:Don:13,
+  author = {Kolb, Lars and Thor, Andreas and Rahm, Erhard},
+  shorttitle = {Don't Match Twice},
+  title = {Don't Match Twice: Redundancy-Free Similarity Computation with {{MapReduce}}},
+  year = {2013},
+  booktitle = {Proceedings of the {{Second Workshop}} on {{Data Analytics}} in the {{Cloud}}},
+  pages = {1--5},
+  url = {http://dl.acm.org/citation.cfm?id=2486768},
+  file = {Kolb et al. - 2013 - Don't match twice redundancy-free similarity comp.pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/DPP9BMTF/Kolb et al. - 2013 - Don't match twice redundancy-free similarity comp.pdf:application/pdf},
+  timestamp = {2016-10-24T08:32:02Z},
+  publisher = {{ACM}},
+  urldate = {2016-10-24}
+}
+
+@phdthesis{Kol:Effiziente:14,
+  author = {Kolb, Lars},
+  title = {{Effiziente MapReduce-Parallelisierung von Entity Resolution-Workflows}},
+  year = {2014},
+  url = {http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-157163},
+  file = {Kolb - 2014 - Effiziente MapReduce-Parallelisierung von Entity R.pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/WQMAWPEG/Kolb - 2014 - Effiziente MapReduce-Parallelisierung von Entity R.pdf:application/pdf},
+  timestamp = {2016-10-24T08:36:14Z},
+  school = {University of Leipzig},
+  language = {deutsch}
+}
+
+@book{Chr:Data:12,
+  author = {Christen, Peter},
+  shorttitle = {Data Matching},
+  title = {Data Matching: Concepts and Techniques for Record Linkage, Entity Resolution, and Duplicate Detection},
+  year = {2012},
+  url = {https://books.google.com/books?hl=en\&lr=\&id=LZrT6eWf9NMC\&oi=fnd\&pg=PR7\&dq=\%22\%EF\%AC\%81elds+such+as+\%EF\%AC\%81rst+name,+day-of-birth,+month-of-birth,+and\%22+\%22a+certain+lower+score+were+designated+as+a+non-link+(or+non-match)\%3B+and\%22+\%22obtained+the+probabilities+associated+with+the+linked+pairs+by+summing+the\%22+\&ots=TeE9FvLsDJ\&sig=JvagMOkITl6pwcpZN-YZ6i_EHFg},
+  file = {Christen - 2012 - Data matching concepts and techniques for record .pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/H7ZHK9FF/Christen - 2012 - Data matching concepts and techniques for record .pdf:application/pdf},
+  timestamp = {2016-10-24T09:20:03Z},
+  publisher = {{Springer Science \& Business Media}},
+  urldate = {2016-10-24}
+}
+
+@article{GBVR:Record:03,
+  author = {Gu, Lifang and Baxter, Rohan and Vickers, Deanne and Rainsford, Chris},
+  shorttitle = {Record Linkage},
+  title = {Record Linkage: {{Current}} Practice and Future Directions},
+  year = {2003},
+  journal = {CSIRO Mathematical and Information Sciences Technical Report},
+  volume = {3},
+  pages = {83},
+  url = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8119\&rep=rep1\&type=pdf},
+  file = {Gu et al. - 2003 - Record linkage Current practice and future direct.pdf:/home/kevinsapper/.mozilla/firefox/imf34ncq.default/zotero/storage/T92825NB/Gu et al. - 2003 - Record linkage Current practice and future direct.pdf:application/pdf},
+  timestamp = {2016-10-24T09:22:22Z},
+  urldate = {2016-10-24}
+}
+
 @comment{jabref-meta: groupsversion:3;}
 @comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
 1 ExplicitGroup:Master_Thesis\;0\;KBHR:study:11\;KR:Parallel:13\;SK:St
 orm:15\;EIV:Duplicate:07\;KR:Frameworks:10\;CM:Summarizing:05\;AMK:QuE
-Ry:15\;CG:Scalable:08\;Seh:Evaluierung:13\;MAK:Data:10\;KDS+:Magellan:
-16\;Tir:EFFICIENT:16\;Kul:Recommendation:15\;HCTL:Duplicate:03\;PKM:Le
-xicon:14\;WMG:Pay:13\;RH:Coreference:10\;SD:Entity:06\;Kop:Object:14\;
-BG:Collective:07\;Joa:Svmlight:99\;PMM+:Identity:02\;SB:Interactive:02
-\;GIKS:Text:03\;KRJK:Removing:12\;GFS+:Declarative:01\;BT:Survey:15\;L
-TH:Address:12\;MAS:Graph:14\;HFH+:WEKA:09\;+:Benchmark:\;KTR:Evaluatio
-n:10\;DN:DuDe:10\;GRS:Introducing:96\;;
+Ry:15\;CG:Scalable:08\;Seh:Evaluierung:13\;MAK:Data:10\;KDS.EA:Magella
+n:16\;Tir:EFFICIENT:16\;Kul:Recommendation:15\;HCTL:Duplicate:03\;PKM:
+Lexicon:14\;WMG:Pay:13\;RH:Coreference:10\;SD:Entity:06\;Kop:Object:14
+\;BG:Collective:07\;Joa:Svmlight:99\;PMM.EA:Identity:02\;SB:Interactiv
+e:02\;GIKS:Text:03\;KRJK:Removing:12\;GFS.EA:Declarative:01\;BT:Survey
+:15\;LTH:Address:12\;MAS:Graph:14\;HFH.EA:WEKA:09\;.EA:Benchmark:\;KTR
+:Evaluation:10\;DN:DuDe:10\;GRS:Introducing:96\;Chr:Survey:12\;EPP.EA:
+Parallel:15\;Lo:curse:09\;GKZN:CohEEL:16\;SKLN:Combination:16\;PHN:Pro
+gressive:15\;VHD.EA:Reach:14\;ABE.EA:Stratosphere:14\;HNST:Scalable:12
+\;KTR:Don:13\;Kol:Effiziente:14\;Chr:Data:12\;GBVR:Record:03\;;
 }
 
