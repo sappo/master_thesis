@@ -1,4 +1,4 @@
-# Overview
+# Adaptive DD using learnable string sim measures
 
 This paper present a framework for improving duplicate detection with trainable
 measures of textual simularity. Thereby it differanties between character based

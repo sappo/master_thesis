@@ -1,4 +1,4 @@
-# ER-Workflow
+# A comparison of fast blocking
 
 Daten liegen zunächst in Datensätzen (Records) vor. Diese werden dann
 anschließend bereinigt und standadisiert. Die Blocking Verfahren machen aus den

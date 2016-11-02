@@ -1,4 +1,4 @@
-# Overview
+# Evaluation of ER approaches on Real-World-Match problems
 
 This paper evaluates non-learning and learning approaches against real-world
 matching Problems. Namely DBLP-ACM, DBLP-Scholar, Amazon-GoogleProducts and
@@ -13,7 +13,7 @@ non-match. The ML approaches are feed with the same training data which is
 provided in pairs 20, 50, 100 and 500. To ensure a decent quality of training
 data a ratio is applied that ensure a minimum of 40% of matches or non-matches.
 
-# Evaluation
+## Evaluation
 
 **Non-Learning based approaches** show a high effectivness for the bibliographic
 match task with F-Measure results above 91% for most functions. The e-commerce
@@ -36,7 +36,7 @@ approaches comparing two attributes are at least factor 2 slower than other
 learning-based approaches. Though the combined approach for learning-based
 approaches always improves the matching result.
 
-# Outlook
+## Outlook
 
 The good quality of learning based approaches with two attributes comes at
 expense of significantly higher execution times. Thus it is doubtful if these

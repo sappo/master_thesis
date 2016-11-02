@@ -1,24 +1,24 @@
-# Overview
+# A comparison and generalization of blocking and windowing algorithms for DD
 
 This paper performs a evaluation between Standard Blocking and Sorted
 Neighborhood. From the results it introduces the Sorted Blocks
 blocking/windowing method for ER.
 
-# Standard Blocking
+## Standard Blocking
 
 Partitions sets of tuples into disjoint partitions (blocks). All tuples within
 each block are compared. Blocking result depends on a good partition predicate
 which controls number and size of the blocks. To detect duplicates in different
 partitions multi-pass blocking is applied.
 
-# Sorted Neighborhood
+## Sorted Neighborhood
 
 Step one assign sorting key to each tuple (must not be unique). Step two sort
 tuples according to thier sorting key. Final step slide a windows of fixed size
 across the sorted tuples and compare all tuples within the window. To avoid
 miss-sorts used multi-pass variants with differnt sorting keys per tupel.
 
-# Comparision
+## Comparision
 
 * Both rely on oderings
 * Both assume that tuples close to each other hava a higher chance of being
@@ -28,7 +28,7 @@ miss-sorts used multi-pass variants with differnt sorting keys per tupel.
 * SB applies no overlap of partitions
 * SN applies total overlap of partitions
 
-# Sorted Blocks
+## Sorted Blocks
 
 Sorted Blocks aim to optimize the overlap between partitions. As SB and SN are
 the two extrem examples this algorithm is a combination of both. Assumption is

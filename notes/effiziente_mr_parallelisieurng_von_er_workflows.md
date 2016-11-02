@@ -1,4 +1,4 @@
-# Einleitung
+# Effiziente MR Parallelisierung von ER Workflows
 
 Duplikateerkennung ist ein paarweiser Vergleich von Datensätzen bzgl.
 verschiedener Ähnlichkeitsmaße. Die Auswertung entspricht dabei dem Kartesischem
@@ -7,7 +7,7 @@ Minimierung der Koplexität werden Blocking-, Indexing- oder Windowing-Techniken
 genutzt, um den Suchraum einzugrenzen. Dazu werden Datensätz bzgl. einer
 Mindesähnlichkeit geclustert.
 
-# ER-Workflow
+## ER-Workflow
 
 ![ER Workflow](simple_er_workflow.png)
 
@@ -20,7 +20,7 @@ landen. Anschließend wird die Ähnlichkeit aller Datensätze eines Blockes
 geprüft. Das Ergebnis daraus wird abschließend in *Matches* bzw. *Non-Matches*
 klassifiziert.
 
-## Vorverarbeitung
+### Vorverarbeitung
 
 Ziel: Einheitliche Struktur der Datensätze, sowie ein einheitliches Format.
 
@@ -38,7 +38,7 @@ Grund: erhöht die **Robustheit** der Ähnlichkeitsberechnung gegenüber kleiner
 Abweichungen. Zudem kann die Ähnlichkeit zweier Zahlen deutlich **effizienter**
 bestimmt werden wie bei Zahlenstrings.
 
-## Blocking
+### Blocking
 
 Identifikation von Duplikaten erfolgt durch Paarweises vergleichen. Für zwei
 Datenquellen A und B sind das $|A|*|B|$ Vergleiche. Bei einer Datenquelle A
@@ -59,7 +59,7 @@ Für das Blocking werden die Datensätze gruppiert oder sortiert. Dafür werden 
 den Attributen eines Datensatzes *Block-* bzw. *Sortierschlüssel* abgeleitet (=
 Signatur des Datensatzes).
 
-### Standard Blocking
+#### Standard Blocking
 
 Jedem Datensatz wird ein Blockschlüssel zugewiesen (=konzeptionelle Schlüssel
 eines inverted Index). Eine Gruppe von Datensätzen mit selben Blockschlüssel
@@ -70,7 +70,7 @@ Blockschlüsselgenerierung. Ebenso ist die *Pair Completeness* abhängig von der
 Blockschlüsselgenerierung. Dem kann mit Multi-pass Blocking entgegengewirkt
 werden, d.h. fü einen Datensatz werden mehrere Schlüssel generiert.
 
-### Q-gram Indexing
+#### Q-gram Indexing
 
 Idee: Datensätze mit unterschiedlichen aber ähnlichen Blockschlüsseln
 miteinander zu vergleichen.
@@ -83,7 +83,7 @@ Blockschlüssel mit n Zeichen muss in $k=n-q+1$ q-Gramme zerlegt werden.
 Insgesamt müssen $\sum_{i=max\{1,[k*t]\}}^{k} {k \choose i}$ Sublisten
 berechnet werden.
 
-### Suffix Array Indexing
+#### Suffix Array Indexing
 
 Leitet ähnlich wie Q-gram Indexing auch mehrere Schlüssel aus dem Blockschlüssel
 ab. Grundidee ist es alle Suffixe mit einer Mindestlänge von l zu bestimmen. Ein
@@ -98,7 +98,7 @@ Vorteil: durch die größere Menge an Kandidatenpaaren ist i.Allg. die *Pair
 Completeness* höher. Zudem ist der Aufwand der Berechung der Schlüssel im
 Gegensatz zu Q-grammen deutlich geringer.
 
-### Sorted Neighborhood
+#### Sorted Neighborhood
 
 Idee: anstatt Datensätze zu partitionieren werden diese anhand eines
 Sortierschlüssels geordnet. Dadurch werden ähnliche Datensätze "nah beieinander"
@@ -130,7 +130,7 @@ dass der erste Datensatz aus k auch mit allen Datensätzen in k+1 Verglichen
 wird. Diese Ausrichtung der Fenstergröße hat jedoch das Problem, das bei selten
 auftretenden Sortierschüsseln unnötig oft verglichen wird.
 
-#### Hashtable Verfahren
+##### Hashtable Verfahren
 
 Idee: für jeden Sortierschlüssel wird die Menge aller Datensätze in eine Liste
 gespeichert. Die Sortierschlüssel selbst werden in einer Hashtabelle abgelegt.
@@ -139,7 +139,7 @@ Das Fenster wird dann über Hashtabelle geschoben.
 Nachteil: Der häufig vorkommenste Schlüssel dominiert die benötigte Zeit zur
 Ähnlichkeitsberechnung.
 
-#### Sorted Blocks Verfahren
+##### Sorted Blocks Verfahren
 
 Idee: zunächst wird wie beim klassischen Verfahren sortiert. Dannach werden
 angrenzende Datensätze in disjunkte Partitionen zerlegt. Dabei soll
@@ -151,7 +151,7 @@ geschoben, dabei wird jeweils das erste Element im Fenster mit allen anderen
 verglichen. Um zu vermeiden, dass eine Partition dominiert, können größe
 Partitionen in Subpartitionen geteilt werden.
 
-#### Adaptive Sorted Neighborhood
+##### Adaptive Sorted Neighborhood
 
 Idee: optimale Fenstergröße bestimmen!
 
@@ -166,7 +166,7 @@ Variante 2: Fenster, beginnend mit $w=2$ solange erhöhen, bis die die Anzahl de
 durchschnittlich gefundenen Duplikate pro Vergleich eine Schwelle
 unterschreiten.
 
-### Canopy Clustering
+#### Canopy Clustering
 
 Idee: Datensäzte mittels einfach zu berechnender Abstandsfunktion in
 überlappende Cluster partionieren (=Canopies). Datensätze eines Cluster werden
@@ -180,7 +180,7 @@ Mindestabstandes $d_2 < d_1$ aus der Kandidatenliste entfernt. Dieser
 Algorithmus wird wiederholt, bis die Kandidatenliste leer ist. Die *Pair
 Completeness* hängt hierbei stark der gewählten Abstandsfunktion ab.
 
-### Mapping-basiertes Blocking
+#### Mapping-basiertes Blocking
 
 Erweiterung des FastMap-Algorithmus. Datensätze werden anhand von
 Blockschlüsseln in einen mehrdimensionalen Euklidischen Raum abgebildet, welcher
@@ -197,7 +197,7 @@ Zum Aufstellen von Regeln zur Generierung gibt es zwei Möglichkeite:
 * Domänenexperten
 * Maschine-Learning Verfahren
 
-## Ähnlichkeitsberechnung
+### Ähnlichkeitsberechnung
 
 Zur Berechnung der Ähnlichkeit zweier Datensätze, werden i.Allg. mehrere
 Ähnlichkeitsfunktionen auf die Attributewerte der Datensätze angewandt. Statt
@@ -219,7 +219,7 @@ Weiter Beispiele sind XML, durch Ausnutzung der Struktur, Graphen, wo
 Assoziationen durch Kanten dargestellt werden, oder ontologische Strukturen,
 beispeilsweise OWL.
 
-## Klassifizierung
+### Klassifizierung
 
 Bestimmung der tatsächlichen Duplikate auf Basis von Ähnlichkeitsvektoren.
 
@@ -257,7 +257,7 @@ welches iterativ durch Nutzerfeedback verfeinert wird. Dabei müssen die
 Kandidatenpaare, die am schwierigsten zu klassifizieren waren manuell
 Klassifiziert werden.
 
-## Nachverarbeitung
+### Nachverarbeitung
 
 Berechnung der transitiven Hülle zur Beseitigung von Kontradiktionen der Menge
 der klassifizierten Duplikate und Nicht-Duplikate. Dazu ist ein sog. perfektes
@@ -266,7 +266,7 @@ möglich die True Positives, False Positives, True Negatives und False Negatives
 zu ermitteln. Daraus werden dann die Kennzahlen *Precision*, *Recall* und
 *F-Measure* (harmonisches Mittel) abgeleitet.
 
-# MapReduce Erweiterungen
+## MapReduce Erweiterungen
 
 **Lastbalancierung** ohne Lastbalancierung stellt die Bearbeitung des größten
 Block, die untere Schranke der Bearbeitungszeit dar.

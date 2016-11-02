@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="github-pandoc.css" type="text/css" />
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+<div id="TOC">
+<ul>
+<li><a href="#a-comparison-and-generalization-of-blocking-and-windowing-algorithms-for-dd">A comparison and generalization of blocking and windowing algorithms for DD</a></li>
+<li><a href="#a-comparison-of-fast-blocking">A comparison of fast blocking</a></li>
+<li><a href="#adaptive-dd-using-learnable-string-sim-measures">Adaptive DD using learnable string sim measures</a></li>
+<li><a href="#adaptive-windowing-for-dd">Adaptive Windowing for DD</a></li>
+<li><a href="#effiziente-mr-parallelisierung-von-er-workflows">Effiziente MR Parallelisierung von ER Workflows</a></li>
+<li><a href="#evaluation-of-er-approaches-on-real-world-match-problems">Evaluation of ER approaches on Real-World-Match problems</a></li>
+</ul>
+</div>
+<h1 id="a-comparison-and-generalization-of-blocking-and-windowing-algorithms-for-dd">A comparison and generalization of blocking and windowing algorithms for DD</h1>
+<p>This paper performs a evaluation between Standard Blocking and Sorted Neighborhood. From the results it introduces the Sorted Blocks blocking/windowing method for ER.</p>
+<h2 id="standard-blocking">Standard Blocking</h2>
+<p>Partitions sets of tuples into disjoint partitions (blocks). All tuples within each block are compared. Blocking result depends on a good partition predicate which controls number and size of the blocks. To detect duplicates in different partitions multi-pass blocking is applied.</p>
+<h2 id="sorted-neighborhood">Sorted Neighborhood</h2>
+<p>Step one assign sorting key to each tuple (must not be unique). Step two sort tuples according to thier sorting key. Final step slide a windows of fixed size across the sorted tuples and compare all tuples within the window. To avoid miss-sorts used multi-pass variants with differnt sorting keys per tupel.</p>
+<h2 id="comparision">Comparision</h2>
+<ul>
+<li>Both rely on oderings</li>
+<li>Both assume that tuples close to each other hava a higher chance of being duplicates.</li>
+<li>Both methods perform approximatly the same total number of comparisions. Though the actual comparisions differ.</li>
+<li>SB applies no overlap of partitions</li>
+<li>SN applies total overlap of partitions</li>
+</ul>
+<h2 id="sorted-blocks">Sorted Blocks</h2>
+<p>Sorted Blocks aim to optimize the overlap between partitions. As SB and SN are the two extrem examples this algorithm is a combination of both. Assumption is that the realy overlap should be big enough that real duplicates are detected but not too high in order to reduce the number of comparisions.</p>
+<p>Idea: First sort all tuples, then partition recored into disjoint sorted subsets and finally overlap partitions. The number of comparisions can be controlled the size of the overlap <span class="math inline">\(u\)</span> e.g. <span class="math inline">\(u=3\)</span>.</p>
+<p>Within each block every tuples is compared with each other. Within the overlap window <span class="math inline">\(u+1\)</span> which is slid across the partitions the first tuple of the windows is compared with the remaining.</p>
+<p>The overall complexity is $O(n(+n)).</p>
+<h1 id="a-comparison-of-fast-blocking">A comparison of fast blocking</h1>
+<p>Daten liegen zunächst in Datensätzen (Records) vor. Diese werden dann anschließend bereinigt und standadisiert. Die Blocking Verfahren machen aus den Datensätzen Datensatzpaare (Record Pairs), welche verglichen werden. Das Ergebnis der Vergleiche sind Ähnlichkeitsvektoren (Comparision Vectors). Anhand dieser wird abschließend die Klassifizierung in Matches bzw. Non-Matches getätigt.</p>
+<h1 id="adaptive-dd-using-learnable-string-sim-measures">Adaptive DD using learnable string sim measures</h1>
+<p>This paper present a framework for improving duplicate detection with trainable measures of textual simularity. Thereby it differanties between character based and token based measure. The former through edit distance and the latter through vector-space using TF.IDF.</p>
+<p>Accurate simularity requires adapting the string simularity metric for each field of a tupel according to the data domain. The get the best results a training based system must use a two step approach. Step one is field based and step two is record based.</p>
+<h1 id="adaptive-windowing-for-dd">Adaptive Windowing for DD</h1>
+<p>This paper introduces a alternative method of Sorted Neighborhood that resizes its window according to the number of duplicates found.</p>
+<h2 id="problems-with-snm">Problems with SNM</h2>
+<p>If the window size is too small, duplicates are missed. On the other hand if the window size is too big unnecessary comparisions are performed. Even with the ideal windows size which is equal to the size of the largest cluster a lot of unnecessary comparisions are performed. This is due to dirty real world data which results in few large and many small clusters.</p>
+<h2 id="duplicate-count-strategy">Duplicate Count Strategy</h2>
+<p>Assumption: The more duplicates are found in close proximity the larger the window. If no duplicate found in close proximity there are none or they are very far from each other.</p>
+<p>Thus increase the windows size according to the average duplicates found in the current windows. To reduce the number of comparisions calculate the transitive closure.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>DCS++ is more efficient than SNM without loss of effectiveness. DCS++ uses transitive closure thus an effective algorithm is needed.</p>
+<h1 id="effiziente-mr-parallelisierung-von-er-workflows">Effiziente MR Parallelisierung von ER Workflows</h1>
+<p>Duplikateerkennung ist ein paarweiser Vergleich von Datensätzen bzgl. verschiedener Ähnlichkeitsmaße. Die Auswertung entspricht dabei dem Kartesischem Produkt und hat bei n Datensätzen daher eine Komplexität von <span class="math inline">\(O(n^2)\)</span>. Zur Minimierung der Koplexität werden Blocking-, Indexing- oder Windowing-Techniken genutzt, um den Suchraum einzugrenzen. Dazu werden Datensätz bzgl. einer Mindesähnlichkeit geclustert.</p>
+<h2 id="er-workflow">ER-Workflow</h2>
+<div class="figure">
+<img src="simple_er_workflow.png" alt="ER Workflow" />
+<p class="caption">ER Workflow</p>
+</div>
+<p>Ein vereinfachter Entity Resolution Workflow ist in Abbildung 1 zu sehen. Zunächst werden die Datzensätze Vorverarbeitet, um kleinere Fehler zu korrigieren bzw. Attribute zu vereinheitlichen. Anschließend werden die Datensätze in Blöcke kategorisiert, wodurch der Suchraum beschränkt wird. Die Kategorisierung unterliegt der Annahme, dass Duplikate stets in einem Block landen. Anschließend wird die Ähnlichkeit aller Datensätze eines Blockes geprüft. Das Ergebnis daraus wird abschließend in <em>Matches</em> bzw. <em>Non-Matches</em> klassifiziert.</p>
+<h3 id="vorverarbeitung">Vorverarbeitung</h3>
+<p>Ziel: Einheitliche Struktur der Datensätze, sowie ein einheitliches Format.</p>
+<p>Typische Beispiele:</p>
+<ul>
+<li>Konvertierung von Zahlen und Datumsformaten,</li>
+<li>Korrektur von Tippfehlern</li>
+<li>Ersetzen von Abkürzungen</li>
+<li>Extratction einzelner Bestandteile (z.B. Name-Vorname, Straße-Hausnummer)</li>
+<li>Entfernen von Stoppwörtern, Punkten, Bindestrichen, Kommata, aufeinanderfolgende Whitespaces, Anführungszeichen und Satzzeichen</li>
+<li>Konvertierung in Kleinschreibweise</li>
+</ul>
+<p>Grund: erhöht die <strong>Robustheit</strong> der Ähnlichkeitsberechnung gegenüber kleineren Abweichungen. Zudem kann die Ähnlichkeit zweier Zahlen deutlich <strong>effizienter</strong> bestimmt werden wie bei Zahlenstrings.</p>
+<h3 id="blocking">Blocking</h3>
+<p>Identifikation von Duplikaten erfolgt durch Paarweises vergleichen. Für zwei Datenquellen A und B sind das <span class="math inline">\(|A|*|B|\)</span> Vergleiche. Bei einer Datenquelle A <span class="math inline">\(\dfrac{1}{2}*|A|*(|A|-1)\)</span> Vergleiche. In beiden Fällen also quadratisch zu den Eingabedaten. Zudem sind die Funktionen der Ähnlichkeitsberechnung selbst rechenintensiv. Auswertung des Kartesischen Produkt ist nachweislich nicht skalierbar! Zur Effizientssteigerung Einsatz von Blocking-Techniken.</p>
+<p>Ziel: der Großteil der <em>Non-Matches</em> soll ausgeschlossen werden, ohne dabei <em>Matches</em> auszuschließen. Dadurch wird der Suchraum drastisch reduziert. Übrig bleibt die sog. Kandidatenpaarmenge.</p>
+<p>Effizienz eines Blocking-Algorithmus wird durch <em>Reduction Ratio</em>, Reduktion im Vergleich zum Kartesischen Produkt, und <em>Pairs Completeness</em>, Anteil der tatsächlichen Duplikate, beschrieben.</p>
+<p>Für das Blocking werden die Datensätze gruppiert oder sortiert. Dafür werden aus den Attributen eines Datensatzes <em>Block-</em> bzw. <em>Sortierschlüssel</em> abgeleitet (= Signatur des Datensatzes).</p>
+<h4 id="standard-blocking-1">Standard Blocking</h4>
+<p>Jedem Datensatz wird ein Blockschlüssel zugewiesen (=konzeptionelle Schlüssel eines inverted Index). Eine Gruppe von Datensätzen mit selben Blockschlüssel bilden einen Block. Es werden ausschließlich Datensätze eines Blockes miteinander verglichen. Anzahl der Vergleiche (=Kandidatenpaare) hängt von der Größe der Blöcke ab und ist abhängig von der Häufigkeitsverteilung der Blockschlüsselgenerierung. Ebenso ist die <em>Pair Completeness</em> abhängig von der Blockschlüsselgenerierung. Dem kann mit Multi-pass Blocking entgegengewirkt werden, d.h. fü einen Datensatz werden mehrere Schlüssel generiert.</p>
+<h4 id="q-gram-indexing">Q-gram Indexing</h4>
+<p>Idee: Datensätze mit unterschiedlichen aber ähnlichen Blockschlüsseln miteinander zu vergleichen.</p>
+<p>Ein Blockschlüssel wird dazu in eine Liste von q-Grammen überführt. Ein q-Gram ist ein Substring der Länge q des ursprünglichen Blockschlüssels.</p>
+<p>Nachteil: hoher Aufwand bei der Berechnung aller möglichen Sublisten. Ein Blockschlüssel mit n Zeichen muss in <span class="math inline">\(k=n-q+1\)</span> q-Gramme zerlegt werden. Insgesamt müssen <span class="math inline">\(\sum_{i=max\{1,[k*t]\}}^{k} {k \choose i}\)</span> Sublisten berechnet werden.</p>
+<h4 id="suffix-array-indexing">Suffix Array Indexing</h4>
+<p>Leitet ähnlich wie Q-gram Indexing auch mehrere Schlüssel aus dem Blockschlüssel ab. Grundidee ist es alle Suffixe mit einer Mindestlänge von l zu bestimmen. Ein Datensatz mit Blockschlüssellänge n wird in <span class="math inline">\(n-l+1\)</span> Blöcke eingeordnet. Ist <span class="math inline">\(n&lt;l\)</span> wird der Ausgangsschlüssel als einziger Schlüssel verwendet.</p>
+<p>Nachteil: im Gegensatz zum Standard Blocking ist die Menge an Kandidatenpaaren deutlich höher. Dadurch ist auch die Wahrscheinlichkeit, dass zwei Datensätze unnötigerweise mehrfach miteinander verglichen werden hoch.</p>
+<p>Vorteil: durch die größere Menge an Kandidatenpaaren ist i.Allg. die <em>Pair Completeness</em> höher. Zudem ist der Aufwand der Berechung der Schlüssel im Gegensatz zu Q-grammen deutlich geringer.</p>
+<h4 id="sorted-neighborhood-1">Sorted Neighborhood</h4>
+<p>Idee: anstatt Datensätze zu partitionieren werden diese anhand eines Sortierschlüssels geordnet. Dadurch werden ähnliche Datensätze &quot;nah beieinander&quot; angeordnet. Die Sortierung erfolge durch einen Schlüssel, welcher für jeden Datensatz generiert wird. Nach der Sortierung aller n Datensätze wird ein Fenster der Größe <span class="math inline">\(w\in[2,n]\)</span> über die sortierte Liste bewegt. Dabei werden jeweils alle Datensätze innerhalb des Fensters miteinander verglichen. Insgesamt git es <span class="math inline">\(n-w+1\)</span> Fensterpositionen und darausfolgend <span class="math inline">\((n-w/2)*(w-1)\)</span> Vergleiche. Für die Komplexität bedeutet dies <span class="math inline">\(O(n)+O(n*\log n)+O(n*w)\)</span>.</p>
+<p>Das Verfahren ist besonders bei der Deduplizierung einer Datenquellen geeignet. Bei mehreren Datenquellen müssen diese gemischt werden. Dabei besteht die Gefahr das innerhalb eines Fensters vorrangig Datensätze einer Quelle sind.</p>
+<p>Vorteil: Die Anzahl der Kandidatenpaare und damit Vergleiche kann über die Fenstergröße gesteuert werden.</p>
+<p>Nachteil: Anfällig gegen Tippfehler, da zwei Duplikate, deren Blockschlüssel sich lediglich im ersten Zeichen unterscheidet, nicht erkannt werden.</p>
+<p>Eine verbesserte <em>Pair Completeness</em> ist durch einen Multi-Pass-Ansatz möglich. Dabei werden mehrere Sortierschlüssel pro Datensatz generiert.</p>
+<p>Problem: Bei beiden Ansätzen gibt es jedoch das Problem, dass die Fenstergröße w größer als die Anzahl der Datensätze mit dem Sortierschlüssel k sein sollte. Daher muss für n Datensätze mit Sortierschlüssel k und m Datensätzen mit Sortierschlüssel k+1 gelten <span class="math inline">\(w=n+m\)</span>. Nur dardurch kann sichergestellt werden, dass der erste Datensatz aus k auch mit allen Datensätzen in k+1 Verglichen wird. Diese Ausrichtung der Fenstergröße hat jedoch das Problem, das bei selten auftretenden Sortierschüsseln unnötig oft verglichen wird.</p>
+<h5 id="hashtable-verfahren">Hashtable Verfahren</h5>
+<p>Idee: für jeden Sortierschlüssel wird die Menge aller Datensätze in eine Liste gespeichert. Die Sortierschlüssel selbst werden in einer Hashtabelle abgelegt. Das Fenster wird dann über Hashtabelle geschoben.</p>
+<p>Nachteil: Der häufig vorkommenste Schlüssel dominiert die benötigte Zeit zur Ähnlichkeitsberechnung.</p>
+<h5 id="sorted-blocks-verfahren">Sorted Blocks Verfahren</h5>
+<p>Idee: zunächst wird wie beim klassischen Verfahren sortiert. Dannach werden angrenzende Datensätze in disjunkte Partitionen zerlegt. Dabei soll beispielsweise ein Sortierschlüsselpräfix genuztz werden.</p>
+<p>Analog zum Standard Blocking werden alle Datensätze einer Partition miteinander verglichen. Zusätzlich wird ein Fenster fester Größe über die Partitionsgrenze geschoben, dabei wird jeweils das erste Element im Fenster mit allen anderen verglichen. Um zu vermeiden, dass eine Partition dominiert, können größe Partitionen in Subpartitionen geteilt werden.</p>
+<h5 id="adaptive-sorted-neighborhood">Adaptive Sorted Neighborhood</h5>
+<p>Idee: optimale Fenstergröße bestimmen!</p>
+<p>Variante 1: Fenster solange vergrößeren bis erster und letzer Datensatz eine gewisse Mindestähnlichkeit unterschreiten. Nach dem Vergleich aller Datensätze im Fenster wird dieses zurückgesetzt und an die Position des Datensatzes geschoben der zum Abbruch der Vergrößerung geführt hat. Diese Variante ist aufgrund des Aufwandes zur Schlüsselähnlichkeitsberechnung nicht wesentlich effektiver.</p>
+<p>Variante 2: Fenster, beginnend mit <span class="math inline">\(w=2\)</span> solange erhöhen, bis die die Anzahl der durchschnittlich gefundenen Duplikate pro Vergleich eine Schwelle unterschreiten.</p>
+<h4 id="canopy-clustering">Canopy Clustering</h4>
+<p>Idee: Datensäzte mittels einfach zu berechnender Abstandsfunktion in überlappende Cluster partionieren (=Canopies). Datensätze eines Cluster werden miteinander verglichen.</p>
+<p>Zur Generierung wird eine Kandidatenliste gebildet, welche inital als allen Datensätzen besteht. Dann wird zufällig ein Zentroid eines neuen Clusters gewählte und alle Datensätze innerhalb des Mindestabstandes <span class="math inline">\(d_1\)</span> zugewiesen. Zusätzlich werden alle Datensätze dieses Clusters mit einem weiteren Mindestabstandes <span class="math inline">\(d_2 &lt; d_1\)</span> aus der Kandidatenliste entfernt. Dieser Algorithmus wird wiederholt, bis die Kandidatenliste leer ist. Die <em>Pair Completeness</em> hängt hierbei stark der gewählten Abstandsfunktion ab.</p>
+<h4 id="mapping-basiertes-blocking">Mapping-basiertes Blocking</h4>
+<p>Erweiterung des FastMap-Algorithmus. Datensätze werden anhand von Blockschlüsseln in einen mehrdimensionalen Euklidischen Raum abgebildet, welcher distanzerhaltend ist. Anschließend ähnlich wie beim Canopy Clustering in überlappende Partitionen teilen.</p>
+<p>Die Art und Weise der Schlüsselgenerierung hat entscheidenden Einfluss auf die Qualität der ER-Workflows. Ist das Blocking-Kriterium zu &quot;scharf&quot;, werden Duplikate nicht gefunden, ist es zu &quot;lax&quot;, sind die resultierenden Cluster sehr groß und die Anzahl der Vergleiche steigt drastisch.</p>
+<p>Zum Aufstellen von Regeln zur Generierung gibt es zwei Möglichkeite:</p>
+<ul>
+<li>Domänenexperten</li>
+<li>Maschine-Learning Verfahren</li>
+</ul>
+<h3 id="ähnlichkeitsberechnung">Ähnlichkeitsberechnung</h3>
+<p>Zur Berechnung der Ähnlichkeit zweier Datensätze, werden i.Allg. mehrere Ähnlichkeitsfunktionen auf die Attributewerte der Datensätze angewandt. Statt Ähnlichkeiten können auch Abstandsmaße genutzt werden, welche in eine Ähnlichkeit umgewandelt werden müssen.</p>
+<p><strong>Field Matching</strong> beschreibt die Berechnung der Ähnlichkeit einzig anhander deren Attributewerte. Dies wird v.a. durch Zeichenkettenähnlichkeitsmaße durchgeführt. Alternative werden Tokenbasierte Maße genutzt. Hierbei wird die Zeichenkette in Token zerlegt und anschließend die Ähnlichkeit der Tokenmengen ermittelt. Verschiedene Maße eignen sich unterschiedlich für bestimmte Attributetypen. Da dies selbst für Domainexperten schwierig herauszufinden ist, werden oft Maschine-Learning Verfahren genutzt, um ein passendes Maß für ein Attributstyp zu finden.</p>
+<p><strong>Kontexbasierte Verfahren</strong> nutzen zur Bestimmung der Ähnlichkeit assozierte Datenen. Im einfachsten Fall, werden diese einfach an die Datensätze angehängt. Weiter Beispiele sind XML, durch Ausnutzung der Struktur, Graphen, wo Assoziationen durch Kanten dargestellt werden, oder ontologische Strukturen, beispeilsweise OWL.</p>
+<h3 id="klassifizierung">Klassifizierung</h3>
+<p>Bestimmung der tatsächlichen Duplikate auf Basis von Ähnlichkeitsvektoren.</p>
+<p><strong>Wahrscheinlichkeitsbasierte Verfahren</strong> beispeilsweise Bayes. Nicht mehr State of the Art.</p>
+<p><strong>Schwellwertbasierte Verfahren</strong> aggregieren die Komponenten eines Ähnlichkeitsvektors, mittels einer einfachen oder gewichteten Summe. Ein Schwellwert wird genutzt, um Matches von Not-Matches zu unterscheiden. Eine erweiterte Form nutzt zwei Schwellwerte zur Unterscheidung von sicheren Matches und wahrscheinlichen, welche manuell überprüft werden müssen.</p>
+<p><strong>Regelbasierte Verfahren</strong> treffen Entscheidungen anhand von Matching-Regeln in konjunktiver oder disjunktiver Normalform. Die Aufstellung der Regeln erfolgt durch Domänenexperten und ist ein aufwändiger, iterativer Prozess. Zusätzlich können Contraints genutzt werden, um domänspezifische Integritätsbedingungen sicherzustellen.</p>
+<p><strong>Maschienelle Lernverfahren</strong> sind vorrangig überwachte Lernverfahren, die auf Basis der Ähnlichkeitsvektoren manuell gelabelter Trainingsdaten ein Klassifikationsmodell generieren, welches anschließend auf ungelabelte Ähnlichkeitsvektoren angewandt wird. Populäre Klassifikatoren sind:</p>
+<ul>
+<li>Entscheidungsbäume und</li>
+<li>Support Vector Maschines (SVM)</li>
+</ul>
+<p>Die Qualität dieser Verfahren hängt von der Menge und Aussagekraft der manuellen Trainingsdaten ab. Zusätztlich können verschiedene Verfahren kombiniert werden, die unabhängig voneinander trainiert worden sind.</p>
+<p><strong>Active Learning</strong> sind Verfahren die mit wesentlich weniger Trainingsdaten auskommen und kaum manuellen Aufwand benötigen. Hierbei wird ein initales Klassifikationsmodell aus einer kleinen Menge an Trainingsdaten erstellt, welches iterativ durch Nutzerfeedback verfeinert wird. Dabei müssen die Kandidatenpaare, die am schwierigsten zu klassifizieren waren manuell Klassifiziert werden.</p>
+<h3 id="nachverarbeitung">Nachverarbeitung</h3>
+<p>Berechnung der transitiven Hülle zur Beseitigung von Kontradiktionen der Menge der klassifizierten Duplikate und Nicht-Duplikate. Dazu ist ein sog. perfektes Match-Ergebnis erforderlicht, auch Gold Standard gennant. Dadurch iest es möglich die True Positives, False Positives, True Negatives und False Negatives zu ermitteln. Daraus werden dann die Kennzahlen <em>Precision</em>, <em>Recall</em> und <em>F-Measure</em> (harmonisches Mittel) abgeleitet.</p>
+<h2 id="mapreduce-erweiterungen">MapReduce Erweiterungen</h2>
+<p><strong>Lastbalancierung</strong> ohne Lastbalancierung stellt die Bearbeitung des größten Block, die untere Schranke der Bearbeitungszeit dar.</p>
+<p><strong>Speicherengpässe</strong> zum Vergleich eines Blocks müssen alle Datensätze im Hauptspeicher gehalten werden. Unter Berücksichtigung aller Prozesse muss die maximale Blockgröße bestimmt und eingehalten werden.</p>
+<p><strong>Redundante Ähnlichkeitsbestimmung</strong> entsteht durch Multi-Pass-Blocking Verfahren oder Verfahren mit überlappenden Clustern.</p>
+<p><strong>Integration maschineller Lernverfahren</strong> beim Clustering, bei der Auswahl der Ähnlichkeitsfunktion für einen Attributswert und bei der Klassifizierung in Matches und Non-Matches.</p>
+<p><strong>Iterative Berechung der transitiven Hülle</strong> zum Evaluieren des Matching Ergebnisses gegenüber dem Gold Standard.</p>
+<h1 id="evaluation-of-er-approaches-on-real-world-match-problems">Evaluation of ER approaches on Real-World-Match problems</h1>
+<p>This paper evaluates non-learning and learning approaches against real-world matching Problems. Namely DBLP-ACM, DBLP-Scholar, Amazon-GoogleProducts and Abt-Buy (<source>-<target>). It differentiates between 1 or 2 attributes for matching. The Blocking stratagie is the same for all approaches. The evaluation considers both quality in F-Measure and execution time in seconds. Compared framworks are FEBRL, MARLIN, FEVER and a non disclosed comercial one.</p>
+<p>The approaches differ only in the parameters <em>function</em> which determines the similarity between to data sets and <em>threshold</em> which identifies a match or non-match. The ML approaches are feed with the same training data which is provided in pairs 20, 50, 100 and 500. To ensure a decent quality of training data a ratio is applied that ensure a minimum of 40% of matches or non-matches.</p>
+<h2 id="evaluation">Evaluation</h2>
+<p><strong>Non-Learning based approaches</strong> show a high effectivness for the bibliographic match task with F-Measure results above 91% for most functions. The e-commerce match task turned out to be much more challanging with F-Measure result only at 62% for (Amazon-GoogleProducts) and 70% for (Abt-Buy). Interessting is that taking a second attribute into consideration turned out to reduce the overall qualtity of the matching result. Regarding execution times FERBL turned out to be much slower than the others. Using a second attribute slowed down the execution time by a factor of 2.</p>
+<p><strong>Learning based approaches</strong> achive stable result for easy bibliographic matching with a small training size of 20. More challanging biblographic matching works best with SVM stratagies and combining several matchers reaching an F-Measure about 88-89%. All stratagies have simialar difficulties as non-learnears with e-commerce data. With smaller training sizes than 500 the results are substantially bad. In general performs a 2-Step learning better than 1-Step learning. Regarding the execution times the learning based approaches are significantly worse than the non-learning ones. Even worse is that combined approaches comparing two attributes are at least factor 2 slower than other learning-based approaches. Though the combined approach for learning-based approaches always improves the matching result.</p>
+<h2 id="outlook">Outlook</h2>
+<p>The good quality of learning based approaches with two attributes comes at expense of significantly higher execution times. Thus it is doubtful if these approaches do scale. Non-learning based single attribute matching outperform learning-based matching in both quality and exection time.</p>
+</body>
+</html>
