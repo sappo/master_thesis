@@ -6,8 +6,18 @@ calculated in terms of *recall*, *precision*, and *f-measure*.
 
 The following data sets are available:
 
+## Single Source
+
 * **affiliation strings**, mostly as available from ACM, though in cases also
   the original PDFs were taken into account. (challange: -)
+* **CORA**, bibliographic records about scientific papers (1879 objects).
+* **Restaurant**, records from Riddle repository. A collection of 864 restaurant
+  records from the Fodor's and Zagat's restaurant guides that contains 112
+  duplicates.
+* **CD information**, records includes 9763 CDs randomly extracted from freeDB.
+
+## Multi Source
+
 * **DBLP-ACM**, bibliographic records (title, authors, venue, year) from DBLP
   and ACM. Both are mostly managed by the same entity. (challange: easy)
 * **DBLP-Scholar**, bibliographic records (title, authors, venue, year) from
@@ -16,8 +26,3 @@ The following data sets are available:
   manufacturer, price) from Amazon and Google Products. (challange: difficult)
 * **Abt-Buy**, e-commerce records (name, description, manufacturer, price) from
   Abt and Buy. (challange: difficult)
-* **CORA**, bibliographic records about scientific papers (1879 objects).
-* **Restaurant**, records from Riddle repository. A collection of 864 restaurant
-  records from the Fodor's and Zagat's restaurant guides that contains 112
-  duplicates.
-* **CD information**, records includes 9763 CDs randomly extracted from freeDB.
