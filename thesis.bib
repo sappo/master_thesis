@@ -974,25 +974,322 @@ In this paper, we describe an efficient method for data reconciliation. Our main
   address = {New York, NY, USA}
 }
 
+@article{Ars:Fast:15,
+  author = {Arslan, Abdullah N.},
+  title = {Fast {{Algorithms}} for {{Local Similarity Queries}} in {{Two Sequences}}},
+  year = {2015},
+  month = aug,
+  journal = {International Journal of Foundations of Computer Science},
+  volume = {26},
+  number = {05},
+  pages = {625--642},
+  issn = {0129-0541},
+  url = {http://www.worldscientific.com/doi/abs/10.1142/S0129054115500355},
+  doi = {10.1142/S0129054115500355},
+  file = {Snapshot:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/5A7T3JBQ/S0129054115500355.html:text/html},
+  abstract = {In sequence comparison, finding local similarities in given strings is a very important well-known problem. In this work we introduce two local sequence similarity query problems, and present algorithms for them. Our algorithms use a data structure that supports constant time longest common extension queries. This data structure is created only once, and in time linear in the size of the input strings. After this step all subsequent local similarity queries can be answered very fast. Existing algorithms take significantly more time in answering these queries.},
+  timestamp = {2016-11-03T11:06:03Z},
+  urldate = {2016-11-03}
+}
+
+@article{LLW.EA:Boosting:15,
+  author = {Lu, Jiaheng and Lin, Chunbin and Wang, Wei and Li, Chen and Xiao, Xiaokui},
+  title = {Boosting the {{Quality}} of {{Approximate String Matching}} by {{Synonyms}}},
+  year = {2015},
+  month = oct,
+  journal = {ACM Trans. Database Syst.},
+  volume = {40},
+  number = {3},
+  pages = {15:1--15:42},
+  issn = {0362-5915},
+  url = {http://doi.acm.org/10.1145/2818177},
+  doi = {10.1145/2818177},
+  file = {Lu et al. - 2015 - Boosting the Quality of Approximate String Matchin.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/A4UAB3PN/Lu et al. - 2015 - Boosting the Quality of Approximate String Matchin.pdf:application/pdf},
+  keywords = {semantic search,similarity join,String similarity search},
+  abstract = {A string-similarity measure quantifies the similarity between two text strings for approximate string matching or comparison. For example, the strings ``Sam'' and ``Samuel'' can be considered to be similar. Most existing work that computes the similarity of two strings only considers syntactic similarities, for example, number of common words or q-grams. While this is indeed an indicator of similarity, there are many important cases where syntactically-different strings can represent the same real-world object. For example, ``Bill'' is a short form of ``William,'' and ``Database Management Systems'' can be abbreviated as ``DBMS.'' Given a collection of predefined synonyms, the purpose of this article is to explore such existing knowledge to effectively evaluate the similarity between two strings and efficiently perform similarity searches and joins, thereby boosting the quality of approximate string matching. In particular, we first present an expansion-based framework to measure string similarities efficiently while considering synonyms. We then study efficient algorithms for similarity searches and joins by proposing two novel indexes, called SI-trees and QP-trees, which combine signature-filtering and length-filtering strategies. In order to improve the efficiency of our algorithms, we develop an estimator to estimate the size of candidates to enable an online selection of signature filters. This estimator provides strong low-error, high-confidence guarantees while requiring only logarithmic space and time costs, thus making our method attractive both in theory and in practice. Finally, the experimental results from a comprehensive study of the algorithms with three real datasets verify the effectiveness and efficiency of our approaches.},
+  timestamp = {2016-11-03T11:11:56Z},
+  urldate = {2016-11-03}
+}
+
+@inproceedings{MGAB:Efficient:13,
+  author = {Mishra, Shashwat and Gandhi, Tejas and Arora, Akhil and Bhattacharya, Arnab},
+  title = {Efficient {{Edit Distance Based String Similarity Search Using Deletion Neighborhoods}}},
+  year = {2013},
+  booktitle = {Proceedings of the {{Joint EDBT}}/{{ICDT}} 2013 {{Workshops}}},
+  isbn = {978-1-4503-1599-9},
+  pages = {375--383},
+  url = {http://doi.acm.org/10.1145/2457317.2457387},
+  doi = {10.1145/2457317.2457387},
+  file = {Mishra et al. - 2013 - Efficient Edit Distance Based String Similarity Se.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/7JNPKET2/Mishra et al. - 2013 - Efficient Edit Distance Based String Similarity Se.pdf:application/pdf},
+  keywords = {deletion neighborhood,edit distance,string similarity},
+  abstract = {This paper serves as a report for the participation of Special Interest Group In Data (SIGDATA), Indian Institute of Technology, Kanpur in the String Similarity Workshop, EDBT, 2013. We present a novel technique to efficiently process edit distance based string similarity queries. Our technique draws upon some previously conducted works in the field and introduces new methods to tackle the issues therein. We focus on achieving minimum possible execution time while being rather liberal with memory consumption. We propose and support the use of deletion neighborhoods for fast edit distance lookups in dictionaries. Our work emphasizes the power of deletion neighborhoods over other popular finger print based schemes for similarity search queries. Furthermore, we establish that it is possible to reduce the large space requirement of a deletion neighborhood based finger print scheme using simple hashing techniques, thereby making the scheme suitable for practical application. We compare our implementation with the state of the art libraries (Flamingo) and report speed ups of up to an order of magnitude.},
+  timestamp = {2016-11-03T11:12:03Z},
+  publisher = {{ACM}},
+  urldate = {2016-11-03},
+  series = {EDBT '13},
+  address = {New York, NY, USA}
+}
+
+@article{LDF:Partitionbased:13,
+  author = {Li, Guoliang and Deng, Dong and Feng, Jianhua},
+  title = {A {{Partition}}-Based {{Method}} for {{String Similarity Joins}} with {{Edit}}-Distance {{Constraints}}},
+  year = {2013},
+  month = jul,
+  journal = {ACM Trans. Database Syst.},
+  volume = {38},
+  number = {2},
+  pages = {9:1--9:33},
+  issn = {0362-5915},
+  url = {http://doi.acm.org/10.1145/2487259.2487261},
+  doi = {10.1145/2487259.2487261},
+  file = {Li et al. - 2013 - A Partition-based Method for String Similarity Joi.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/TX2TCXVC/Li et al. - 2013 - A Partition-based Method for String Similarity Joi.pdf:application/pdf},
+  keywords = {edit distance,segment filter,String similarity join},
+  abstract = {As an essential operation in data cleaning, the similarity join has attracted considerable attention from the database community. In this article, we study string similarity joins with edit-distance constraints, which find similar string pairs from two large sets of strings whose edit distance is within a given threshold. Existing algorithms are efficient either for short strings or for long strings, and there is no algorithm that can efficiently and adaptively support both short strings and long strings. To address this problem, we propose a new filter, called the segment filter. We partition a string into a set of segments and use the segments as a filter to find similar string pairs. We first create inverted indices for the segments. Then for each string, we select some of its substrings, identify the selected substrings from the inverted indices, and take strings on the inverted lists of the found substrings as candidates of this string. Finally, we verify the candidates to generate the final answer. We devise efficient techniques to select substrings and prove that our method can minimize the number of selected substrings. We develop novel pruning techniques to efficiently verify the candidates. We also extend our techniques to support normalized edit distance. Experimental results show that our algorithms are efficient for both short strings and long strings, and outperform state-of-the-art methods on real-world datasets.},
+  timestamp = {2016-11-03T11:12:08Z},
+  urldate = {2016-11-03}
+}
+
+@article{RW:Harry:16,
+  author = {Rieck, Konrad and Wressnegger, Christian},
+  shorttitle = {Harry},
+  title = {Harry: {{A Tool}} for {{Measuring String Similarity}}},
+  year = {2016},
+  month = jan,
+  journal = {J. Mach. Learn. Res.},
+  volume = {17},
+  number = {1},
+  pages = {258--262},
+  issn = {1532-4435},
+  url = {http://dl.acm.org/citation.cfm?id=2946645.2946654},
+  file = {Rieck and Wressnegger - 2016 - Harry A Tool for Measuring String Similarity.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/G32UFGIN/Rieck and Wressnegger - 2016 - Harry A Tool for Measuring String Similarity.pdf:application/pdf},
+  keywords = {similarity measures for strings,string distances,string kernels},
+  abstract = {Comparing strings and assessing their similarity is a basic operation in many application domains of machine learning, such as in information retrieval, natural language processing and bioinformatics. The practitioner can choose from a large variety of available similarity measures for this task, each emphasizing different aspects of the string data. In this article, we present Harry, a small tool specifically designed for measuring the similarity of strings. Harry implements over 20 similarity measures, including common string distances and string kernels, such as the Levenshtein distance and the Subsequence kernel. The tool has been designed with efficiency in mind and allows for multi-threaded as well as distributed computing, enabling the analysis of large data sets of strings. Harry supports common data formats and thus can interface with analysis environments, such as Matlab, Pylab and Weka.},
+  timestamp = {2016-11-03T11:12:12Z},
+  urldate = {2016-11-03}
+}
+
+@inproceedings{SWR:Scalable:13,
+  author = {Siragusa, Enrico and Weese, David and Reinert, Knut},
+  title = {Scalable {{String Similarity Search}}/{{Join}} with {{Approximate Seeds}} and {{Multiple Backtracking}}},
+  year = {2013},
+  booktitle = {Proceedings of the {{Joint EDBT}}/{{ICDT}} 2013 {{Workshops}}},
+  isbn = {978-1-4503-1599-9},
+  pages = {370--374},
+  url = {http://doi.acm.org/10.1145/2457317.2457386},
+  doi = {10.1145/2457317.2457386},
+  file = {Siragusa et al. - 2013 - Scalable String Similarity SearchJoin with Approx.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/TDVJ2338/Siragusa et al. - 2013 - Scalable String Similarity SearchJoin with Approx.pdf:application/pdf},
+  keywords = {approximate seeds,backtracking,banded dynamic programming,banded Myers bit-vector,filtration,radix tree,suffix tree},
+  abstract = {We present in this paper scalable algorithms for optimal string similarity search and join. Our methods are variations of those applied in Masai [15], our recently published tool for mapping high-throughput DNA sequencing data with unpreceded speed and accuracy. The key features of our approach are filtration with approximate seeds and methods for multiple backtracking. Approximate seeds, compared to exact seeds, increase filtration specificity while preserving sensitivity. Multiple backtracking amortizes the cost of searching a large set of seeds. Combined together, these two methods significantly speed up string similarity search and join operations. Our tool is implemented in C++ and OpenMP using the SeqAn library. The source code is distributed under the BSD license and can be freely downloaded from http://www.seqan.de/projects/edbt2013.},
+  timestamp = {2016-11-03T11:12:20Z},
+  publisher = {{ACM}},
+  urldate = {2016-11-03},
+  series = {EDBT '13},
+  address = {New York, NY, USA}
+}
+
+@article{Kes:How:07,
+  author = {Keshav, S.},
+  title = {How to Read a Paper},
+  year = {2007},
+  journal = {ACM SIGCOMM Computer Communication Review},
+  volume = {37},
+  number = {3},
+  pages = {83--84},
+  url = {http://dl.acm.org/citation.cfm?id=1273458},
+  file = {Keshav - 2007 - How to read a paper.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/DE65XVHS/Keshav - 2007 - How to read a paper.pdf:application/pdf},
+  timestamp = {2016-11-04T09:45:26Z},
+  urldate = {2016-11-04}
+}
+
+@inproceedings{Abb:Information:05,
+  author = {Abbasi, R. A.},
+  title = {Information {{Extraction Techniques}} for {{Postal Address Standardization}}},
+  year = {2005},
+  month = dec,
+  booktitle = {2005 {{Pakistan Section Multitopic Conference}}},
+  pages = {1--6},
+  doi = {10.1109/INMIC.2005.334455},
+  file = {Abbasi - 2005 - Information Extraction Techniques for Postal Addre.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/8DFENG3I/Abbasi - 2005 - Information Extraction Techniques for Postal Addre.pdf:application/pdf;Abbasi - 2005 - Information Extraction Techniques for Postal Addre.html:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/FMRZS579/Abbasi - 2005 - Information Extraction Techniques for Postal Addre.html:text/html},
+  keywords = {Business,Cities and towns,Communication industry,Data cleansing,data mining,data warehouse,data warehouses,hidden Markov model,hidden Markov models,HMM,Humans,information extraction technique,Information retrieval,postal address standardization,rule-based method,Standardization,statistical model,Tagging,Telecommunications},
+  abstract = {The unique frames of reference of humans result in various definitions of the same details. They develop addresses of same places in different ways, which might result in inconsistent format of addresses ultimately leading to misapprehensions. A major motivation for standardization of the addresses is cleansing of addresses in data warehouses. Since almost every organization deals with a variety of addresses of its customers and employees therefore, a consistent format of addresses can ensure better knowledge of the organization about its customers. This paper presents various information extraction techniques which can also be used in address standardization. It focuses on a statistical model, hidden Markov model (HMM), and two rule-based methods, RAPIER and GRID that extract information from free text. The paper also discusses some personal experience for address standardization},
+  timestamp = {2016-11-06T19:37:46Z}
+}
+
+@inproceedings{KKG.EA:Address:11,
+  author = {Kaleem, Abdul and Khawaja, Moyeezullah and Ghori and Khanzada, Zahra and Malik, M. Noman},
+  title = {Address {{Standardization}} Using {{Supervised Machine Learning}}},
+  year = {2011},
+  month = jan,
+  booktitle = {{{ResearchGate}}},
+  url = {https://www.researchgate.net/publication/283706723_Address_Standardization_using_Supervised_Machine_Learning},
+  file = {Kaleem et al. - 2011 - Address Standardization using Supervised Machine L.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/ZFX76QX4/Kaleem et al. - 2011 - Address Standardization using Supervised Machine L.pdf:application/pdf;Kaleem et al. - 2011 - Address Standardization using Supervised Machine L.html:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/2TGFSD6I/Kaleem et al. - 2011 - Address Standardization using Supervised Machine L.html:text/html},
+  abstract = {Data mining has become an important task of today's rich information environments. Strong results are obtained through accurate historical reporting. Inaccurate and dirty records yield weak and...},
+  timestamp = {2016-11-06T19:38:39Z},
+  urldate = {2016-11-06}
+}
+
+@misc{Gol:Geocoding:08,
+  author = {Goldberg, Daniel},
+  title = {A {{Geocoding Best Practice Guide}}},
+  year = {2008},
+  month = nov,
+  url = {http://www.naaccr.org/LinkClick.aspx?fileticket=ZKekM8k_IQ0\%3d\&tabid=239\&mid=699},
+  file = {Goldberg - 2008 - A Geocoding Best Practice Guide.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/7KN5R4EH/Goldberg - 2008 - A Geocoding Best Practice Guide.pdf:application/pdf},
+  timestamp = {2016-11-06T19:43:25Z},
+  language = {en}
+}
+
+@misc{.EA:International:,
+  title = {International {{Address Formats}} ({{Postal}}/{{Mailing Addresses}}) and {{Other International Mailing Information}}},
+  url = {http://www.bitboost.com/ref/international-address-formats.html},
+  file = {International Address Formats (Postal/Mailing Addresses) and Other International Mailing Information:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/696UAWJ4/international-address-formats.html:text/html},
+  timestamp = {2016-11-06T19:44:18Z},
+  urldate = {2016-11-06}
+}
+
+@misc{.EA:OASIS:,
+  title = {{{OASIS}} - {{OASIS Customer Information Quality TC}}},
+  url = {https://www.oasis-open.org/committees/ciq/download.shtml},
+  file = {OASIS - OASIS Customer Information Quality TC:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/WJ4S5F3Q/download.html:text/html},
+  timestamp = {2016-11-06T19:45:17Z},
+  urldate = {2016-11-06}
+}
+
+@misc{Uni:Birkbeck:,
+  author = {{University of Oxford Text Archive}, Oxford University Computing Services},
+  title = {Birkbeck Spelling Error Corpus [{{Electronic}} Resource] / {{Roger Mitton}}},
+  url = {http://ota.ox.ac.uk/headers/0643.xml},
+  file = {Snapshot:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/58GZKFFJ/0643.html:text/html},
+  timestamp = {2016-11-06T19:45:42Z},
+  urldate = {2016-11-06},
+  type = {Text}
+}
+
+@inproceedings{CCWo:probabilistic:04,
+  author = {Christen, Peter and Churches, Tim and Willmore, Alan and {others}},
+  title = {A Probabilistic Geocoding System Based on a National Address File},
+  year = {2004},
+  booktitle = {Proceedings of the 3rd {{Australasian Data Mining Conference}}, {{Cairns}}},
+  url = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.63.543\&rep=rep1\&type=pdf},
+  file = {Christen et al. - 2004 - A probabilistic geocoding system based on a nation.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/MDSRUFXS/Christen et al. - 2004 - A probabilistic geocoding system based on a nation.pdf:application/pdf},
+  timestamp = {2016-11-06T19:47:08Z},
+  publisher = {{Citeseer}},
+  urldate = {2016-11-06}
+}
+
+@inproceedings{Chr:Comparison:06,
+  author = {Christen, P.},
+  shorttitle = {A {{Comparison}} of {{Personal Name Matching}}},
+  title = {A {{Comparison}} of {{Personal Name Matching}}: {{Techniques}} and {{Practical Issues}}},
+  year = {2006},
+  month = dec,
+  booktitle = {Sixth {{IEEE International Conference}} on {{Data Mining}} - {{Workshops}} ({{ICDMW}}'06)},
+  pages = {290--294},
+  doi = {10.1109/ICDMW.2006.2},
+  file = {Christen - 2006 - A Comparison of Personal Name Matching Techniques.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/QUBWVI7T/Christen - 2006 - A Comparison of Personal Name Matching Techniques.pdf:application/pdf;Christen - 2006 - A Comparison of Personal Name Matching Techniques.html:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/R88PAK9G/Christen - 2006 - A Comparison of Personal Name Matching Techniques.html:text/html},
+  keywords = {Computer errors,Computer science,Conferences,data linkage system,data mining,Deduplication,information extraction,Information retrieval,Model driven engineering,personal name matching,Radio frequency,search engine,string matching,Terrorism,text analysis,Text mining,Tin,Web mining},
+  abstract = {Finding and matching personal names is at the core of an increasing number of applications: from text and Web mining, search engines, to information extraction, deduplication and data linkage systems. Variations and errors in names make exact string matching problematic, and approximate matching techniques have to be applied. When compared to general text, however, personal names have different characteristics that need to be considered. In this paper, we discuss the characteristics of personal names and present potential sources of variations and errors. We then overview a comprehensive number of commonly used, as well as some recently developed name matching techniques. Experimental comparisons using four large name data sets indicate that there is no clear best matching technique},
+  timestamp = {2016-11-06T19:48:47Z}
+}
+
+@article{PWS:knowledgepoor:09,
+  author = {Piskorski, Jakub and Wieloch, Karol and Sydow, Marcin},
+  title = {On Knowledge-Poor Methods for Person Name Matching and Lemmatization for Highly Inflectional Languages},
+  year = {2009},
+  month = jan,
+  journal = {Information Retrieval},
+  volume = {12},
+  number = {3},
+  pages = {275--299},
+  issn = {1386-4564, 1573-7659},
+  url = {http://link.springer.com/article/10.1007/s10791-008-9085-5},
+  doi = {10.1007/s10791-008-9085-5},
+  file = {Piskorski et al. - 2009 - On knowledge-poor methods for person name matching.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/FSK468V4/Piskorski et al. - 2009 - On knowledge-poor methods for person name matching.pdf:application/pdf;Piskorski et al. - 2009 - On knowledge-poor methods for person name matching.html:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/Z3G3F4NB/Piskorski et al. - 2009 - On knowledge-poor methods for person name matching.html:text/html},
+  abstract = {Web person search is one of the most common activities of Internet users. Recently, a vast amount of work on applying various NLP techniques for person name disambiguation in large web document collections has been reported, where the main focus was on English and few other major languages. This article reports on knowledge-poor methods for tackling person name matching and lemmatization in Polish, a highly inflectional language with complex person name declension paradigm. These methods apply mainly well-established string distance metrics, some new variants thereof, automatically acquired simple suffix-based lemmatization patterns and some combinations of the aforementioned techniques. Furthermore, we also carried out some initial experiments on deploying techniques that utilize the context, in which person names appear. Results of numerous experiments are presented. The evaluation carried out on a data set extracted from a corpus of on-line news articles revealed that achieving lemmatization accuracy figures greater than 90\% seems to be difficult, whereas combining string distance metrics with suffix-based patterns results in 97.6\textendash{}99\% accuracy for the name matching task. Interestingly, no significant additional gain could be achieved through integrating some basic techniques, which try to exploit the local context the names appear in. Although our explorations were focused on Polish, we believe that the work presented in this article constitutes practical guidelines for tackling the same problem for other highly inflectional languages with similar phenomena.},
+  timestamp = {2016-11-06T19:50:31Z},
+  urldate = {2016-11-06},
+  language = {en}
+}
+
+@inproceedings{GZG.EA:Address:09,
+  author = {Guo, Honglei and Zhu, Huijia and Guo, Zhili and Zhang, XiaoXun and Su, Zhong},
+  title = {Address {{Standardization}} with {{Latent Semantic Association}}},
+  year = {2009},
+  booktitle = {Proceedings of the 15th {{ACM SIGKDD International Conference}} on {{Knowledge Discovery}} and {{Data Mining}}},
+  isbn = {978-1-60558-495-9},
+  pages = {1155--1164},
+  url = {http://doi.acm.org/10.1145/1557019.1557144},
+  doi = {10.1145/1557019.1557144},
+  file = {Guo et al. - 2009 - Address Standardization with Latent Semantic Assoc.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/BK6NU2S9/Guo et al. - 2009 - Address Standardization with Latent Semantic Assoc.pdf:application/pdf},
+  keywords = {address,data standardization},
+  abstract = {Address standardization is a very challenging task in data cleansing. To provide better customer relationship management and business intelligence for customer-oriented cooperates, millions of free-text addresses need to be converted to a standard format for data integration, de-duplication and householding. Existing commercial tools usually employ lots of hand-craft, domain-specific rules and reference data dictionary of cities, states etc. These rules work better for the region they are designed. However, rule-based methods usually require more human efforts to rewrite these rules for each new domain since address data are very irregular and varied with countries and regions. Supervised learning methods usually are more adaptable than rule-based approaches. However, supervised methods need large-scale labeled training data. It is a labor-intensive and time-consuming task to build a large-scale annotated corpus for each target domain. For minimizing human efforts and the size of labeled training data set, we present a free-text address standardization method with latent semantic association (LaSA). LaSA model is constructed to capture latent semantic association among words from the unlabeled corpus. The original term space of the target domain is projected to a concept space using LaSA model at first, then the address standardization model is active learned from LaSA features and informative samples. The proposed method effectively captures the data distribution of the domain. Experimental results on large-scale English and Chinese corpus show that the proposed method significantly enhances the performance of standardization with less efforts and training data.},
+  timestamp = {2016-11-07T20:03:38Z},
+  publisher = {{ACM}},
+  urldate = {2016-11-07},
+  series = {KDD '09},
+  address = {New York, NY, USA}
+}
+
+@article{AE:Optimal:,
+  author = {Altschul, Stephen F. and Erickson, Bruce W.},
+  title = {Optimal Sequence Alignment Using Affine Gap Costs},
+  journal = {Bulletin of Mathematical Biology},
+  volume = {48},
+  number = {5-6},
+  pages = {603--616},
+  issn = {0092-8240, 1522-9602},
+  url = {http://link.springer.com/article/10.1007/BF02462326},
+  doi = {10.1007/BF02462326},
+  file = {Altschul and Erickson - Optimal sequence alignment using affine gap costs.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/4N6PV2E8/Altschul and Erickson - Optimal sequence alignment using affine gap costs.pdf:application/pdf;Altschul and Erickson - Optimal sequence alignment using affine gap costs.html:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/RGSVE5WR/Altschul and Erickson - Optimal sequence alignment using affine gap costs.html:text/html},
+  abstract = {When comparing two biological sequences, it is often desirable for a gap to be assigned a cost not directly proportional to its length. If affine gap costs are employed, in other words if opening a gap costsv and each null in the gap costsu, the algorithm of Gotoh (1982,J. molec. Biol.162, 705) finds the minimum cost of aligning two sequences in orderMN steps. Gotoh's algorithm attempts to find only one from among possibly many optimal (minimum-cost) alignments, but does not always succeed. This paper provides an example for which this part of Gotoh's algorithm fails and describes an algorithm that finds all and only the optimal alignments. This modification of Gotoh's algorithm still requires orderMN steps. A more precise form of path graph than previously used is needed to represent accurately all optimal alignments for affine gap costs.},
+  timestamp = {2016-11-07T20:04:05Z},
+  urldate = {2016-11-07},
+  language = {en}
+}
+
+@inproceedings{MEo:Field:96,
+  author = {Monge, Alvaro E. and Elkan, Charles and {others}},
+  shorttitle = {The {{Field Matching Problem}}},
+  title = {The {{Field Matching Problem}}: {{Algorithms}} and {{Applications}}.},
+  year = {1996},
+  booktitle = {{{KDD}}},
+  pages = {267--270},
+  url = {http://www.aaai.org/Papers/KDD/1996/KDD96-044.pdf},
+  file = {Monge et al. - 1996 - The Field Matching Problem Algorithms and Applica.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/EFX2AJ7E/Monge et al. - 1996 - The Field Matching Problem Algorithms and Applica.pdf:application/pdf},
+  timestamp = {2016-11-08T13:47:46Z},
+  urldate = {2016-11-08}
+}
+
 @comment{jabref-meta: groupsversion:3;}
 @comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
+1 ExplicitGroup:Basics\;0\;Kes:How:07\;;
 1 ExplicitGroup:Master_Thesis\;0\;CG:Scalable:08\;Seh:Evaluierung:13\;
-MAK:Data:10\;LTH:Address:12\;KR:Parallel:13\;KDS.EA:Magellan:16\;Tir:E
-FFICIENT:16\;CM:Summarizing:05\;Kul:Recommendation:15\;AMK:QuERy:15\;P
-MM.EA:Identity:02\;HCTL:Duplicate:03\;Joa:Svmlight:99\;DN:DuDe:10\;BT:
-Survey:15\;MAS:Graph:14\;KBHR:study:11\;SK:Storm:15\;PKM:Lexicon:14\;E
-IV:Duplicate:07\;KRJK:Removing:12\;GIKS:Text:03\;GFS.EA:Declarative:01
-\;HFH.EA:WEKA:09\;.EA:Benchmark:\;WMG:PayAsYouGo:13\;KTR:Evaluation:10
-\;RH:Coreference:10\;KR:Frameworks:10\;SB:Interactive:02\;SD:Entity:06
-\;Kop:Object:14\;BG:Collective:07\;GRS:Introducing:96\;ABE.EA:Stratosp
-here:14\;GKZN:CohEEL:16\;Kol:Effiziente:14\;Chr:Data:12\;Lo:curse:09\;
-VHD.EA:Reach:14\;GBVR:Record:03\;KTR:Don:13\;HNST:Scalable:12\;EPP.EA:
-Parallel:15\;PHN:Progressive:15\;SKLN:Combination:16\;Chr:Survey:12\;B
-CCo:comparison:03\;FS:Theory:69\;AO:Fast:05a\;HS:Merge:95\;DN:generali
-zation:11\;DN:comparison:09\;DNSW:Adaptive:12\;CRF:comparison:03\;Nav:
-Guided:01\;BM:Adaptive:03\;BMC.EA:Adaptive:03\;MNK.EA:heterogeneous:05
-\;CKLS:Efficient:01\;EVE:TAILOR:02\;KR:Training:08\;MRS:Introduction:0
-8\;;
+MAK:Data:10\;LTH:Address:12\;KR:Parallel:13\;KDS+:Magellan:16\;Tir:EFF
+ICIENT:16\;CM:Summarizing:05\;Kul:Recommendation:15\;AMK:QuERy:15\;PMM
++:Identity:02\;HCTL:Duplicate:03\;Joa:Svmlight:99\;DN:DuDe:10\;BT:Surv
+ey:15\;MAS:Graph:14\;KBHR:study:11\;SK:Storm:15\;PKM:Lexicon:14\;EIV:D
+uplicate:07\;KRJK:Removing:12\;GIKS:Text:03\;GFS+:Declarative:01\;HFH+
+:WEKA:09\;+:Benchmark:\;WMG:PayAsYouGo:13\;KTR:Evaluation:10\;RH:Coref
+erence:10\;KR:Frameworks:10\;SB:Interactive:02\;SD:Entity:06\;Kop:Obje
+ct:14\;BG:Collective:07\;GRS:Introducing:96\;ABE+:Stratosphere:14\;GKZ
+N:CohEEL:16\;Kol:Effiziente:14\;Chr:Data:12\;Lo:curse:09\;VHD+:Reach:1
+4\;GBVR:Record:03\;KTR:Don:13\;HNST:Scalable:12\;EPP+:Parallel:15\;PHN
+:Progressive:15\;SKLN:Combination:16\;Chr:Survey:12\;BCCo:comparison:0
+3\;FS:Theory:69\;AO:Fast:05a\;HS:Merge:95\;DN:generalization:11\;DN:co
+mparison:09\;DNSW:Adaptive:12\;CRF:comparison:03\;Nav:Guided:01\;BM:Ad
+aptive:03\;BMC+:Adaptive:03\;MNK+:heterogeneous:05\;CKLS:Efficient:01\
+;EVE:TAILOR:02\;KR:Training:08\;MRS:Introduction:08\;Chr:Comparison:06
+\;PWS:knowledgepoor:09\;AE:Optimal:\;;
+2 ExplicitGroup:Matcher\;0\;LLW+:Boosting:15\;MGAB:Efficient:13\;LDF:P
+artitionbased:13\;RW:Harry:16\;SWR:Scalable:13\;MEo:Field:96\;;
+2 ExplicitGroup:Address\;0\;Abb:Information:05\;KKG+:Address:11\;Gol:G
+eocoding:08\;+:International:\;+:OASIS:\;Uni:Birkbeck:\;CCWo:probabili
+stic:04\;GZG+:Address:09\;;
+1 ExplicitGroup:Matcher\;0\;LLW+:Boosting:15\;MGAB:Efficient:13\;LDF:P
+artitionbased:13\;RW:Harry:16\;SWR:Scalable:13\;MEo:Field:96\;;
+1 ExplicitGroup:Address\;0\;Abb:Information:05\;KKG+:Address:11\;Gol:G
+eocoding:08\;+:International:\;+:OASIS:\;Uni:Birkbeck:\;CCWo:probabili
+stic:04\;GZG+:Address:09\;;
 }
 
