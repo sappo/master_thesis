@@ -1,7 +1,7 @@
 
 @inproceedings{CG:Scalable:08,
   author = {Christen, Peter and Gayler, Ross},
-  title = {Towards {{Scalable Real}}-Time {{Entity Resolution Using}} a {{Similarity}}-Aware {{Inverted Index Approach}}},
+  title = {Towards {{Scalable Real}}-{{Time Entity Resolution}} Using a {{S}} Imilarity-{{Aware Inverted Index Approach}}},
   year = {2008},
   booktitle = {Proceedings of the 7th {{Australasian Data Mining Conference}} - {{Volume}} 87},
   isbn = {978-1-920682-68-2},
@@ -10,7 +10,7 @@
   file = {Christen and Gayler - 2008 - Towards Scalable Real-time Entity Resolution Using.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/KB3PP5VE/Christen and Gayler - 2008 - Towards Scalable Real-time Entity Resolution Using.pdf:application/pdf;Christen and Gayler - 2008 - Towards Scalable Real-time Entity Resolution Using.html:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/27NVH45F/Christen and Gayler - 2008 - Towards Scalable Real-time Entity Resolution Using.html:text/html},
   keywords = {approximate string comparisons,data matching,record linkage,Scalability,similarity measures},
   abstract = {Most research into entity resolution (also known as record linkage or data matching) has concentrated on the quality of the matching results. In this paper, we focus on matching time and scalability, with the aim to achieve large-scale real-time entity resolution. Traditional entity resolution techniques have assumed the matching of two static databases. In our networked and online world, however, it is becoming increasingly important for many organisations to be able to conduct entity resolution between a collection of often very large databases and a stream of query or update records. The matching should be done in (near) real-time, and be as automatic and accurate as possible, returning a ranked list of matched records for each given query record. This task therefore becomes similar to querying large document collections, as done for example by Web search engines, however based on a different type of documents: structured database records that, for example, contain personal information, such as names and addresses. In this paper, we investigate inverted indexing techniques, as commonly used in Web search engines, and employ them for real-time entity resolution. We present two variations of the traditional inverted index approach, aimed at facilitating fast approximate matching. We show encouraging initial results on large real-world data sets, with the inverted index approaches being up-to one hundred times faster than the traditionally used standard blocking approach. However, this improved matching speed currently comes at a cost, in that matching quality for larger data sets can be lower compared to when standard blocking is used, and thus more work is required.},
-  timestamp = {2016-10-11T08:57:26Z},
+  timestamp = {2016-11-21T09:07:18Z},
   publisher = {{Australian Computer Society, Inc.}},
   urldate = {2016-10-07},
   series = {AusDM '08},
@@ -1298,6 +1298,304 @@ In this paper, we describe an efficient method for data reconciliation. Our main
   timestamp = {2016-11-11T15:18:03Z}
 }
 
+@inproceedings{KKTR:Learningbased:11,
+  author = {Kolb, Lars and K{\"o}pcke, Hanna and Thor, Andreas and Rahm, Erhard},
+  title = {Learning-Based Entity Resolution with {{MapReduce}}},
+  year = {2011},
+  booktitle = {Proceedings of the Third International Workshop on {{Cloud}} Data Management},
+  pages = {1--6},
+  url = {http://dl.acm.org/citation.cfm?id=2064087},
+  file = {Learning-based Entity Resolution with MapReduce - learning_based_er_with_mr.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/2FMKII7V/learning_based_er_with_mr.pdf:application/pdf},
+  timestamp = {2016-11-18T09:05:41Z},
+  publisher = {{ACM}},
+  urldate = {2016-11-18}
+}
+
+@inproceedings{KTR:Load:12,
+  author = {Kolb, L. and Thor, A. and Rahm, E.},
+  title = {Load {{Balancing}} for {{MapReduce}}-Based {{Entity Resolution}}},
+  year = {2012},
+  month = apr,
+  booktitle = {2012 {{IEEE}} 28th {{International Conference}} on {{Data Engineering}}},
+  pages = {618--629},
+  doi = {10.1109/ICDE.2012.22},
+  file = {Kolb et al. - 2012 - Load Balancing for MapReduce-based Entity Resoluti.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/KXAUQ7HV/Kolb et al. - 2012 - Load Balancing for MapReduce-based Entity Resoluti.pdf:application/pdf;Kolb et al. - 2012 - Load Balancing for MapReduce-based Entity Resoluti.html:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/6AZ5KK8J/Kolb et al. - 2012 - Load Balancing for MapReduce-based Entity Resoluti.html:text/html},
+  keywords = {blocking technique,cloud computing,complex data-intensive task,Computational modeling,data integration,data redistribution,entity resolution,Erbium,Image color analysis,Indexes,load balancing,Load management,MapReduce,Memory management,real cloud infrastructure,Scalability,search space,skewed data,skew handling},
+  abstract = {The effectiveness and scalability of MapReduce-based implementations of complex data-intensive tasks depend on an even redistribution of data between map and reduce tasks. In the presence of skewed data, sophisticated redistribution approaches thus become necessary to achieve load balancing among all reduce tasks to be executed in parallel. For the complex problem of entity resolution, we propose and evaluate two approaches for such skew handling and load balancing. The approaches support blocking techniques to reduce the search space of entity resolution, utilize a preprocessing MapReduce job to analyze the data distribution, and distribute the entities of large blocks among multiple reduce tasks. The evaluation on a real cloud infrastructure shows the value and effectiveness of the proposed load balancing approaches.},
+  timestamp = {2016-11-18T09:07:04Z}
+}
+
+@article{KTR:Multipass:12,
+  author = {Kolb, Lars and Thor, Andreas and Rahm, Erhard},
+  title = {Multi-Pass Sorted Neighborhood Blocking with {{MapReduce}}},
+  year = {2012},
+  journal = {Computer Science-Research and Development},
+  volume = {27},
+  number = {1},
+  pages = {45--63},
+  url = {http://link.springer.com/article/10.1007/s00450-011-0177-x},
+  file = {Multi-pass Sorted Neighborhood Blocking with MapReduce - multi_pass_sn_with_mr.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/ZGPT3TRF/multi_pass_sn_with_mr.pdf:application/pdf},
+  timestamp = {2016-11-18T09:08:21Z},
+  urldate = {2016-11-18}
+}
+
+@article{PKPN:Metablocking:14,
+  author = {Papadakis, George and Koutrika, Georgia and Palpanas, Themis and Nejdl, Wolfgang},
+  shorttitle = {Meta-Blocking},
+  title = {Meta-Blocking: {{Taking}} Entity Resolutionto the next Level},
+  year = {2014},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  volume = {26},
+  number = {8},
+  pages = {1946--1960},
+  url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6487505},
+  file = {tkde13-metablocking.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/TDBNDX2E/tkde13-metablocking.pdf:application/pdf},
+  timestamp = {2016-11-18T10:41:25Z},
+  urldate = {2016-11-18}
+}
+
+@inproceedings{WSD:Fast:12,
+  author = {Welch, Michael J. and Sane, Aamod and Drome, Chris},
+  title = {Fast and {{Accurate Incremental Entity Resolution Relative}} to an {{Entity Knowledge Base}}},
+  year = {2012},
+  booktitle = {Proceedings of the 21st {{ACM International Conference}} on {{Information}} and {{Knowledge Management}}},
+  isbn = {978-1-4503-1156-4},
+  pages = {2667--2670},
+  url = {http://doi.acm.org/10.1145/2396761.2398719},
+  doi = {10.1145/2396761.2398719},
+  file = {ACM Full Text PDF:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/844TPWNT/Welch et al. - 2012 - Fast and Accurate Incremental Entity Resolution Re.pdf:application/pdf},
+  keywords = {Deduplication,entity resolution,knowledge base},
+  abstract = {User facing topical web applications such as events or shopping sites rely on large collections of data records about real world entities that are updated at varying latencies ranging from days to seconds. For example, event venue details are changed relatively infrequently whereas ticket pricing and availability for an event is often updated in near-realtime. Users regard these sites as high quality if they seldom show duplicates, the URLs are stable, and their content is fresh, so it is important to resolve duplicate entity records with high quality and low latencies. High quality entity resolution typically evaluates the entire record corpus for similar record clusters at the cost of latency, while low latency resolution examines the least possible entities to keep time to a minimum, even at the cost of quality. In this paper we show how to keep low latency while achieving high quality, combining the best of both approaches: given an entity to be resolved, our incremental Fastpath system, in a matter of milliseconds, makes approximately the same decisions that the underlying batch system would have made. Our experiments show that the Fastpath system makes matching decisions for previously unseen entities with 90\% precision and 98\% recall relative to batch decisions, with latencies under 20ms on commodity hardware.},
+  timestamp = {2016-11-18T10:47:43Z},
+  publisher = {{ACM}},
+  urldate = {2016-11-18},
+  series = {CIKM '12},
+  address = {New York, NY, USA}
+}
+
+@article{LL:Two:13,
+  author = {Li, Shouheng and Liang, Huizhi Elly},
+  title = {A {{Two Stage Similarity}}-Aware {{Indexing}} for {{Real}}-Time {{Large Scale Entity Resolution}}},
+  year = {2013},
+  url = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.367.2117\&rep=rep1\&type=pdf},
+  file = {download.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/KID2V6J3/download.pdf:application/pdf},
+  timestamp = {2016-11-18T10:48:30Z},
+  urldate = {2016-11-18}
+}
+
+@article{KHKJ:Entity:16,
+  author = {Kim, Taehong and Hwang, Mi-Nyeong and Kim, Young-Min and Jeong, Do-Heon},
+  title = {Entity {{Resolution Approach}} of {{Data Stream Management Systems}}},
+  year = {2016},
+  month = apr,
+  journal = {Wireless Personal Communications},
+  pages = {1--14},
+  issn = {0929-6212, 1572-834X},
+  url = {http://link.springer.com/article/10.1007/s11277-016-3275-z},
+  doi = {10.1007/s11277-016-3275-z},
+  file = {Full Text PDF:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/JZ5IDR6Z/Kim et al. - 2016 - Entity Resolution Approach of Data Stream Manageme.pdf:application/pdf;Snapshot:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/2KUDASUT/s11277-016-3275-z.html:text/html},
+  abstract = {Owing to the technological advancements in Semantic Web and sensor networks, a large amount of data has been produced in association with the open data policy. However, data stream management systems that process stream data have focused on the processing of a large amount of data with little priority on data identification, integration, and external linkage. Furthermore, entity resolution is focused mainly on static database-based technologies. In this study, a real-time stream data processing architecture that can perform the integration and entity resolution of streaming-type heterogeneous input data and interlink with external data is designed. To achieve this goal, a light adapter to integrate heterogeneous data into standard scheme and blocking technique to reduce comparison candidates are applied. The implemented data adapters shows 4 times higher throughput than open source data parsers and the entity resolution results with streaming data shows similar performance with the static data sets. The proposed streaming data entity resolution architecture is expected to form the basis of data integration research that can integrate various information sources of data efficiently, enrich internal data.},
+  timestamp = {2016-11-18T10:49:05Z},
+  urldate = {2016-11-18},
+  language = {en}
+}
+
+@article{SH:Semantic:07,
+  author = {Salakhutdinov, Ruslan and Hinton, Geoffrey},
+  title = {Semantic Hashing},
+  year = {2007},
+  journal = {RBM},
+  volume = {500},
+  number = {3},
+  pages = {500},
+  url = {http://www.utstat.toronto.edu/~rsalakhu/papers/semantic_final.pdf},
+  file = {Salakhutdinov and Hinton - 2007 - Semantic hashing.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/W7A9JNCB/Salakhutdinov and Hinton - 2007 - Semantic hashing.pdf:application/pdf},
+  timestamp = {2016-11-18T11:16:23Z},
+  urldate = {2016-11-18}
+}
+
+@inproceedings{CGH:Similarityaware:09,
+  author = {Christen, Peter and Gayler, Ross and Hawking, David},
+  title = {Similarity-Aware {{Indexing}} for {{Real}}-Time {{Entity Resolution}}},
+  year = {2009},
+  booktitle = {Proceedings of the 18th {{ACM Conference}} on {{Information}} and {{Knowledge Management}}},
+  isbn = {978-1-60558-512-3},
+  pages = {1565--1568},
+  url = {http://doi.acm.org/10.1145/1645953.1646173},
+  doi = {10.1145/1645953.1646173},
+  file = {ACM Full Text PDF:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/T9JBMDK2/Christen et al. - 2009 - Similarity-aware Indexing for Real-time Entity Res.pdf:application/pdf},
+  keywords = {approximate string matching,data matching,inverted indexing,phonetic encoding,record linkage,Scalability,similarity query},
+  abstract = {Entity resolution, also known as data matching or record linkage, is the task of identifying and matching records from several databases that refer to the same entities. Traditionally, entity resolution has been applied in batch-mode and on static databases. However, many organisations are increasingly faced with the challenge of having large databases containing entities that need to be matched in real-time with a stream of query records also containing entities, such that the best matching records are retrieved. Example applications include online law enforcement and national security databases, public health surveillance and emergency response systems, financial verification systems, online retail stores, eGovernment services, and digital libraries. A novel inverted index based approach for real-time entity resolution is presented in this paper. At build time, similarities between attribute values are computed and stored to support the fast matching of records at query time. The presented approach differs from other approaches to approximate query matching in that it allows any similarity comparison function, and any 'blocking' (encoding) function, both possibly domain specific, to be incorporated. Experimental results on a real-world database indicate that the total size of all data structures of this novel index approach grows sub-linearly with the size of the database, and that it allows matching of query records in sub-second time, more than two orders of magnitude faster than a traditional entity resolution index approach. The interested reader is referred to the longer version of this paper [5].},
+  timestamp = {2016-11-21T09:06:42Z},
+  publisher = {{ACM}},
+  urldate = {2016-11-21},
+  series = {CIKM '09},
+  address = {New York, NY, USA}
+}
+
+@inproceedings{RCL.EA:Dynamic:13,
+  author = {Ramadan, Banda and Christen, Peter and Liang, Huizhi and Gayler, Ross W. and Hawking, David},
+  title = {Dynamic Similarity-Aware Inverted Indexing for Real-Time Entity Resolution},
+  year = {2013},
+  booktitle = {Pacific-{{Asia Conference}} on {{Knowledge Discovery}} and {{Data Mining}}},
+  pages = {47--58},
+  url = {http://link.springer.com/chapter/10.1007/978-3-642-40319-4_5},
+  file = {ramadan2013dmapps.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/3IZZMMJ9/ramadan2013dmapps.pdf:application/pdf},
+  timestamp = {2016-11-21T09:08:12Z},
+  publisher = {{Springer}},
+  urldate = {2016-11-21}
+}
+
+@article{INNV:Onthefly:10,
+  author = {Ioannou, Ekaterini and Nejdl, Wolfgang and Nieder{\'e}e, Claudia and Velegrakis, Yannis},
+  title = {On-the-Fly {{Entity}}-Aware {{Query Processing}} in the {{Presence}} of {{Linkage}}},
+  year = {2010},
+  month = sep,
+  journal = {Proc. VLDB Endow.},
+  volume = {3},
+  number = {1-2},
+  pages = {429--438},
+  issn = {2150-8097},
+  url = {http://dx.doi.org/10.14778/1920841.1920898},
+  doi = {10.14778/1920841.1920898},
+  file = {ACM Full Text PDF:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/68PC6Q3S/Ioannou et al. - 2010 - On-the-fly Entity-aware Query Processing in the Pr.pdf:application/pdf},
+  abstract = {Entity linkage is central to almost every data integration and data cleaning scenario. Traditional techniques use some computed similarity among data structure to perform merges and then answer queries on the merged data. We describe a novel framework for entity linkage with uncertainty. Instead of using the linkage information to merge structures a-priori, possible linkages are stored alongside the data with their belief value. A new probabilistic query answering technique is used to take the probabilistic linkage into consideration. The framework introduces a series of novelties: (i) it performs merges at run time based not only on existing linkages but also on the given query; (ii) it allows results that may contain structures not explicitly represented in the data, but generated as a result of a reasoning on the linkages; and (iii) enables an evaluation of the query conditions that spans across linked structures, offering a functionality not currently supported by any traditional probabilistic databases. We formally define the semantics, describe an efficient implementation and report on the findings of our experimental evaluation.},
+  timestamp = {2016-11-21T09:10:56Z},
+  urldate = {2016-11-21}
+}
+
+@article{DML:Efficient:11,
+  author = {Dey, Debabrata and Mookerjee, Vijay and Liu, Dengpan},
+  title = {Efficient {{Techniques}} for {{Online Record Linkage}}},
+  year = {2011},
+  month = mar,
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  volume = {23},
+  number = {3},
+  pages = {373--387},
+  issn = {1041-4347},
+  url = {http://ieeexplore.ieee.org/document/5551133/},
+  doi = {10.1109/TKDE.2010.134},
+  file = {05551133.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/C5FSEDG6/05551133.pdf:application/pdf},
+  timestamp = {2016-11-21T09:14:00Z},
+  urldate = {2016-11-21}
+}
+
+@article{RCLG:Dynamic:15,
+  author = {Ramadan, Banda and Christen, Peter and Liang, Huizhi and Gayler, Ross W.},
+  title = {Dynamic {{Sorted Neighborhood Indexing}} for {{Real}}-{{Time Entity Resolution}}},
+  year = {2015},
+  month = oct,
+  journal = {J. Data and Information Quality},
+  volume = {6},
+  number = {4},
+  pages = {15:1--15:29},
+  issn = {1936-1955},
+  url = {http://doi.acm.org/10.1145/2816821},
+  doi = {10.1145/2816821},
+  file = {ACM Full Text PDF:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/3VE7U2SV/Ramadan et al. - 2015 - Dynamic Sorted Neighborhood Indexing for Real-Time.pdf:application/pdf},
+  keywords = {Braided tree,data matching,dynamic indexing,real-time query,record linkage},
+  abstract = {Real-time Entity Resolution (ER) is the process of matching query records in subsecond time with records in a database that represent the same real-world entity. Indexing techniques are generally used to efficiently extract a set of candidate records from the database that are similar to a query record, and that are to be compared with the query record in more detail. The sorted neighborhood indexing method, which sorts a database and compares records within a sliding window, has been successfully used for ER of large static databases. However, because it is based on static sorted arrays and is designed for batch ER that resolves all records in a database rather than resolving those relating to a single query record, this technique is not suitable for real-time ER on dynamic databases that are constantly updated. We propose a tree-based technique that facilitates dynamic indexing based on the sorted neighborhood method, which can be used for real-time ER, and investigate both static and adaptive window approaches. We propose an approach to reduce query matching times by precalculating the similarities between attribute values stored in neighboring tree nodes. We also propose a multitree solution where different sorting keys are used to reduce the effects of errors and variations in attribute values on matching quality by building several distinct index trees. We experimentally evaluate our proposed techniques on large real datasets, as well as on synthetic data with different data quality characteristics. Our results show that as the index grows, no appreciable increase occurs in both record insertion and query times, and that using multiple trees gives noticeable improvements on matching quality with only a small increase in query time. Compared to earlier indexing techniques for real-time ER, our approach achieves significantly reduced indexing and query matching times while maintaining high matching accuracy.},
+  timestamp = {2016-11-21T10:45:06Z},
+  urldate = {2016-11-21}
+}
+
+@inproceedings{FCWR:ClusteringBased:15,
+  author = {Fisher, Jeffrey and Christen, Peter and Wang, Qing and Rahm, Erhard},
+  title = {A {{Clustering}}-{{Based Framework}} to {{Control Block Sizes}} for {{Entity Resolution}}},
+  year = {2015},
+  booktitle = {Proceedings of the 21th {{ACM SIGKDD International Conference}} on {{Knowledge Discovery}} and {{Data Mining}}},
+  isbn = {978-1-4503-3664-2},
+  pages = {279--288},
+  url = {http://doi.acm.org/10.1145/2783258.2783396},
+  doi = {10.1145/2783258.2783396},
+  file = {ACM Full Text PDF:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/GKGETHAP/Fisher et al. - 2015 - A Clustering-Based Framework to Control Block Size.pdf:application/pdf},
+  keywords = {blocking,data cleaning,Indexing,record linkage},
+  abstract = {Entity resolution (ER) is a common data cleaning task that involves determining which records from one or more data sets refer to the same real-world entities. Because a pairwise comparison of all records scales quadratically with the number of records in the data sets to be matched, it is common to use blocking or indexing techniques to reduce the number of comparisons required. These techniques split the data sets into blocks and only records within blocks are compared with each other. Most existing blocking techniques do not provide control over the size of the generated blocks, despite this control being important in many practical applications of ER, such as privacy-preserving record linkage and real-time ER. We propose two novel hierarchical clustering approaches which can generate blocks within a specified size range, and we present a penalty function which allows control of the trade-off between block quality and block size in the clustering process. We evaluate our techniques on three real-world data sets and compare them against three baseline approaches. The results show our proposed techniques perform well on the measures of pairs completeness and reduction ratio compared to the baseline approaches, while also satisfying the block size restrictions.},
+  timestamp = {2016-11-22T11:22:48Z},
+  publisher = {{ACM}},
+  urldate = {2016-11-21},
+  series = {KDD '15},
+  address = {New York, NY, USA}
+}
+
+@inproceedings{CG:ContextAware:15,
+  author = {Christen, P. and Gayler, R. W.},
+  title = {Context-{{Aware Approximate String Matching}} for {{Large}}-{{Scale Real}}-{{Time Entity Resolution}}},
+  year = {2015},
+  month = nov,
+  booktitle = {2015 {{IEEE International Conference}} on {{Data Mining Workshop}} ({{ICDMW}})},
+  pages = {211--217},
+  doi = {10.1109/ICDMW.2015.152},
+  file = {IEEE Xplore Full Text PDF:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/I32JNMIX/Christen and Gayler - 2015 - Context-Aware Approximate String Matching for Larg.pdf:application/pdf;IEEE Xplore Abstract Record:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/FU8KVNFQ/7395673.html:text/html},
+  keywords = {Australia,Conferences,context-aware approximate string matching,contextual information,data matching,edit distance,Electronic mail,Indexes,large-scale real-time entity resolution,Positron emission tomography,Query processing,query records,real-time matching,Real-time systems,similarity calculation,string databases,string matching,ubiquitous computing},
+  abstract = {Techniques for approximate string matching have been widely studied over several decades. They are required in many applications, including entity resolution, spell checking, similarity joins, and biological sequence comparison. Most existing techniques for approximate string matching used in entity resolution only consider the two strings that are compared. They neglect contextual information such as the frequency of how often strings occur in a database, the likelihood of the character edits between strings, or how many other similar strings there are in a database. In this paper we investigate if incorporating such contextual information into edit distance based approximate string matching can improve matching quality for real-time entity resolution. In this application, query records have to be matched in sub-second time to records in a large database that refer to the same entity. We evaluate our approach on two large real data sets and compare it to several baseline approaches. Our results show that considering edit frequency and the neighborhood size of a string can improve matching results, while taking string frequencies into account can actually make results worse.},
+  timestamp = {2016-11-24T16:50:08Z}
+}
+
+@inproceedings{CVW:Efficient:15,
+  author = {Christen, P. and Vatsalan, D. and Wang, Q.},
+  title = {Efficient {{Entity Resolution}} with {{Adaptive}} and {{Interactive Training Data Selection}}},
+  year = {2015},
+  month = nov,
+  booktitle = {2015 {{IEEE International Conference}} on {{Data Mining}}},
+  pages = {727--732},
+  doi = {10.1109/ICDM.2015.63},
+  file = {IEEE Xplore Full Text PDF:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/TU9JRH4C/Christen et al. - 2015 - Efficient Entity Resolution with Adaptive and Inte.pdf:application/pdf;IEEE Xplore Abstract Record:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/2STWCKMU/7373380.html:text/html;IEEE Xplore Abstract Record:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/K2M8GE22/7373380.html:text/html},
+  keywords = {active learning,adaptive training data selection,Clustering algorithms,cluster structure,Databases,data matching,entity resolution,ER applications,Erbium,ER classifier,fully supervised classifiers,hierarchical clustering,interactive labeling,interactive systems,interactive training data selection,Labeling,manual labeling,manual labels,Manuals,matching quality,noisy oracle,pattern classification,pattern matching,public data sets,record linkage,Silicon,Training,Training data,user defined sampling error margin,weight vectors},
+  abstract = {Entity resolution (ER) is the task of deciding which records in one or more databases refer to the same real-world entities. A crucial step in ER is the accurate classification of pairs of records into matches and non-matches. In most practical ER applications, obtaining training data \%of high quality is costly and time consuming. Various techniques have been proposed for ER to interactively generate training data and learn an accurate classifier. We propose an approach for training data selection for ER that exploits the cluster structure of the weight vectors (similarities) calculated from compared record pairs. Our approach adaptively selects an optimal number of informative training examples for manual labeling based on a user defined sampling error margin, and recursively splits the set of weight vectors to find pure enough subsets for training. We consider two aspects of ER that are highly significant in practice: a limited budget for the number of manual labeling that can be done, and a noisy oracle where manual labels might be incorrect. Experiments on four real public data sets show that our approach can significantly reduce manual labeling efforts for training an ER classifier while achieving matching quality comparative to fully supervised classifiers.},
+  timestamp = {2016-11-24T16:50:05Z}
+}
+
+@inproceedings{BLB.EA:API:13,
+  author = {Buitinck, Lars and Louppe, Gilles and Blondel, Mathieu and Pedregosa, Fabian and Mueller, Andreas and Grisel, Olivier and Niculae, Vlad and Prettenhofer, Peter and Gramfort, Alexandre and Grobler, Jaques and Layton, Robert and VanderPlas, Jake and Joly, Arnaud and Holt, Brian and Varoquaux, Ga{\"e}l},
+  title = {{{API}} Design for Machine Learning Software: Experiences from the Scikit-Learn Project},
+  year = {2013},
+  booktitle = {{{ECML PKDD Workshop}}: {{Languages}} for {{Data Mining}} and {{Machine Learning}}},
+  pages = {108--122},
+  timestamp = {2016-11-24T20:00:36Z}
+}
+
+@article{PVG.EA:Scikitlearn:11,
+  author = {Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V. and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P. and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+  title = {Scikit-Learn: {{Machine Learning}} in {{Python}}},
+  year = {2011},
+  journal = {Journal of Machine Learning Research},
+  volume = {12},
+  pages = {2825--2830},
+  timestamp = {2016-11-24T20:01:08Z}
+}
+
+@inproceedings{CVW:Efficient:15a,
+  author = {Christen, Peter and Vatsalan, Dinusha and Wang, Qing},
+  title = {Efficient {{Entity Resolution}} with {{Adaptive}} and {{Interactive Training Data Selection}}},
+  year = {2015},
+  booktitle = {Data {{Mining}} ({{ICDM}}), 2015 {{IEEE International Conference}} on},
+  pages = {727--732},
+  url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7373380},
+  file = {26317119.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/MGGGD6PX/26317119.pdf:application/pdf},
+  timestamp = {2016-11-25T08:16:13Z},
+  publisher = {{IEEE}},
+  urldate = {2016-11-25}
+}
+
+@incollection{RC:Unsupervised:15,
+  author = {Ramadan, Banda and Christen, Peter},
+  title = {Unsupervised {{Blocking Key Selection}} for {{Real}}-{{Time Entity Resolution}}},
+  year = {2015},
+  booktitle = {Advances in {{Knowledge Discovery}} and {{Data Mining}}},
+  isbn = {978-3-319-18031-1 978-3-319-18032-8},
+  volume = {9078},
+  pages = {574--585},
+  url = {http://link.springer.com/10.1007/978-3-319-18032-8_45},
+  file = {56e7210f08ae438aab87fe2c.pdf:/home/sappo/.mozilla/firefox/o9qk03fu.default/zotero/storage/7AZZISC5/56e7210f08ae438aab87fe2c.pdf:application/pdf},
+  timestamp = {2016-11-28T11:33:08Z},
+  editor = {Cao, Tru and Lim, Ee-Peng and Zhou, Zhi-Hua and Ho, Tu-Bao and Cheung, David and Motoda, Hiroshi},
+  publisher = {{Springer International Publishing}},
+  urldate = {2016-11-28},
+  address = {Cham}
+}
+
 @comment{jabref-meta: groupsversion:3;}
 @comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
@@ -1318,18 +1616,29 @@ CCo:comparison:03\;FS:Theory:69\;AO:Fast:05a\;HS:Merge:95\;DN:generali
 zation:11\;DN:comparison:09\;DNSW:Adaptive:12\;CRF:comparison:03\;Nav:
 Guided:01\;BM:Adaptive:03\;BMC.EA:Adaptive:03\;MNK.EA:heterogeneous:05
 \;CKLS:Efficient:01\;EVE:TAILOR:02\;KR:Training:08\;MRS:Introduction:0
-8\;Chr:Comparison:06\;PWS:knowledgepoor:09\;AE:Optimal:\;;
-2 ExplicitGroup:Matcher\;0\;LLW.EA:Boosting:15\;MGAB:Efficient:13\;LDF
-:Partitionbased:13\;RW:Harry:16\;SWR:Scalable:13\;MEo:Field:96\;RLM:Ef
-ficient:06\;SRR:Large:07\;MSC.EA:Distributed:13\;RBK:Approximate:08\;;
+8\;Chr:Comparison:06\;PWS:knowledgepoor:09\;AE:Optimal:\;KKTR:Learning
+based:11\;KTR:Load:12\;KTR:Multipass:12\;PKPN:Metablocking:14\;WSD:Fas
+t:12\;LL:Two:13\;KHKJ:Entity:16\;SH:Semantic:07\;CGH:Similarityaware:0
+9\;RCL.EA:Dynamic:13\;INNV:Onthefly:10\;DML:Efficient:11\;RCLG:Dynamic
+:15\;FCWR:ClusteringBased:15\;CG:ContextAware:15\;CVW:Efficient:15\;CV
+W:Efficient:15a\;RC:Unsupervised:15\;;
+2 ExplicitGroup:Matcher\;0\;Ars:Fast:15\;LLW.EA:Boosting:15\;MGAB:Effi
+cient:13\;LDF:Partitionbased:13\;RW:Harry:16\;SWR:Scalable:13\;MEo:Fie
+ld:96\;RLM:Efficient:06\;SRR:Large:07\;MSC.EA:Distributed:13\;RBK:Appr
+oximate:08\;;
 2 ExplicitGroup:Address\;0\;Abb:Information:05\;KKG.EA:Address:11\;Gol
 :Geocoding:08\;.EA:International:\;.EA:OASIS:\;Uni:Birkbeck:\;CCWo:pro
 babilistic:04\;GZG.EA:Address:09\;;
-1 ExplicitGroup:Matcher\;0\;LLW.EA:Boosting:15\;MGAB:Efficient:13\;LDF
-:Partitionbased:13\;RW:Harry:16\;SWR:Scalable:13\;MEo:Field:96\;RLM:Ef
-ficient:06\;SRR:Large:07\;MSC.EA:Distributed:13\;RBK:Approximate:08\;;
+2 ExplicitGroup:Maschine Learning\;0\;BLB.EA:API:13\;PVG.EA:Scikitlear
+n:11\;;
+1 ExplicitGroup:Matcher\;0\;Ars:Fast:15\;LLW.EA:Boosting:15\;MGAB:Effi
+cient:13\;LDF:Partitionbased:13\;RW:Harry:16\;SWR:Scalable:13\;MEo:Fie
+ld:96\;RLM:Efficient:06\;SRR:Large:07\;MSC.EA:Distributed:13\;RBK:Appr
+oximate:08\;;
 1 ExplicitGroup:Address\;0\;Abb:Information:05\;KKG.EA:Address:11\;Gol
 :Geocoding:08\;.EA:International:\;.EA:OASIS:\;Uni:Birkbeck:\;CCWo:pro
 babilistic:04\;GZG.EA:Address:09\;;
+1 ExplicitGroup:Maschine Learning\;0\;BLB.EA:API:13\;PVG.EA:Scikitlear
+n:11\;;
 }
 
