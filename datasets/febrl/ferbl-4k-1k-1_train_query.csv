@@ -1,0 +1,836 @@
+rec_id,rec2_id,culture,sex,age,date_of_birth,title,given_name,surname,state,suburb,postcode,street_number,address_1,address_2,phone_number,soc_sec_id,blocking_number,family_role
+rec-2608-dup-0,rec-2775-org,ara,d,25,19910026,ms,brodee,mansurah,,lismofe,3079,4,northbourre avenue,,03 94983306,4377294,1,NoRole
+rec-272-org,rec-3688-org,eng,f,31,19850604,,matisse,lusk,vic,beaufort,4120,11,taylor street,,8 43837492,7916207,1,NoRole
+rec-1761-org,rec-851-org,pol,f,8,20080119,,jayden,bujak,sa,biggs flat,6147,52,wheeler crescent,,7 26579300,3749410,2,NoRole
+rec-843-dup-0,rec-441-org,chi,c,63,19800305,,conner,tsou,sa,clayon,2259,,wilkie place,,07 68500322,8981272,4,NoRole
+rec-571-org,rec-835-org,usa,f,21,19950307,mr,joshua,conley,nsw,glenning valley,2220,33,upton street,,02 69616396,3392086,3,NoRole
+rec-1538-dup-0,rec-3351-org,chi,,,19861123,,dillon,sztu,qld,st kilda,2784,7,musgrave street,,07 53771058,9562389,7,NoRole
+rec-3769-org,rec-711-org,ina,f,33,19830522,ms,kylee,tjandra,vic,meredith,3150,5,hinkler street,alpine vineyards,618 02370289,6898745,7,NoRole
+rec-3285-org,rec-1380-org,ind,f,,19801214,,isabella,kaknani,qld,ross river,6062,,kellway street,yellow dam,613 92347961,8616241,9,NoRole
+rec-544-org,rec-3646-org,ser,f,24,19920326,,ebony,batez,wa,howick,5244,6,wallace place,girrahween homestead,08 81882036,3891666,2,NoRole
+rec-3749-org,rec-1071-org,eng,f,29,19870216,ms,logan,,,parkerville,2207,9,chauvel street,,08 78806127,8660916,1,NoRole
+rec-559-org,rec-1795-org,eng,m,9,20070824,ms,brooke,moors,nsw,bungendore,2042,206,yelland place,hd curramulka,,3510772,2,NoRole
+rec-1984-org,rec-403-org,eng,f,34,19820603,ms,delaney,royston,qld,crediton,4077,86,northbourne flats,sec 375,613 24278102,7030611,6,NoRole
+rec-1097-dup-0,rec-3266-org,unk,,37,,,charlotte,,vif,dovrton,6196,15,arabanoo crscent,,618 53876671,8477258,0,NoRole
+rec-772-org,rec-507-org,ira,f,34,19820409,,sarah,kia,act,downer,4865,15,,villa 184,612 28130938,2344090,5,NoRole
+rec-1036-org,rec-496-org,fin,f,28,19880410,,jacob,sallinen,nsw,durras north,2122,8,thornton place,parklands estate,612 98020578,3933499,9,NoRole
+rec-3296-dup-0,rec-2303-org,usa,,34,19830522,,renai,kennegy,qld,thinoomba,3579,27,marston place,,613 10536793,4277781,3,NoRole
+rec-586-org,rec-223-org,usa,,29,19870715,ms,riley,weeks,qld,university of queensland,4650,,cockerill place,,03 84249990,8978430,3,NoRole
+rec-3883-org,rec-3864-org,usa,,31,19850531,mr,ned,ortega,sa,burnside,2099,11,weir place,,02 88530957,1593728,0,NoRole
+rec-3258-org,rec-2647-org,usa,f,35,19810528,ms,blake,whitney,nsw,east ryde,3412,422,newdegate street,,04 68666972,1373156,3,NoRole
+rec-2762-org,rec-3540-org,ind,f,22,19940429,dr,isabella,cheema,wa,scott river,7018,40,lowanna street,,618 91531509,8049862,7,NoRole
+rec-760-dup-0,rec-3269-org,eng,l,33,19830119,,isablele,bourke,vic,dixons creek,2086,10,crescent haystack,little shalford,618 87795652,8975771,0,NoRole
+rec-929-org,rec-1629-org,unk,f,27,19891018,ms,tiarna,,,st peters,4350,51,ragless circuit,,03 82825684,8709935,5,NoRole
+rec-2241-org,rec-2696-org,usa,f,30,19861027,ms,jacob,trujillo,wa,piccadilly,4101,139,rowntree crescent,billilla,8 39012980,6792619,1,NoRole
+rec-151-dup-0,rec-3857-org,afg,,37,19709406,hon,jade,s ayed,,snowtown,3500,100,darley pkace,,07 86419005,8658012,1,NoRole
+rec-3255-org,rec-712-org,eng,f,8,,,joshua,becket,vic,beaufort,6330,121,teague street,,618 85639393,8339253,8,NoRole
+rec-2017-org,rec-956-org,eng,f,20,19960201,ms,joshua,huxtable,qld,eromanga,2540,1,wagga street,kendor,03 72449294,8423929,6,NoRole
+rec-2029-org,rec-190-org,chi,,29,19871030,rev,kiarnee,fung,tas,stoodley,2430,857,chaffey crescent,,07 89472379,2068018,6,NoRole
+rec-2337-dup-0,rec-1437-org,ara,f,31,19850518,dr,charle,mersiha,,guha,2233,3,lachlan street,,08 57618958,8181841,0,NoRole
+rec-2253-org,rec-822-org,ind,,22,19940528,,koula,viresh,nsw,french park,2340,175,boddington crescent,,2 42457469,4604556,2,NoRole
+rec-3868-org,rec-3856-org,usa,f,36,19800126,,mikayla,maynard,sa,beaumont,3934,47,roughsey place,,07 37254601,4991089,9,NoRole
+rec-5-org,rec-1368-org,usa,f,8,20080222,,tegan,small,nsw,turramurra,3101,92,jarvis place,,612 26056886,9096423,4,NoRole
+rec-2219-dup-0,rec-3877-org,sri,,,19970906,,briley,berry,nsw,bombla,2049,45,gillies street,,2 03528454,8626946,4,NoRole
+rec-2785-org,rec-2337-org,chi,f,24,19920603,ms,william,tien,,nambour,4163,42,smalley circuit,,07 77346379,7712366,4,NoRole
+rec-214-dup-0,rec-1328-org,afg,f,32,19846006,,melmnie,kasi,nsw,jackadgery,3185,849,beasly street,,2 22780099,1270235,0,NoRole
+rec-829-dup-0,rec-2981-org,eng,n,11,20050810,,roie,lukeson,nsw,nansn,2011,30,buller icrescent,,8 51520945,9753339,4,NoRole
+rec-3463-org,rec-2241-org,eng,f,19,19970324,hon,ky,ryeley,sa,paradise,2620,11,bean crescent,,,1798153,0,NoRole
+rec-3442-dup-0,rec-2107-org,eng,,28,19880906,,milford,jean-claude,ws,stratton,5161,15,mcvillysclose,,08 52259453,5995494,0,NoRole
+rec-2475-org,rec-368-org,eng,m,,19340512,mr,alisha,jacobsen,nsw,girilambone,2046,22,mccormack street,bridgewater estate,2 86414386,1674548,2,NoRole
+rec-3654-org,rec-1713-org,unk,f,31,,,mia,scottjackson,nsw,kogarah,6062,3,simpson street,alanvale,612 96261836,2617505,4,NoRole
+rec-1687-org,rec-2661-org,chi,f,13,20030523,,carla,koh,vic,quantong,4342,106,carrington road,,8 91061620,5607388,2,NoRole
+rec-2284-dup-0,rec-1957-org,ara,,,19071005,,toby,qiyyama,sa,pennington,5500,62,perryjdrive,,617 35953142,7690656,3,NoRole
+rec-2291-org,rec-3528-org,eng,,19,19970807,,dylan,christians,vic,wyndham vale,3047,503,mccann street,palm lake resort,618 65862425,7175314,2,NoRole
+rec-3364-dup-0,rec-1088-org,chi,t,27,19880604,dr,erin,zhang,qld,banksia beach,0822,32,heagney drescent,,3 01703187,5239623,8,NoRole
+rec-2686-org,rec-256-org,eng,,27,19890121,,joshua,christianson,nsw,geneva,4380,23,barrow place,redwood village,612 71026528,3052261,9,NoRole
+rec-3091-org,rec-2916-org,usa,f,27,19890312,,caleb,cox,qld,monkland,6062,80,bindaga street,,,7248212,4,NoRole
+rec-1197-dup-0,rec-1260-org,unk,f,30,19561130,,jeremiah,strehovski,nsw,athol npark,2100,33,gorrie cose,,08 00641259,9834014,3,NoRole
+rec-3568-org,rec-1477-org,chi,f,21,19950430,,lucy,szma,nsw,lostock,4118,10,perrin circuit,whitsun,02 12009203,5682068,2,NoRole
+rec-1471-dup-0,rec-2913-org,pol,,31,19850430,,jaime,brezinska,act,dickson,3146,182,mccoll sgreet,,612 57307676,4747332,9,NoRole
+rec-663-org,rec-1561-org,cze,f,25,19910504,,jeremiah,hanzelko,nsw,burraneer,6450,6,sid barnes crescent,rosetta village,02 39475567,3883686,3,NoRole
+rec-3254-org,rec-2212-org,cze,f,30,,dr,dean,lescak,qld,greenwood,3939,402,badenoch crescent,,03 54829090,2403076,5,NoRole
+rec-795-dup-0,rec-3788-org,nor,c,33,19830008,mr,bennie,leonardsson,nsw,winston hills,4077,42,bennetyts close,,02 74275961,1947321,2,NoRole
+rec-3980-org,rec-946-org,eng,f,,19570711,mr,billy,victorson,nsw,edderton,2141,40,conlon crescent,,02 07907790,5503506,8,NoRole
+rec-1369-dup-0,rec-3787-org,spa,,26,,,jck,mcqualtei,,hasti ngs,2222,53,murdoch atreet,,02 34941272,8700676,4,NoRole
+rec-2741-org,rec-1188-org,usa,f,25,19910409,ms,quinn,copeland,nsw,macksville,3150,1,,,03 78081783,1521196,2,NoRole
+rec-1342-dup-0,rec-1640-org,ina,m,17,,,joshu,kurniawan,qld,mountpeter,2346,48,ina gregoey circuit,,613 29878655,9970785,1,NoRole
+rec-2118-org,rec-314-org,eng,f,28,19880115,,lochlan,,qld,motley,3175,7,maitland street,,3 67545129,9925661,8,NoRole
+rec-2000-org,rec-3764-org,eng,f,,19280414,hon,harrison,badcocke,qld,haden,3672,86,winter street,rosegrove,613 54758585,7226396,7,NoRole
+rec-1364-dup-0,rec-3628-org,usa,,33,19830321,dr,patrick,johhson,tas,gry,7015,34,withnell circuit,,04 53154731,9875215,0,NoRole
+rec-940-org,rec-1986-org,ind,,24,19920319,,joel,sanjukta,nsw,stannifer,2145,26,lawley street,,02 92407904,3952010,1,NoRole
+rec-3276-dup-0,rec-3830-org,unk,f,,19260823,,kristen,aa ni,qld,woocoo,2284,1740,manity court,bowillia court,04 10516653,9427819,1,NoRole
+rec-1780-dup-0,rec-456-org,ser,f,38,19820401,,mikayla,buzolic,ss,paracombe,5107,19,creswellpstreet,,07 83979627,8985508,2,NoRole
+rec-9-org,rec-2964-org,unk,f,29,19870309,,nathan,sckel,nsw,comboyne,2041,12,callabonna street,,02 15608190,9833241,5,NoRole
+rec-3492-dup-0,rec-1258-org,eng,f,,19320107,,courfney,rkgby,nsw,allambie,4112,26,angophora ostreet,,2 50752195,5533525,9,NoRole
+rec-2287-org,rec-3178-org,eng,f,31,19850214,mr,david,hawking,nsw,arundel,2304,86,,mt moornambool,612 94232927,6192237,2,NoRole
+rec-2868-org,rec-991-org,unk,f,8,20081004,,ashlee,scogin,,coolbellup,6076,3,mirrool street,,04 61670409,1642400,2,NoRole
+rec-296-dup-0,rec-194-org,eng,g,32,19840127,,casssndra,witherspoon,,cawino,3035,126,,,08 03684908,8989322,7,NoRole
+rec-1705-org,rec-2911-org,usa,f,29,19870613,,jayden,herring,vic,mangalore,3739,19,northcott drive,,,6505833,4,NoRole
+rec-3332-dup-0,rec-2027-org,eng,,8,20030218,ms,eboni,davson,tas,goulds c ountry,6210,3,stephen street,,02 70873281,2801164,1,NoRole
+rec-766-dup-0,rec-2639-org,usa,f,30,19880903,ms,hickman,lachlan,nsw,fingal bay,6076,761,hicks street,,03 21446191,6412805,3,NoRole
+rec-352-org,rec-3883-org,rus,m,11,20051227,,alex,tsibliyev,nsw,bexley,2156,55,baracchi crescent,gillin park,02 40499751,9211150,3,NoRole
+rec-2699-dup-0,rec-2213-org,eng,,30,19861014,,lily,snydtrs,qld,woody pint,3219,33,unt 2,oliver street,3 88885905,1243122,0,NoRole
+rec-3253-org,rec-3355-org,eng,,41,19750602,dr,jake,davison,vic,exmouth,3216,46,monaro crescent,anzac house (cnr archer s street,08 53287873,3923763,1,NoRole
+rec-2264-dup-0,rec-1030-org,unk,f,,19247026,,alexandra,scogin,nsc,edgeroi,2011,11,alexandraestreet,,2 96269659,6180947,7,NoRole
+rec-614-org,rec-3208-org,eng,f,31,19850817,ms,daniel,alvey,wa,ord river,3053,203,mayne street,minora cotge,02 92286698,1345664,3,NoRole
+rec-1157-org,rec-3934-org,ger,f,27,19890119,,joshua,hafner,,roleystone,2486,243,poynton street,,07 45899792,8458934,1,NoRole
+rec-3402-dup-0,rec-3752-org,usa,,25,19910820,mr,talia,holman,tas,elliott,2770,185,dennisestreet,,617 97630836,1737221,6,NoRole
+rec-1207-org,rec-435-org,chi,,30,19860318,dr,william,fung,vic,glengarry,3199,35,middleton circuit,,07 50016292,9693632,1,NoRole
+rec-89-dup-0,rec-3249-org,eng,m,27,19890818,,ewan,vipnd,vic,kotupja,2075,29,,,03 90651338,8420051,4,NoRole
+rec-255-dup-0,rec-2235-org,unk,,27,19800728,,owen,strangef,nsw,brewarrina,6530,4,kenny olace,,02 22454205,1888213,0,NoRole
+rec-589-org,rec-165-org,unk,m,31,19850510,,polly,aaberg,nsw,hamilton north,3187,43,maddock place,,2 96170699,7709923,6,NoRole
+rec-1966-org,rec-2222-org,chi,f,9,20071101,ms,lauren,tai,nsw,kangaroo creek,2190,12,fullerton crescent,,,6532667,2,NoRole
+rec-567-dup-0,rec-622-org,eng,f,37,19910710,,ruby,tollemache,vic,wanniassa,2021,14,florey frive,,2 95746046,8716462,1,NoRole
+rec-212-org,rec-139-org,pol,f,26,19900814,,makayla,brzezinski,nsw,carlingford,4702,10,marungal avenue,,612 81707934,2368295,8,NoRole
+rec-364-dup-0,rec-217-org,unk,f,30,19860730,,thoams,abatx,qld,berowratheights,4300,1,kosciusko avenue,,03 11967266,8068360,0,NoRole
+rec-3893-org,rec-3956-org,afr,f,,19100926,,harrison,plessis,sa,longwood,2026,12,alderman street,,7 22927178,4751606,5,NoRole
+rec-2140-dup-0,rec-773-org,ina,,13,20030504,,lachkan,siregar,acr,griffith,4580,1104,grace place,,612 83774405,7579894,6,NoRole
+rec-246-org,rec-1125-org,ser,f,40,19760710,ms,imogen,buzolic,vic,woronora,4216,63,jane price crescent,st john of god hospital,8 67419610,7216153,7,NoRole
+rec-2632-org,rec-3506-org,usa,f,,,,madalyn,dickerson,nsw,frankston,5171,4,sherwood circuit,,02 43987042,3229819,6,NoRole
+rec-3651-org,rec-222-org,usa,m,29,19870809,ms,samantha,cooke,nsw,dinoga,6210,3,symers street,,02 23248723,3643947,0,NoRole
+rec-1176-dup-0,rec-210-org,ger,f,9,,,jessica,kettenacker,vic,merlyston,6056,140,ratcliffe erescent,,02 04469872,6885031,5,NoRole
+rec-1047-org,rec-2797-org,eng,f,13,20030521,,madeline,hodson,nsw,garra,2228,68,couvreur street,mt pleasant,2 99155141,1247155,6,NoRole
+rec-2984-org,rec-3196-org,unk,f,,19331118,,sophie,aballon,wa,sorrento,2612,7,levien street,,618 05810800,1060871,6,NoRole
+rec-1940-dup-0,rec-2568-org,wel,f,38,19780531,,ameila,roch,nss,bull creek,3120,34,goudie place,village rosetta,612 01606559,6803461,2,NoRole
+rec-856-org,rec-1696-org,eng,,,19080730,,abby,leonardson,,leichhardt,4220,75,maynard street,,04 58895279,6917715,6,NoRole
+rec-2957-dup-0,rec-656-org,unk,,22,19940807,ms,strainij,william,nsq,north strathfield,2357,30,poynton street,,2 82148945,9970938,7,NoRole
+rec-3575-org,rec-974-org,usa,f,19,19971111,dr,michaela,gilliam,wa,eneabba,6107,16,dumaresq street,,07 55499190,8699132,2,NoRole
+rec-1266-dup-0,rec-1947-org,ser,v,9,19880617,,stella,badurina,,sunshine beach,6028,16,mcnicoll btreet,,03 45333383,5472433,2,NoRole
+rec-773-dup-0,rec-818-org,usa,d,,19340108,,blade,madden,,alice springs,3812,6,goodparla dtreet,,,4691341,9,NoRole
+rec-1104-org,rec-1937-org,ara,,,19290414,mr,briony,reyhana,nsw,port botany,3175,34,jefferis street,eldamead,,8148025,0,NoRole
+rec-837-org,rec-2418-org,eng,,21,19950309,,joshua,wyndham,vic,wy yung,6431,35,luehmann street,,618 97633004,3760271,4,NoRole
+rec-1985-org,rec-1476-org,wel,f,27,,ms,bayley,abethell,nsw,barrengarry,2539,10,kitchener street,,2 76604003,3878929,6,NoRole
+rec-2038-dup-0,rec-1283-org,usa,d,22,19940514,ms,keekey,holland,nsw,tregeagle,5071,0,westgarthystreet,rosetta village,02 06149598,9523593,9,NoRole
+rec-2636-org,rec-2628-org,ser,m,,,dr,daniel,ceh,,turner,3220,33,weetman place,southern wood,08 30583890,9764063,9,NoRole
+rec-988-dup-0,rec-1129-org,,f,63,19800530,ms,brigette,turale,nsw,horsey,3002,1,dolling crescent,gumview,02 56394904,1467617,6,NoRole
+rec-617-org,rec-3179-org,ina,f,8,20080719,,tahni,iskandar,nsw,south pambula,3034,45,ballumbir street,foxground,612 51435774,9706497,0,NoRole
+rec-1267-org,rec-71-org,eng,f,27,19891217,,sebastian,hollands,vic,waaia,4455,40,keira street,,618 44634032,6520342,0,NoRole
+rec-3089-dup-0,rec-2479-org,usa,e,25,19910600,,samuel,rios,nsw,mckeess hill,3531,356,lexcen avenue,,02 35106168,8851409,6,NoRole
+rec-3635-dup-0,rec-1568-org,chi,d,33,19830620,,dylan,lopavn,,hawthorn,3850,379,currie crescent,,07 58078219,8727194,3,NoRole
+rec-1133-org,rec-966-org,ger,f,22,19940921,dr,isabella,segel,nsw,liverpool south,4558,37,macpherson street,warrawong,612 39282804,7726367,5,NoRole
+rec-3441-dup-0,rec-3754-org,chi,m,33,19830423,,mil,,nsw,mossy opint,3051,64,crozier circuit,,612 81474959,6215578,5,NoRole
+rec-2892-org,rec-2689-org,unk,f,30,19860529,,lucas,abbetmeyer,nsw,punchbowl,4012,95,lycett street,,02 68792572,8935579,8,NoRole
+rec-3503-dup-0,rec-3882-org,jap,,35,19810624,mr,michaeql,schuster,vic,ardmona,2211,51,wheelwrightcrescent,,,3264328,8,NoRole
+rec-3386-org,rec-1875-org,ser,f,,19440917,,lara,delic,nsw,tahmoor,5087,195,mackellar crescent,the park,2 87077756,5525380,6,NoRole
+rec-873-org,rec-1284-org,chi,m,30,19861005,ms,quinn,chan,nsw,coila,3040,29,marungal avenue,,2 43296344,4557825,9,NoRole
+rec-1316-org,rec-2723-org,ara,,39,,,mitchell,tamanna,tas,lackrana,3073,1,gouger street,,617 74147784,4636207,7,NoRole
+rec-1303-dup-0,rec-2654-org,eng,q,30,,pfc,tiana,hambleton,sw,auburn,2022,,rubbo crscent,mount beevor,617 39323586,9948697,0,NoRole
+rec-1023-dup-0,rec-1994-org,tha,,,19930902,,abbey,,vic,gruere,2132,32,ingram steet,,08 85239258,3355472,0,NoRole
+rec-699-org,rec-3090-org,usa,f,22,19940623,ms,jack,copeland,vic,drummond,6168,89,dandenong court,,08 71499331,2066137,1,NoRole
+rec-3344-dup-0,rec-1656-org,usa,,34,19820102,,lindsey,thomas,vic,timbhon,3183,198,forde place,,618 96677861,3625174,7,NoRole
+rec-383-dup-0,rec-3663-org,chi,,7,,,sam,ying,sa,glenmaggie,2446,14,jones olace,,618 27365030,3469209,3,NoRole
+rec-3966-org,rec-2026-org,chi,f,25,19910824,,tyrone,pak,nsw,grafton,3074,28,teague street,,02 86487971,4705730,4,NoRole
+rec-3115-dup-0,rec-3784-org,unk,f,35,19820820,,darcy,aanu,qld,brovinia,2009,3,derrington crescent,,613 92997055,9440752,4,NoRole
+rec-3716-org,rec-1206-org,usa,f,12,20040526,,james,valencia,,kilsyth,4157,167,warrumbul street,clear creek,08 65265186,5247061,5,NoRole
+rec-23-org,rec-423-org,usa,f,32,19840905,mr,michael,hebert,nsw,greendale,4014,20,oxley street,,2 50757154,8994239,1,NoRole
+rec-389-org,rec-2433-org,chi,f,21,19950228,,katelyn,kuo,vic,glenrowan,2515,8,honyong crescent,,8 13497477,5550430,7,NoRole
+rec-3815-org,rec-2852-org,eng,f,26,19900803,,harriet,senior,nsw,baryulgil,3149,13,tompsitt court,telebang station,2 54220836,1607212,5,NoRole
+rec-2802-org,rec-2412-org,rus,,27,19890606,mr,juliana,andrukhovych,qld,north maclagan,5016,5,callaghan street,,3 66773972,3313009,3,NoRole
+rec-2703-dup-0,rec-2990-org,tur,f,,,,georgia,tatlises,vic,whitield,3060,19,newcastler street,,08 09604367,3275176,6,NoRole
+rec-789-org,rec-2761-org,usa,f,32,19840424,mr,ryan,chan,vic,upwey,2261,16,hewlett circuit,,8 01775702,8299544,0,NoRole
+rec-1417-org,rec-3191-org,ara,,32,19840605,,paige,zaheen,nsw,woongarrah,4172,22,alda place,berkeley village,2 43293690,6608909,6,NoRole
+rec-3751-dup-0,rec-2545-org,ind,,26,19900511,,brodwe,nambiar,wa,nippeqring,2500,5,hinkler ftreet,,618 23555175,5456852,6,NoRole
+rec-2797-org,rec-445-org,chi,m,19,19970902,,joshua,chyu,vic,granya,2035,99,cuscaden crescent,,08 56970676,6473171,9,NoRole
+rec-654-org,rec-3737-org,usa,f,,19530517,,claudia,mcpherson,wa,badgebup,3550,21,blakey close,,08 88046137,2834190,8,NoRole
+rec-1421-dup-0,rec-1999-org,eng,f,7,20090210,ms,eloise,christoeher,qld,thallon,4140,4,lanley sauare,,07 96835935,2726074,5,NoRole
+rec-2224-org,rec-1991-org,pak,f,32,19840713,pfc,stephanie,ushtarani,nsw,swansea,2905,14,du faur street,,2 08186009,5982212,6,NoRole
+rec-3747-org,rec-200-org,usa,m,,,,talia,rivas,nsw,freemantle,2845,40,canopus crescent,ridge-e-didge,03 73527549,7896690,1,NoRole
+rec-2055-dup-0,rec-3185-org,ger,g,38,,ms,jacskon,simmendinger,qld,amberley raaf,3810,24,vidal place,dutch care hostel,613 54574075,7565991,8,NoRole
+rec-3877-org,rec-2905-org,ser,f,26,19900104,pfc,gabrielle,hovat,wa,murdong,4118,27,gruner street,henry kendall hostel,618 94109605,4841228,3,NoRole
+rec-2817-org,rec-1372-org,unk,f,33,19830604,hon,liam,strawbridge,nsw,frederickton,2148,20,skinner street,,,4717983,0,NoRole
+rec-189-org,rec-1826-org,eng,f,29,19870324,ms,thomas,akers,qld,lamington national park,2065,50,gurrang avenue,,3 97573929,3179165,4,NoRole
+rec-393-org,rec-2855-org,ind,f,,19430514,,thomas,gutala,wa,murdong,7320,26,tanderra crescent,tinnaroo falls,8 88638599,1878412,8,NoRole
+rec-2749-org,rec-3314-org,unk,,30,19860911,,mia,strampher,wa,boddington,3068,1,mcgill street,never-never lodge,8 46777420,3438749,5,NoRole
+rec-1334-dup-0,rec-846-org,ind,f,57,19890526,,gracn,swady,,turnet,2736,39,titheradge place,,03 73714721,4769190,6,NoRole
+rec-1395-org,rec-2747-org,unk,f,20,19961217,ms,aleisha,aakre,,brunswick west,2026,20,fred lane crescent,mount patrick,03 27460257,7939377,2,NoRole
+rec-3673-dup-0,rec-2016-org,eng,f,,19890513,,kobe,royston,nws,killarney vale,6110,68,mccool plade,,2 27911273,8094355,8,NoRole
+rec-2839-dup-0,rec-1699-org,eng,f,,19749622,,booner,zachary,,mount buffalo,4567,124,forbes street,,8 62509668,2821909,1,NoRole
+rec-1723-org,rec-3336-org,chi,,,19080901,,charlotte,mah,wa,ludlow,3044,23,jansz crescent,,08 97485443,6614580,1,NoRole
+rec-2544-org,rec-1610-org,tur,f,32,19840528,mr,sophie,orhan,,rowville,6162,8,watson street,,04 89233591,9652542,6,NoRole
+rec-2692-org,rec-1023-org,cze,,,19810826,,mathilde,rab,nsw,lostock,4179,28,templeton street,garden settlement,612 98105693,2225650,7,NoRole
+rec-2558-org,rec-1661-org,ger,f,30,19860805,ms,larissa,marx,nsw,doyalson,2350,4,britten-jones drive,ferncliff,02 18417610,6909075,7,NoRole
+rec-1746-org,rec-1105-org,chi,m,21,19950622,,madeline,lee,vic,rowville,4370,26,dulverton street,,08 53524871,8826711,3,NoRole
+rec-3744-dup-0,rec-1138-org,eng,f,21,19870308,ms,cassakndra,merchant,nsw,angatson,3550,29,wilkins street,,2 77483579,5447242,7,NoRole
+rec-3264-dup-0,rec-3647-org,usa,f,11,20051110,ms,jamrs,daniels,nsw,wiltoj,4702,7,nemarangcrescent,,2 84628401,4481947,1,NoRole
+rec-3299-org,rec-3066-org,eng,f,3,20131001,,kaitlin,smythe,vic,musk,2488,1,baracchi crescent,karingal age hostel,618 24403273,3385278,1,NoRole
+rec-1138-org,rec-3527-org,usa,f,33,19830131,,oliver,nunez,vic,traralgon,4870,7,bertel crescent,,618 22311557,1120890,3,NoRole
+rec-499-org,rec-3538-org,usa,f,30,,ms,maconal,cardenas,nsw,stanmore,4870,1,smith street,,2 67436394,7292457,9,NoRole
+rec-1977-org,rec-3235-org,unk,f,29,19870713,,patrick,strampher,,somerton park,2870,6,duffy street,,08 90918101,8999038,4,NoRole
+rec-2973-dup-0,rec-180-org,fin,f,,19811003,,luke,kauppinen,qld,bongedn,2722,2,halligwn place,,,5636708,0,NoRole
+rec-1646-org,rec-3995-org,usa,f,27,19891226,,charlie,witt,vic,box hill south,5019,17,gouger street,,8 70514924,6697051,5,NoRole
+rec-646-dup-0,rec-1834-org,ger,f,,19480227,,ruben,hinejze,vic,tanjil south,2428,21,geebungmplace,,03 89922600,6555245,8,NoRole
+rec-2023-org,rec-915-org,usa,,33,19831011,dr,bayley,chavez,,queenscliff,4305,49,elimatta street,,04 56222380,5779111,4,NoRole
+rec-357-dup-0,rec-360-org,dan,,7,20090429,,sebaztian,billes,qld,bargara,3555,48,dartnel lstreet,,,9366829,2,NoRole
+rec-2862-dup-0,rec-3060-org,unk,f,34,,,ethan,aarts,tas,ellensale,0810,0,dalleycrescent,,07 04349783,4985700,0,NoRole
+rec-585-dup-0,rec-3763-org,ina,f,41,19750329,,,setiawn,nsw,clarence point,6106,4,marlockjstreet,,2 48061571,6208307,0,NoRole
+rec-3282-org,rec-3382-org,ser,f,28,19881022,,elana,rebaca,vic,swan hill,2603,19,herington street,,618 42832558,2211751,7,NoRole
+rec-2418-dup-0,rec-999-org,usa,k,,19000305,,samuel,irqin,wa,esperance,2617,19,gilmore crsecent,homestead caravn park,8 70505991,2807017,3,NoRole
+rec-1530-org,rec-814-org,ind,f,33,19830415,,annabelle,manyam,tas,brooklyn,3150,1849,de smet place,station homestead,7 26190972,4297872,9,NoRole
+rec-2791-dup-0,rec-1246-org,tur,f,92,19871122,m,jasper,ioeki,sa,port hjghes,3107,19,,pebbly beach,7 91329242,1930044,3,NoRole
+rec-1339-org,rec-3495-org,ser,f,27,19890916,,nathan,tadej,nsw,kingsgrove,2205,11,threlfall street,summervale,612 90372688,9601423,5,NoRole
+rec-124-org,rec-1949-org,ser,f,40,19760222,,hannah,mecava,qld,glen eden,4118,48,newman morris circuit,,02 50537417,3369642,9,NoRole
+rec-494-dup-0,rec-2941-org,ser,f,34,19820104,,rawlev,reuben,nss,bundabah,2620,30,paloona place,,612 96940769,7735342,9,NoRole
+rec-1338-org,rec-2371-org,eng,f,20,19960901,,katie,danielson,vic,areegra,2829,17,hawkesbury crescent,vanorluc rmb 4050,04 61678615,8515547,3,NoRole
+rec-2578-dup-0,rec-261-org,ita,f,,19750513,,josh,langishi,qldo,blabktown,4123,46,leven street,,3 44671357,1881402,4,NoRole
+rec-2235-org,rec-1754-org,eng,f,,19701218,,jett,walterson,qld,hastings,3075,17,jarrah street,,613 79193584,6190229,0,NoRole
+rec-116-dup-0,rec-3603-org,ind,v,30,19861096,,erin,watumal,ws,buller,6194,39,gellibrand street,three acres,618 58865655,7026640,8,NoRole
+rec-3186-org,rec-3605-org,unk,,30,19860912,,yasmin,aakre,qld,tannymorel,3111,5,forbes street,,03 26907727,6473763,4,NoRole
+rec-538-dup-0,rec-2681-org,chi,f,,19005101,,ryleh,ku,nss,lilli pqilli,5069,16,,,07 67901674,2489086,9,NoRole
+rec-1816-org,rec-487-org,ind,f,30,19860220,mr,chloe,udutha,wa,quedjinup,4352,45,cleeve place,,618 97792359,1144890,7,NoRole
+rec-2881-dup-0,rec-1868-org,eng,f,,19690131,,freay,oakey,vic,locksley,2303,10,falkine rplace,,08 32179436,1711436,6,NoRole
+rec-2088-org,rec-3520-org,,f,,,mr,brianna,browne,qld,risdon vale,2090,4,pickering street,mayo specialist medical centre cnr comme,03 32429742,3180939,7,NoRole
+rec-2732-dup-0,rec-490-org,dan,,,19911105,,christiaan,colding,nsw,brisane,2066,26,bugden avenue,electoratd office,02 59086655,6821779,9,NoRole
+rec-991-org,rec-1969-org,eng,,33,19830520,,savannah,rutherford,wa,cloverdale,2251,22,knoke avenue,,08 58760299,3021377,5,NoRole
+rec-35-dup-0,rec-2207-org,dut,f,29,19880906,,emiily,maase,,lower templsstowe,3182,9,van pelt plce,,,1761521,0,NoRole
+rec-3055-dup-0,rec-3718-org,chi,f,52,19910914,,james,sheh,nss,mimto,2251,12,dyurrarplace,,02 24842981,4977688,1,NoRole
+rec-3819-org,rec-3908-org,eng,,,19411102,,flynn,winfield,qld,flametree,2110,18,dowling street,rubern cottage,03 64116686,6435973,4,NoRole
+rec-3534-dup-0,rec-2365-org,unk,,31,19850214,,madisno,straw,vxic,narre warreb north,6230,25,rivettvstreet,,08 51329081,7050786,9,NoRole
+rec-113-org,rec-3944-org,chi,f,,19850411,,tommy,kat,nsw,windella,7264,1,messenger street,,612 38155350,3729685,3,NoRole
+rec-350-dup-0,rec-1685-org,ina,m,13,20030327,mr,claydia,iskandat,nsw,crookwell,2263,11,campbell street,,,9153701,7,NoRole
+rec-398-org,rec-408-org,,f,37,19790924,dr,keeley,krige,qld,,3072,51,annan close,,613 62376247,3968301,3,NoRole
+rec-831-org,rec-568-org,usa,,9,20071102,,tara,cannon,sa,balaklava,5047,469,chillagoe street,,617 96946741,5975117,1,NoRole
+rec-2173-org,rec-135-org,unk,f,9,20071217,,connor,aani,qld,cheepie,6258,45,weavers crescent,bellsbrook,3 93637659,2050294,5,NoRole
+rec-2515-dup-0,rec-2987-org,chi,,33,,,petre,kno,,cranbourne,3089,155,newman morris circuit,,03 18270932,8522482,5,NoRole
+rec-880-org,rec-1885-org,vie,,34,19820323,,keahley,trannhu,vic,corack,2650,23,florina place,,618 67150630,7207875,6,NoRole
+rec-1318-org,rec-1782-org,pak,f,29,19870721,,samuel,arain,nsw,kincumber,3076,1,harbison crescent,,02 80446576,3855823,3,NoRole
+rec-3860-dup-0,rec-7-org,eng,f,29,19930706,mr,alexander,dick,nsw,jingellic,4537,54,,berkeley vlge,04 58570885,9781685,9,NoRole
+rec-3910-dup-0,rec-2002-org,eng,,52,19916006,dr,matthew,victof,vic,rathscar,2217,15,pocket avenue,,08 78121740,3428124,9,NoRole
+rec-1253-org,rec-1225-org,eng,f,,19750619,,chelsea,newell,qld,eungella,2034,63,knox street,,3 51079214,7613331,7,NoRole
+rec-3033-org,rec-106-org,wel,m,32,19840419,,sebastian,gwyther,tas,apsley,3078,33,brookman street,,07 10617632,9533432,2,NoRole
+rec-1260-dup-0,rec-3360-org,eng,f,18,19790606,,lewis,normanson,nsw,galong,3041,321,wisdom street,,2 66420466,8633389,6,NoRole
+rec-1767-org,rec-3287-org,ger,,33,19830413,,amber,grogloth,qld,rowville,2223,11,buvelot street,,3 86330466,8829656,6,NoRole
+rec-341-dup-0,rec-3518-org,usa,f,23,19930613,,alek,lan,tas,somerset,3101,7,clift cfescent,westpot,617 72607476,4142685,6,NoRole
+rec-3217-org,rec-3539-org,ind,f,36,,,bryce,,qld,purrawunda,2112,86,boyce place,,613 17490770,4680711,7,NoRole
+rec-2805-dup-0,rec-1038-org,usa,m,,19220823,ms,cheyenne,tillmapn,nhw,lawrence,3770,2,,,612 38350666,5724455,8,NoRole
+rec-811-org,rec-1992-org,eng,,22,19940604,,vanessa,vipond,qld,goowarra,4350,68,ipima street,,03 55110886,4056771,3,NoRole
+rec-963-org,rec-3403-org,eng,f,21,19951011,,maya,kevinson,wa,maitland,4215,34,wanganeen avenue,dunbar,08 19579093,3078977,3,NoRole
+rec-1808-dup-0,rec-3724-org,eng,f,28,19880116,,jame,nathans,nsw,lismroe,2149,574,bredbocclose,,02 41549877,9068880,6,NoRole
+rec-899-org,rec-2265-org,chi,f,29,19870314,mr,phillip,leong,nsw,north ryde,2870,2,gipps street,,02 75017163,7355351,4,NoRole
+rec-634-org,rec-2743-org,chi,f,33,19830730,,samuel,lwo,,college park,5084,31,giliruk crescent,kincumber nautical vlge,04 82112233,1937322,7,NoRole
+rec-2234-dup-0,rec-2211-org,usa,v,,19150610,,michzel,bladk,wa,booralaming,4050,41,blackwell xircuit,,8 29166860,9767077,1,NoRole
+rec-3360-org,rec-2399-org,jap,,33,19830817,ms,trent,,wa,perenjori,4300,55,rumker place,,,2389971,0,NoRole
+rec-2504-dup-0,rec-3805-org,chi,f,,19830330,pfc,kane,kann,,ringwood,2449,12,somersei street,avonlea park rmb 4045,04 28830334,7192867,7,NoRole
+rec-2723-org,rec-908-org,eng,f,33,19831107,ms,noah,adamson,,tea tree gully,2088,23,torrens street,rsm 849,02 43303697,8441246,5,NoRole
+rec-1836-org,rec-3963-org,eng,m,20,19960202,mr,holly,,wa,chidlow,3137,83,weavell place,stoney creek,618 97045178,9305472,0,NoRole
+rec-2207-dup-0,rec-187-org,chi,f,35,,,hsi,joshua,ns,hollydeen,2151,21,darby street,,612 72391702,8858876,0,NoRole
+rec-3584-org,rec-2866-org,ara,f,25,19910504,,sam,naveen,qld,maroochydore,6304,104,blamey crescent,,613 51667773,2415930,2,NoRole
+rec-3695-dup-0,rec-331-org,ger,f,,,,samel,blenker,qldv,lower cowley,2500,33,abercorn crescent,,613 18726693,3078517,0,NoRole
+rec-1493-org,rec-2378-org,unk,m,35,19810309,,alexander,strampher,nsw,roseville,6065,116,kirkham place,wellwood,02 88043514,3850048,4,NoRole
+rec-1630-dup-0,rec-1706-org,chi,,82,19880928,,lacey,jafg,npw,uki,3167,14,ryan street,,612 69585952,3528255,4,NoRole
+rec-2737-org,rec-3366-org,eng,m,20,19960611,,noah,cristians,wa,boyup brook,2120,229,weetman place,,618 45472987,4321753,9,NoRole
+rec-311-dup-0,rec-3094-org,unk,f,23,19880518,,hanna,streckufss,qlh,mount moqloy,5008,89,cambridge street,annecy park,613 58020668,6365940,6,NoRole
+rec-562-org,rec-3295-org,jap,f,13,20030807,ms,oliver,takasugi,nsw,mandagery,4566,24,,trapalanda,03 14892649,8195208,8,NoRole
+rec-2356-org,rec-2850-org,usa,f,23,19930629,,carly,becker,nsw,berala,4179,4,,,02 05320349,5623620,1,NoRole
+rec-336-org,rec-2755-org,ser,f,22,19940706,ms,kade,boljkovac,vic,caulfield south,2906,37,beasley street,,618 79560475,8375688,8,NoRole
+rec-1930-dup-0,rec-3585-org,eng,j,24,19921225,ms,samuel,whittemore,wa,cherry trew pool,2447,1,archibald street,,08 73974977,7182117,4,NoRole
+rec-2069-org,rec-1631-org,chi,f,34,,ms,michelle,chieh,nsw,moonbi,5015,3,roughsey place,,08 25641654,2064004,2,NoRole
+rec-2231-dup-0,rec-2393-org,usa,g,32,,dr,callum,newman,ia,preston beach,2525,11,bundeela street,inverpine retirejent village,08 59032088,4401658,1,NoRole
+rec-1536-org,rec-716-org,por,,27,19890228,,jessica,castelbranco,vic,gowangardie,3108,1,nemarang crescent,,08 59123463,1882519,1,NoRole
+rec-1545-org,rec-549-org,ser,f,37,19790204,,joshua,maretic,nsw,broken head,6232,38,sassafras place,,612 08842124,7998180,0,NoRole
+rec-3532-org,rec-685-org,jap,f,30,19860109,ms,vanessa,kurosawa,sa,mount barker,4217,17,chipperfield circuit,menora,7 55700646,7759715,2,NoRole
+rec-1513-dup-0,rec-855-org,ser,,28,19818207,ms,andre,vragovic,qld,lefthand branch,4808,340,kinleyside crescent,,3 36200640,2897420,5,NoRole
+rec-1383-dup-0,rec-1942-org,ind,,28,19880418,ms,etyan,hazar,nsw,south wesy rocks,0830,114,zox circuit,,2 81471274,1147543,3,NoRole
+rec-3101-org,rec-1998-org,usa,,28,19880921,ms,chevonne,washington,sa,mount osmond,4301,30,withers place,,07 43540730,6164015,5,NoRole
+rec-308-dup-0,rec-2231-org,,f,39,19810321,,logan,eyles,vic,swan hill,5970,44,irvine street,,08 37603929,9475165,5,NoRole
+rec-828-org,rec-1657-org,ara,f,32,19840911,ms,benjamin,arwa,nsw,bentley,2166,4,nardoo crescent,henley appartments,02 64109052,7263610,7,NoRole
+rec-2191-dup-0,rec-3413-org,afg,g,26,,hon,eiza,dalazak,,dapto,2184,,ormond ztreet,,07 00903609,4090151,0,NoRole
+rec-2494-org,rec-1727-org,unk,m,23,19931130,,joel,strapp,vic,orange,2077,5,grylls crescent,buckhobble,618 32011114,5387733,3,NoRole
+rec-580-org,rec-1200-org,ser,f,,19680901,,jacob,greif,qld,whetstone,2484,13,packham place,,613 84782083,2101863,9,NoRole
+rec-1620-org,rec-3683-org,tur,f,36,19800517,dr,ty,gcek,qld,greenup,2204,265,o'loghlen street,,3 87961592,4339523,1,NoRole
+rec-3823-dup-0,rec-2630-org,pak,f,30,,,jacoh,barhai,nsw,kurraojng,3620,502,,,2 14557265,7731335,0,NoRole
+rec-3670-org,rec-1465-org,pol,,28,19880605,,riley,duglosz,nsw,coleambally,4814,313,burston place,,2 56347153,6572337,9,NoRole
+rec-3287-dup-0,rec-2899-org,eng,d,,,,kristen,ikin,act,forrept,3182,20,lascellec circuit,,02 01966888,5886905,6,NoRole
+rec-1949-org,rec-2878-org,chi,f,,19470708,hon,tabitha,geng,nsw,yattalunga,7150,65,,,2 37663617,5323730,5,NoRole
+rec-3939-dup-0,rec-1435-org,fre,u,,19360526,ms,tahnee,,nsw,north pmanly,2530,22,jane price crescent,,2 06137750,5362146,9,NoRole
+rec-3403-org,rec-3497-org,gre,f,,19140814,mr,isabella,christos,,ascot,5048,,wakool circuit,,08 36008769,7234449,8,NoRole
+rec-2775-dup-0,rec-2401-org,spa,,,19310416,,aidan,isambero,wa,yealeing,5158,1,tenison-woods circuit,,08 77800782,8367050,5,NoRole
+rec-408-org,rec-1025-org,usa,m,27,,,adam,manning,vic,marshall,3071,114,goyder street,,08 65599027,1909808,1,NoRole
+rec-3638-org,rec-797-org,usa,f,26,19900716,,dimitri,macias,nsw,enngonia,2780,165,gungurra crescent,,02 83255164,8034002,1,NoRole
+rec-3582-dup-0,rec-2451-org,unk,s,,,,petz,scinto,ws,beaconqfield,2611,37,,kalyra retirement,8 74120957,8131443,7,NoRole
+rec-263-org,rec-1383-org,unk,f,,19981102,ms,mikayla,scorsone,vic,strathdownie,2034,85,stanley street,,618 27677784,7760715,1,NoRole
+rec-1800-org,rec-1587-org,eng,f,30,19860728,mr,lushia,traver,vic,yaapeet,4017,75,riordan street,,618 95588821,1615861,2,NoRole
+rec-1978-dup-0,rec-688-org,vie,g,82,19880710,,jennifer,nguyentan,wa,keiraville,4514,25,aspinalls treet,,08 74569988,8960003,6,NoRole
+rec-91-org,rec-1676-org,eng,m,38,19780221,ms,laura,reynell,nsw,shalvey,3186,8,albermarle place,balala station,02 30743278,1757702,2,NoRole
+rec-2841-org,rec-425-org,ina,f,30,19860222,ms,noah,budiman,qld,wateranga,5097,16,milson street,,08 75313346,6763235,5,NoRole
+rec-2213-org,rec-1768-org,por,f,35,19810915,mr,lachlan,peixoto,nsw,fernmount,2870,1,beaumont close,palm lake resort,2 38827645,1383895,2,NoRole
+rec-1494-dup-0,rec-3687-org,unk,,23,19950912,,ethan,abbondansola,nsw,wichkham,2750,40,eppalock street,,02 95985832,4647906,2,NoRole
+rec-2846-org,rec-88-org,usa,f,11,20051003,,madeleine,giles,sa,edinburgh,2260,6,wambo close,arndilly,07 01235911,1561240,7,NoRole
+rec-269-dup-0,rec-3397-org,dan,,,19470829,,,liht,nsw,candelo,6150,5,,,612 07444550,1906545,7,NoRole
+rec-140-org,rec-105-org,eng,m,35,19810526,,catherine,kipling,qld,alfords point,4170,7,kitchener street,booligal,,8621093,9,NoRole
+rec-88-dup-0,rec-2088-org,usa,d,03,19816106,,thomas,michal,vic,irrewarra,2340,170,henty xtreet,,8 12204853,2380891,6,NoRole
+rec-2580-org,rec-3047-org,usa,m,21,19950913,mr,michael,petersen,,buninyong,2324,10,tyrrell circuit,locn 8697,07 24902933,8347487,6,NoRole
+rec-2044-dup-0,rec-3928-org,usa,f,31,19851015,,alessanria,kemp,nsw,guerilla bay,4013,23,hillebramd street,,612 62031223,5698562,9,NoRole
+rec-1021-dup-0,rec-2664-org,eng,f,26,19900712,,wil,mckenna,,parkinson,6194,95,hare ilace,,07 89789981,9094501,2,NoRole
+rec-2508-dup-0,rec-2919-org,ita,,28,19850619,,alicia,caraf,qld,boonah,2093,4,windradynebstreet,,03 48927857,8937036,0,NoRole
+rec-3845-org,rec-1954-org,rus,f,29,19871119,,madison,stoyanov,qld,hudson,2041,112,investigator street,woodlands house,3 68235363,4427038,2,NoRole
+rec-2974-org,rec-732-org,fre,m,27,,mr,vanessa,daudet,sa,kidman park,3169,64,florentine circuit,,02 01635436,1361560,6,NoRole
+rec-2254-org,rec-573-org,eng,,26,19901210,ms,molly,lund,vic,geelong,2770,31,hunt street,manuka village,08 31290710,4957566,8,NoRole
+rec-1323-dup-0,rec-1536-org,ind,f,,19720224,ms,anthony,guntupslli,qls,rock ville,2147,2,yerrabizplace,,613 11771147,1688252,6,NoRole
+rec-1179-org,rec-3380-org,unk,,,19511113,,sophie,scolastique,qld,the keppels,6016,29,kingsmill street,,613 67465841,7370081,8,NoRole
+rec-1230-org,rec-3697-org,usa,m,39,19770622,,olivia,dominguez,,chester hill,5073,151,dettmann close,withern house,08 23965813,3534089,6,NoRole
+rec-1139-org,rec-769-org,usa,f,33,19830731,,lochlan,foley,nsw,croydon park,3691,61,collingridge street,,2 81544401,2622804,7,NoRole
+rec-2606-org,rec-3406-org,usa,f,8,20081110,,caitlin,ray,vic,kilcunda,2134,21,golden grove,,618 40859375,7866341,2,NoRole
+rec-2743-org,rec-3468-org,eng,f,22,19940208,ms,lily,jephson,vic,kilsyth,2228,6,geehi place,,618 40945746,3954974,8,NoRole
+rec-2398-dup-0,rec-3481-org,ger,g,33,19830326,,peta,fasch,wa,walyormouring,2756,4,mayo strdet,,618 99557554,3890254,7,NoRole
+rec-1250-dup-0,rec-2475-org,dan,f,,19520919,,jacynra,holm,nsw,woolgboolga,2703,3,brigalowkstreet,glenmore,04 07948553,5145165,3,NoRole
+rec-818-org,rec-2138-org,usa,f,37,19791214,,lily,woodward,nsw,hassall grove,4350,1,coane street,kersley mews,08 24861819,5923446,2,NoRole
+rec-3968-dup-0,rec-1301-org,eng,m,40,,,katelyn,mcnabh,tas,daintree,2390,309,raine lace,,08 60760942,8447234,7,NoRole
+rec-2782-org,rec-16-org,fre,m,38,,,oliver,pires,nsw,carool,2258,37,sowden street,,02 50740485,8072247,7,NoRole
+rec-709-dup-0,rec-3175-org,eng,f,,,,brooklyn,ingham,wa,wicehrina,3939,106,dryandrl street,,04 50797786,2181217,2,NoRole
+rec-2800-org,rec-824-org,ser,f,25,,ms,melissa,poldrugac,wa,,3198,23,newman morris circuit,rowethorpe,8 02361123,9709636,9,NoRole
+rec-1844-org,rec-3093-org,ind,,31,19850511,,gemma,chandna,,heybridge,5098,9,wheelwright crescent,shed sunnyside,04 37197765,5417582,4,NoRole
+rec-2603-dup-0,rec-635-org,usa,,25,19961001,,madeleine,peteru,nsw,crooble,6249,10,pennefathee street,huongold,612 63018008,8216451,6,NoRole
+rec-3226-org,rec-2373-org,eng,f,41,19751111,pfc,katelin,bardsley,nsw,matong,2171,,vonwiller crescent,,07 03905906,5036343,9,NoRole
+rec-1478-org,rec-415-org,,f,34,19820130,,matthew,coleman,nsw,barnsley,4113,102,goldsborough close,,02 91140807,8798617,0,NoRole
+rec-2071-dup-0,rec-2592-org,usa,f,,19108828,ms,gracie,,sf,parilla,2546,2,aspinallstreet,,03 33971754,4867648,7,NoRole
+rec-3943-org,rec-3156-org,eng,m,30,19860201,ms,alisha,newport,sa,marrabel,5608,23,albermarle place,,7 63901550,2596112,2,NoRole
+rec-952-dup-0,rec-1082-org,usa,f,31,,,davif,fischer,nsr,knorrit lat,2507,199,millhouse ceescent,,02 72528599,1060984,9,NoRole
+rec-484-org,rec-2858-org,ger,f,27,19890610,mr,jasper,schroter,sa,wudinna,2486,67,suttor street,,04 99415117,3727173,6,NoRole
+rec-2490-org,rec-686-org,usa,m,19,19970410,ms,riley,riggs,nsw,bondi junction,3070,54,snodgrass crescent,logancrail,2 68338936,1043391,5,NoRole
+rec-306-org,rec-3537-org,hun,f,21,19950818,,chelsea,maitra,,wilston,6225,2,,,07 84284164,1705199,5,NoRole
+rec-1665-org,rec-787-org,chi,f,25,,,eliza,jyang,nsw,comboyne,2166,8,hardie close,minjarra,02 11486053,9945526,5,NoRole
+rec-915-dup-0,rec-1722-org,chi,f,,19860523,,brolklyn,ssimc,nsw,bilambil,6062,8,ogilby crscent,lazed m,612 77200540,1828386,5,NoRole
+rec-1911-org,rec-1074-org,,f,22,,,rachel,clarke,nsw,loftus,3025,23,tytherleigh street,,03 61437653,1545438,4,NoRole
+rec-693-org,rec-2047-org,eng,f,27,19891024,,ashleigh,josephson,nsw,ashbury,4306,52,southwood retreat,,612 36269195,2852562,7,NoRole
+rec-659-dup-0,rec-2359-org,usa,,13,19970204,,cheksea,campbell,ss,west beach,0822,14,may maxwell crescent,,7 87429563,3040887,8,NoRole
+rec-3222-org,rec-833-org,cze,f,29,19871022,,amber,drajzajtlova,qld,jindalee,4413,599,whittell crescent,,03 20492864,6145137,3,NoRole
+rec-1653-org,rec-141-org,ina,f,8,20080311,,demie,wijaya,tas,scarness,4655,5,woolner circuit,bucrana,,2724088,6,NoRole
+rec-2530-dup-0,rec-2038-org,usa,,38,19784316,,katelin,kennrdy,tas,dennes oint,6210,25,badenoch krescent,,07 22415055,5806908,3,NoRole
+rec-2280-org,rec-1781-org,fre,f,24,19920222,ms,mikayla,goffin,vic,jacana,6064,82,mcgivern crescent,,618 31294075,4556241,6,NoRole
+rec-1539-dup-0,rec-3227-org,unk,d,8,20080525,,lilh,abat,nsw,tumbarumba,3931,18,yamba dbive,,02 12117394,1037902,6,NoRole
+rec-1540-org,rec-2292-org,ger,f,,,ms,koula,bambach,wa,de grey,2066,18,paul coe crescent,,03 71458227,6709330,5,NoRole
+rec-579-org,rec-3352-org,eng,f,28,19880429,,jenna,derrick,vic,caldermeade,2578,3,berry street,loch snizort,618 31041047,8255087,3,NoRole
+rec-865-org,rec-3080-org,eng,f,20,19960425,mr,jemima,ryeley,,barcaldine,4350,13,bellchambers crescent,,07 02877379,9789374,1,NoRole
+rec-1670-dup-0,rec-992-org,eng,f,30,19860626,,felicity,matheson,nss,murrundi,3016,48,nangor street,oakldge,2 54992526,8282041,6,NoRole
+rec-2274-org,rec-645-org,afg,,,19971114,,charlotte,ahmad,qld,horseshoe lagoon,5113,160,wambool street,,03 96287542,9336843,1,NoRole
+rec-240-org,rec-2226-org,usa,m,,19121125,,sam,velasquez,vic,balmoral,2540,8,galmarra street,,618 54350482,2024864,3,NoRole
+rec-1169-dup-0,rec-2769-org,ind,f,13,19850415,,zack,sira,nsw,balmaineast,4557,3512,carruthersfstreet,,612 67250445,6262440,1,NoRole
+rec-1150-org,rec-201-org,eng,f,35,19810320,ms,demie,meyrick,vic,marungi,4570,35,grevillea street,mater professional centre,618 15313306,6105944,7,NoRole
+rec-256-org,rec-2757-org,afr,f,11,20050612,,alex,bakouma,,wolumla,4872,24,harbison crescent,,04 42895756,4873094,1,NoRole
+rec-156-dup-0,rec-1100-org,ser,f,36,19800929,ms,dannie,suljic,,wallend,5700,6,kambaldaicrescent,willaroo,04 13833214,3434659,4,NoRole
+rec-3440-org,rec-1848-org,usa,f,19,19970817,pfc,lee,green,vic,waratah bay,2766,87,mcclintock street,,08 23536103,7649254,7,NoRole
+rec-1341-dup-0,rec-3294-org,ger,f,19,,hon,connor,ettinger,,midlajnd,2411,25,macfarland rcescent,pinesprkngs,08 92414795,5529620,2,NoRole
+rec-3002-org,rec-3580-org,chi,f,23,19930729,pfc,william,ly,qld,minden,5113,22,anzac park,lyndan,3 92009132,8902347,6,NoRole
+rec-2063-org,rec-2404-org,usa,,,,ms,abbie,kirkland,qld,wongabel,5171,11,state circle,top edge,02 12601553,2567536,8,NoRole
+rec-725-dup-0,rec-642-org,usa,f,32,19841216,ms,cruz,briley,,laurieton,3009,4,barlowestreet,tesbury,03 19111078,5986584,2,NoRole
+rec-1581-org,rec-1736-org,pak,m,9,20070330,mr,riley,dombki,qld,weerriba,4012,18,moorhouse street,moline village,03 75855803,4908760,8,NoRole
+rec-668-org,rec-89-org,usa,m,12,,,shenae,guy,nsw,jackadgery,4815,6,gidabal street,fernlea,,7912447,3,NoRole
+rec-1384-org,rec-1600-org,usa,,27,19891221,,dakota,slater,qld,wutul,3862,100,moriarty street,,3 35526501,5636657,8,NoRole
+rec-1974-dup-0,rec-2376-org,unk,,28,19910509,,adam,aani,,wyonpg,4210,6,kater pace,virginia estate,08 39082431,9669884,3,NoRole
+rec-1056-org,rec-2194-org,usa,m,19,19971229,,wade,lane,sa,loch,3219,66,wirilda street,corella,617 33990669,5396231,1,NoRole
+rec-3382-dup-0,rec-3732-org,eng,f,24,19925015,,alaiyah,blackwood,sak,hammond,4202,60,crescent heagney,,07 84076429,5782850,9,NoRole
+rec-3066-dup-0,rec-2352-org,eng,f,,19820423,,jaspqr,hambleton,act,reid,2283,540,nepean place,,612 70240562,4545149,6,NoRole
+rec-1116-org,rec-17-org,usa,,29,19870716,ms,gianni,baxter,nsw,stroud road,3142,38,hooper crescent,claymore springs,2 22254976,7217293,3,NoRole
+rec-3706-org,rec-3865-org,unk,f,12,20040902,ms,daniel,sckel,nsw,toowoomba,6163,,small place,ferndale,612 77026480,6470205,0,NoRole
+rec-3583-dup-0,rec-628-org,usa,f,,19202216,ms,syldie,dixon,,bligh park,2052,18,robson street,cranford,08 09362094,7663682,3,NoRole
+rec-3473-org,rec-1997-org,eng,f,23,19930926,hon,michael,tennyson,vic,tarneit,3465,42,jacka crescent,,618 48128390,9033197,9,NoRole
+rec-3014-dup-0,rec-2191-org,gre,m,34,19790928,,chelsea,mikhailoqpoulos,sa,nonning,4076,160,rowellk place,,07 41725360,3049895,0,NoRole
+rec-1126-org,rec-2892-org,tha,f,33,19830824,mr,jenna,kriangsak,qld,thagoona,4221,42,schlich street,,613 19502394,2424823,8,NoRole
+rec-3945-org,rec-3470-org,eng,f,31,19850929,mr,ebony,stidolph,qld,prince henry heights,2131,185,alpen street,oora park,3 71074973,8646593,6,NoRole
+rec-252-dup-0,rec-544-org,ind,f,28,19881226,dr,daryc,wadekpar,nsw,eustob,4814,1,booth crsecent,,,3181862,3,NoRole
+rec-3839-org,rec-2759-org,unk,,34,19820821,,chelsea,aarnoudse,vic,poolaijelo,3500,154,mcclelland avenue,wonga square,8 17006817,2629625,7,NoRole
+rec-852-dup-0,rec-565-org,vie,,,19540106,mr,anthohy,toai,,eagleton,2440,7,burdekingstreet,,2 78460014,7631204,5,NoRole
+rec-1560-org,rec-2648-org,chi,f,24,,,nathan,joo,,ringwood east,7258,87,vincent place,,08 94817566,4660819,4,NoRole
+rec-1398-dup-0,rec-2578-org,usa,,,20091110,hon,james,downs,nsr,2170,raglan,150,marshall street,,612 54089521,5701564,7,NoRole
+rec-2883-dup-0,rec-2907-org,eng,f,33,,ms,mitchll,summerfield,nsw,warrah vreek,5221,13,john cleland crescent,ra 23076,,6337232,3,NoRole
+rec-77-org,rec-2555-org,ind,,23,19930227,,kydan,garcha,nsw,pleasant hills,2117,13,judkins street,,02 41531031,1819409,6,NoRole
+rec-47-org,rec-1096-org,eng,f,28,19880108,,bailley,macgregor,vic,neerim south,,22,ern florence crescent,,08 77115189,3487033,0,NoRole
+rec-2107-dup-0,rec-1764-org,ind,f,35,19810717,pfc,victoria,ubriabi,nse,scarbrough,3125,19,hakea crescent,,02 04900348,1608815,8,NoRole
+rec-3271-org,rec-3814-org,ger,,31,19850721,pfc,blade,lassen,vic,neerim south,2711,29,henslowe place,lazy acres,8 36507064,4976703,1,NoRole
+rec-1655-org,rec-674-org,eng,f,,19851116,,jamie,jamison,nsw,kings park,2227,250,macnaughton street,rosetta village,612 77967144,5944266,0,NoRole
+rec-297-dup-0,rec-2033-org,unk,f,23,19930515,dr,madison,stratou,vic,mount uffalo,2558,8,kent steeet,,08 10680859,4085797,4,NoRole
+rec-1797-org,rec-3086-org,ind,f,,19571011,,pino,khatri,nsw,voyager point,,336,rischbieth crescent,,02 96731015,6267714,4,NoRole
+rec-1284-dup-0,rec-2594-org,iri,,28,19881126,,jacob,ohannigan,vic,eppng,6410,5,archibalb street,,618 11148409,3576340,2,NoRole
+rec-3906-org,rec-2485-org,eng,m,34,,,elana,macdougall,nsw,termeil,6101,48,rawson street,,612 39018033,7362979,3,NoRole
+rec-2693-org,rec-532-org,unk,f,,19401230,ms,laetitia,streich,nsw,mooral creek,3155,14,goessling place,tourist park,02 50239618,3761273,9,NoRole
+rec-2513-org,rec-627-org,ind,f,28,19881114,pfc,montana,jinen,vic,hmas cerberus,2153,24,bethune close,,618 85908296,9829855,0,NoRole
+rec-2833-dup-0,rec-2031-org,chi,,,19900312,,alanpa,ti,sa,basket ramge,,45,wheatley street,,07 25441317,3187957,4,NoRole
+rec-57-org,rec-1190-org,eng,,29,19871013,ms,dean,morrish,qld,amby,5250,7,scotney place,,613 94144650,8763007,4,NoRole
+rec-2233-org,rec-1158-org,eng,,27,19890105,dr,lani,babcocke,vic,newcomb,3047,25,small place,john flynn medical centre,08 23656628,6721525,3,NoRole
+rec-3765-dup-0,rec-3893-org,ger,,,19880707,dr,joshua,rochues,nsw,albion wpark,3313,56,rodway s treet,golambio cottage,612 97835451,2076960,7,NoRole
+rec-1554-org,rec-2596-org,eng,f,24,19920901,mr,nikita,jamison,nsw,geraldton,2147,27,mackenzie street,st vincents hospital,2 82140938,1555369,3,NoRole
+rec-2025-dup-0,rec-337-org,chi,m,29,,,matthew,dzou,qlf,3169,ottaba,11,marr street,north burradoo,613 09242981,3163595,7,NoRole
+rec-1389-dup-0,rec-2527-org,usa,f,23,19850622,hon,kieren,beard,wa,ryansbfook,2509,13,harricks jrescent,,8 37266135,2313491,4,NoRole
+rec-165-org,rec-2999-org,eng,f,27,,,talia,mcentire,sa,buckland park,4133,10,whitford place,,07 00111088,3250458,8,NoRole
+rec-2685-dup-0,rec-927-org,unk,f,27,19951011,,isabekla,aba t,sa,hyde park,2035,1,cuthbertson crescent,,07 35277545,9566584,7,NoRole
+rec-3324-org,rec-3381-org,ger,f,30,19860107,,harley,gottschalk,wa,cannington,4115,4,ferguson circuit,minalinka,618 79457578,9405663,3,NoRole
+rec-3048-org,rec-2308-org,usa,f,,19840604,,max,morales,nsw,kincumber,2251,6,ebenezer street,ellanbah,2 65118453,2052361,7,NoRole
+rec-1441-dup-0,rec-593-org,usa,f,,19091212,,seanja,mcfadden,wa,larfs,2050,83,lyall crencent,,618 97297862,3467135,5,NoRole
+rec-1788-org,rec-3454-org,unk,f,21,19950424,,chloe,scirri,nsw,bondi junction,2170,24,jardine street,,02 24259772,9821196,7,NoRole
+rec-3843-org,rec-2354-org,,f,19,19970929,,jorja,petersen,vic,braeside,4621,3,mcinnes street,,08 83951590,6584743,0,NoRole
+rec-1016-dup-0,rec-1064-org,eng,,26,19901178,,camefon,traver,taa,st albans,2122,16,starke dtreet,,617 24409708,2704355,6,NoRole
+rec-1340-org,rec-2250-org,unk,,27,19890429,,giuliana,strazzari,qld,douglas,2770,7,mcelhone court,berowra exch,613 73763970,8187197,9,NoRole
+rec-219-org,rec-1113-org,eng,f,34,19821206,,breeanne,hayward,wa,wellstead,5109,3,laker crescent,,,6008731,6,NoRole
+rec-64-dup-0,rec-196-org,ita,,27,19890728,,robera,maiuri,nsw,childjrs,5086,4,thomasplace,,07 84593669,5714526,9,NoRole
+rec-3713-org,rec-3578-org,eng,m,,19861023,rev,jake,dickens,wa,west toodyay,2540,9,chewings street,tara hills,08 04595078,6281006,5,NoRole
+rec-1472-dup-0,rec-667-org,usa,f,34,19730928,,lydiaw,tucker,vic,jardine,3218,113,southertn close,,03 38639219,6027188,5,NoRole
+rec-1923-org,rec-231-org,chi,f,21,19951118,,takara,shangkuan,sa,loxton,2575,19,rene street,,08 51851687,1246749,1,NoRole
+rec-1571-org,rec-2428-org,usa,f,43,19730124,pfc,seth,morin,vic,thorpdale,4814,,bokhara circuit,shaudell,03 46082417,5274108,0,NoRole
+rec-2717-org,rec-25-org,unk,f,30,19860307,hon,rebekah,abbitt,qld,dysart,2324,9,heagney crescent,,613 99299555,2116208,0,NoRole
+rec-1612-org,rec-1993-org,ina,,30,19861227,ms,alivia,kurniawan,sa,wistow,5373,60,maitland street,,7 63839363,9251500,6,NoRole
+rec-1722-dup-0,rec-1458-org,eng,f,,19641016,pfc,olivre,daniel,nsw,rostrevor,5054,,greeves street,,02 79121871,6879849,1,NoRole
+rec-2300-org,rec-3866-org,usa,m,25,19910626,,ruby,stanton,nsw,coromandel valley,7310,67,archibald street,,,6077752,7,NoRole
+rec-1679-dup-0,rec-650-org,eng,d,8,20080909,,jacksn,abrahams,vic,illabo,3741,1,blackbutt street,maroochydore palm holiday vllge,2 99868089,4945378,5,NoRole
+rec-1809-dup-0,rec-3341-org,ira,r,,19631011,ms,jac,jalali,,whitfield,5081,16,,,618 69126878,9995749,6,NoRole
+rec-664-org,rec-1522-org,eng,f,21,19950609,,,pottinger,nsw,darkes forest,6064,65,kardang street,alton hills,02 41457834,8640334,6,NoRole
+rec-820-dup-0,rec-2510-org,ger,,10,20060829,mr,chloe,feynman,viv,panmsre,4003,21,mileham street,,03 38890975,2305084,6,NoRole
+rec-1950-org,rec-721-org,unk,,31,19850118,mr,lauren,aarcy,sa,whyalla norrie,2232,50,,omaha,617 49512942,5721109,7,NoRole
+rec-3700-dup-0,rec-3106-org,usa,g,9,20071215,,lewps,soa,qld,homebush,5576,3,macquarie dtreet,,03 50891256,4606313,1,NoRole
+rec-1659-org,rec-2673-org,eng,f,,19261112,hon,marcus,scriven,nsw,planland,2576,14,gamban square,,2 06848266,5927705,3,NoRole
+rec-3962-org,rec-1762-org,tha,m,,,pfc,alicia,wongrutiyan,qld,toowoomba west,,14,totterdell street,,03 55488339,3419579,2,NoRole
+rec-2896-dup-0,rec-2311-org,unk,f,19,19950507,,,strawbrbdge,ss,st agnes,3844,55,beetaloo street,,7 34209345,8465147,6,NoRole
+rec-146-org,rec-3420-org,usa,m,34,,,samuel,everett,,seven hills,6060,554,chisholm street,,02 31511742,2916859,5,NoRole
+rec-3039-org,rec-3271-org,ger,f,,19360820,,takeisha,kleinschmidt,nsw,rockdale,2168,9,gillen street,glendower,612 12396443,9416704,1,NoRole
+rec-1191-org,rec-2351-org,usa,f,37,19790128,mr,zach,ingram,nsw,bensville,6149,64,noarlunga crescent,,02 08331334,5232432,9,NoRole
+rec-1863-dup-0,rec-1925-org,jew,m,24,,,branon,aidallbery,qdl,springsure,3039,140,sextonstreet,,613 65094533,5881457,7,NoRole
+rec-3239-org,rec-962-org,unk,,,19780113,,samuel,scollard,nsw,havilah,3185,7,garanya street,kapeka,612 22493268,2586614,8,NoRole
+rec-722-dup-0,rec-3502-org,eng,,33,,mr,sidonie,spearindg,,pooraka,2287,15,baskervilleistreet,,07 75009961,3743549,7,NoRole
+rec-1657-org,rec-2158-org,usa,f,11,20050501,ms,william,taylor,qld,parkhurst,2484,18,nannine place,,3 50514826,3606028,8,NoRole
+rec-1919-dup-0,rec-3974-org,eng,f,39,19770084,,shelbey,hardie,vic,swan hill,3097,2,neumayer street,legacy vlge,618 06316724,7298635,2,NoRole
+rec-1769-org,rec-3914-org,jew,f,,19400826,pfc,sophie,ganani,vic,werneth,6751,22,dunbar street,port 366,618 49397787,2802305,6,NoRole
+rec-1689-org,rec-708-org,unk,f,34,19821213,,georgia,aaron,qld,eurong,2033,13,paul coe crescent,,613 83041680,8296795,3,NoRole
+rec-2843-org,rec-2105-org,nor,,24,19920713,ms,matthew,borkman,nsw,camperdown,2194,29,turriff street,springdale,2 36527636,8016830,5,NoRole
+rec-2769-dup-0,rec-2840-org,vie,f,3,,,lewsi,trieu,qld,shell ocket,6324,85,a'beckett street,table mountain,03 53056766,1074873,5,NoRole
+rec-2330-org,rec-3725-org,,f,35,19810718,mr,emiily,miles,nsw,rye park,4210,49,greenough circuit,,612 10013372,9258134,5,NoRole
+rec-1898-dup-0,rec-2740-org,unk,n,76,19900893,ms,benjsamin,aaberg,vic,emerald,4054,26,sharwood rcescent,,8 65425123,2424285,8,NoRole
+rec-1607-org,rec-1164-org,chi,f,28,19880519,,vanessa,wo,vic,dargo,7310,23,bettington circuit,,08 60004364,6056199,3,NoRole
+rec-890-dup-0,rec-3487-org,eng,m,30,19861029,pfc,paulson,brett,ss,new well,2259,1,somersetstreet,,07 64141325,5779239,7,NoRole
+rec-3602-org,rec-3104-org,usa,f,25,19910305,mr,jake,briggs,sa,delamere,2042,68,goyder street,,07 38395170,2961381,8,NoRole
+rec-637-org,rec-3910-org,chi,f,25,,,caleb,pin,vic,gheringhap,3030,29,macrossan crescent,,08 87025804,4818019,3,NoRole
+rec-154-dup-0,rec-3556-org,jap,g,30,19860403,mr,sophid,nakada,sa,,6023,35,handcock crescent,,02 39074305,8026060,7,NoRole
+rec-3470-org,rec-230-org,spa,f,7,20090106,,luke,olvera,,,5013,2880,niblo place,canberra west,02 45249287,4841423,9,NoRole
+rec-2312-dup-0,rec-3504-org,ind,f,,19880298,ms,cheyenn,vidyarthi,vic,oakleigh east,5115,52,mcdougall street,,03 20746960,5863544,0,NoRole
+rec-1361-org,rec-1763-org,usa,f,27,19890512,,mikayla,brennan,sa,aberfoyle park,5015,35,cumbrae place,,7 20391954,5301957,3,NoRole
+rec-1051-org,rec-10-org,chi,f,34,19820927,,callum,duanmu,nsw,lemon tree,,1174,dunstan street,,08 31184634,4022754,2,NoRole
+rec-3983-org,rec-3299-org,usa,f,36,19800508,dr,chloe,murphy,nsw,cooleys creek,2198,2,gundara street,,2 26584953,4216351,3,NoRole
+rec-1947-dup-0,rec-170-org,jap,f,91,19970820,mr,cambell,fugunaga,qld,lennox jead,2576,29,knoke avrnue,,03 19477617,5403362,3,NoRole
+rec-2421-org,rec-2904-org,usa,f,11,20050106,,elle,watts,wa,alma,4171,8183,alsop close,,8 93526183,6614960,1,NoRole
+rec-1562-org,rec-3216-org,usa,,30,19860503,,samuel,bender,vic,gladysdale,2745,13,holden crescent,,,1235560,7,NoRole
+rec-2615-dup-0,rec-3394-org,usa,f,4,19100224,,lucy,guertero,vi,neerim,4304,57,mcclellane avenue,,08 65028264,4408647,5,NoRole
+rec-1504-org,rec-287-org,unk,f,35,19810910,,annabel,scolastique,vic,bangholme,7250,7,bonney street,,,8521628,6,NoRole
+rec-2629-org,rec-2280-org,chi,,,19000917,,bayley,miao,vic,berrybank,6025,2,glasgow place,,8 81525837,4133675,5,NoRole
+rec-506-dup-0,rec-1236-org,chi,n,34,19820302,mr,tseung,nicholas,qld,lake tinaroo,4280,16,correa street,,02 38907861,1553236,7,NoRole
+rec-1198-org,rec-2996-org,eng,f,27,19890726,ms,mia,hameldon,qld,tarong,4740,4,o'neill street,,02 85916909,1771851,7,NoRole
+rec-193-dup-0,rec-1569-org,eng,d,33,19830626,,emioly,,sa,new fsrm,2803,28,hertz place,rowethorpe,617 72313953,6722751,8,NoRole
+rec-1374-org,rec-1040-org,chi,,32,19840328,,alexandra,chau,,lalor park,6112,69,tewksbury circuit,craigston,07 17270185,5091094,0,NoRole
+rec-2912-org,rec-500-org,eng,f,24,19920309,hon,joshua,abramson,nsw,cathcart,3133,70,ewing street,,2 57083897,2868052,2,NoRole
+rec-1428-org,rec-39-org,usa,f,11,20051021,,danielle,wolfe,nsw,clarence,2290,2,canning street,,03 87312309,5157100,7,NoRole
+rec-2897-dup-0,rec-3120-org,,,,,mr,abney,reid,nsw,bligh dpark,2232,2,coolac place,karkatt,612 33296039,3396660,5,NoRole
+rec-978-org,rec-2846-org,unk,f,27,19891211,,nicholas,strazzari,,long jetty,3717,7,freeman street,,03 35992512,8836486,5,NoRole
+rec-1148-org,rec-959-org,chi,f,23,19930809,mr,emiily,cho,,south melbourne,3166,1,scattergood place,,02 29195288,7690542,9,NoRole
+rec-2779-dup-0,rec-984-org,usa,,25,19911206,pfc,daniel,hunter,vci,moutajup,3020,5,cashion ourt,,08 60848155,9292582,9,NoRole
+rec-448-org,rec-1112-org,sri,,34,19820905,,sophie,samataweera,nsw,beaumont hills,7018,45,dunn place,,02 76139028,8235188,8,NoRole
+rec-3064-dup-0,rec-2771-org,hun,f,30,,,tess,knesrevich,ac,tuggeranong disfribution centre,3182,54,glossop crscent,,612 10363805,2512896,2,NoRole
+rec-2246-org,rec-3845-org,eng,,31,19850713,dr,corie,scrivener,qld,yuleba,3122,68,lamb place,,03 84600322,5653314,6,NoRole
+rec-1755-dup-0,rec-3652-org,usa,c,,19761019,ms,erin,larsln,qld,borung,2122,3,braineystreet,,08 56904508,6538717,1,NoRole
+rec-687-org,rec-2746-org,unk,f,31,19850812,,samantha,strangway,,ivanhoe,6027,301,melrose drive,fireville,04 83484263,5026998,6,NoRole
+rec-63-dup-0,rec-621-org,usa,,,19180528,,sophie,kmoon,act,gungahlin,5056,5,clubbe crescent,whisperingnpines,02 11673347,5450619,4,NoRole
+rec-1963-org,rec-3560-org,eng,f,31,19851209,,zachariah,hambledon,nt,geelong west,5038,12,canberra avenue,,613 93691868,4592438,1,NoRole
+rec-348-org,rec-3276-org,ind,,21,19951213,,lucas,riddhi,vic,beverford,4551,29,bingley crescent,,618 02426683,6084982,1,NoRole
+rec-2710-org,rec-1054-org,chi,f,29,19870129,,james,fu,wa,broomehill,3910,35,newlop street,,8 54352250,1879524,8,NoRole
+rec-522-org,rec-670-org,usa,,29,,mr,georgia,reilly,vic,st kilda road central,2306,7,bingle street,,618 20922025,2766235,7,NoRole
+rec-847-dup-0,rec-858-org,usa,,27,19890119,,thomas,lardon,qld,boynezide,2478,84,gilmore arescent,,03 87046912,3479100,0,NoRole
+rec-879-org,rec-3099-org,chi,,,19960619,,jack,hsia,nsw,uralla,4505,48,poynton street,,612 32106753,5530231,7,NoRole
+rec-953-org,rec-3441-org,unk,f,37,19790424,,nicholas,scorsone,vic,bentleigh,2032,11,richardson circuit,,07 38124459,2954965,1,NoRole
+rec-1425-org,rec-2776-org,dut,f,,19570528,,lucas,sabin,qld,irvingdale,3730,6,bougainville street,flt 40,08 28005948,4165721,9,NoRole
+rec-1278-org,rec-2868-org,usa,m,,19850215,,jack,alvarez,sa,ashbourne,3207,23,whitty crescent,,617 06616147,5504898,1,NoRole
+rec-3415-dup-0,rec-3065-org,eng,i,39,19770131,ms,haylyy,stee,nzsw,halton,6208,113,henry melville crescent,,,5600874,2,NoRole
+rec-3471-org,rec-227-org,jew,f,6,20100110,,deakin,sarasohn,tas,glaziers bay,2565,10,neales street,,7 43005395,4855721,3,NoRole
+rec-3041-dup-0,rec-3145-org,eng,,33,19830807,mr,holly,,vic,hexham,6162,93,cripps olace,overnewton,618 36790395,3189356,7,NoRole
+rec-2563-org,rec-1853-org,ind,f,29,19870725,dr,cooper,thiagarajan,nt,nakara,3166,83,,harbourside vlge,3 53311898,7155989,6,NoRole
+rec-2314-org,rec-1565-org,unk,f,,19940206,,harley,strampher,vic,altona meadows,2264,7,temperley street,,8 02831207,2981611,9,NoRole
+rec-2905-org,rec-563-org,por,f,,19680619,ms,joel,morillo,vic,kotta,6743,2,hare place,kialba,08 76113172,3251921,1,NoRole
+rec-1880-dup-0,rec-424-org,eng,f,,19821127,pfc,zac,grey,vic,bass,3143,22,frostiplace,,8 16671058,3819308,6,NoRole
+rec-1965-org,rec-2349-org,unk,f,24,19920513,,joe,strangway,vic,acheron,3579,20,pandanus street,,8 98704999,2666521,4,NoRole
+rec-1444-org,rec-537-org,unk,,,19270402,ms,julia,abbetmeyer,vic,pascoe vale south,6308,123,gardiner street,broadford,618 11409489,4768439,4,NoRole
+rec-3277-dup-0,rec-2065-org,eng,f,25,19911205,mr,georgiq,herbertson,sa,tarpeena,5018,4,newberycrescent,,02 98961998,5657676,4,NoRole
+rec-1177-org,rec-2067-org,ind,f,35,19810703,mr,teal,prachi,wa,nhill,4214,3,truganini place,,618 86499895,6118319,8,NoRole
+rec-2832-dup-0,rec-3198-org,unk,f,,19890317,mr,mia,sciacca,wa,dale,2224,,jalanga crescent,,618 84615459,9422628,1,NoRole
+rec-2322-org,rec-2004-org,unk,m,25,19910606,,belinda,scottjackson,wa,wattle grove,2650,67,bundeela street,,618 36500225,7129890,3,NoRole
+rec-97-dup-0,rec-2139-org,eng,f,34,19860412,mr,ebon,,,craigie,3151,53,moorhouse street,,03 96983765,4689836,3,NoRole
+rec-1731-org,rec-636-org,eng,,31,19850410,ms,zoe,hobson,vic,creek junction,4510,2,grover crescent,,,5966601,7,NoRole
+rec-2665-org,rec-3559-org,hun,m,38,19780206,,seth,kurutz,vic,swan reach,4053,198,mcgowan street,alpli stud,618 40942771,2090132,5,NoRole
+rec-1589-org,rec-2705-org,jew,,,,,chloe,graetz,vic,new farm,3478,15,rushbrook circuit,,8 79188131,6096870,3,NoRole
+rec-223-dup-0,rec-470-org,eng,m,28,19881006,,alex,senoir,sa,whyalla norrie,2870,27,westgarth street,sprinddale,07 52123390,5535838,2,NoRole
+rec-3411-org,rec-1239-org,unk,f,26,19900705,,lauren,aakre,nsw,burraga,,80,tiernan place,,02 49880251,4689931,6,NoRole
+rec-467-dup-0,rec-3524-org,ger,f,32,19841622,,emam,dapoer,nsfw,kings park,3018,58,gleadow street,the homestead,612 51895736,8493850,5,NoRole
+rec-3193-org,rec-1097-org,ind,f,32,19840912,,tahlia,sibabrata,nsw,sadleir,3104,2,edman close,,02 51773738,2824464,4,NoRole
+rec-745-org,rec-92-org,eng,f,,,,alexandra,milford,vic,moriac,2100,4,hopetoun circuit,new chum,08 17146808,3337426,6,NoRole
+rec-2459-org,rec-2262-org,eng,,23,,,lachlan,,tas,,6059,10,balanu place,clems place,617 34057401,4203338,3,NoRole
+rec-267-org,rec-2195-org,hun,,,,ms,emiily,szalay,wa,brazier,5048,23,frome street,bunga,618 62588605,6470618,3,NoRole
+rec-2972-dup-0,rec-1840-org,afg,,38,19840125,,kaitlyn,alakozai,nsw,thirroul,3790,3,padbury street,,,9194559,9,NoRole
+rec-2756-org,rec-3291-org,cze,f,27,,ms,daniella,blaha,sa,noarlunga centre,6530,19,macalister crescent,,07 33422703,1516244,5,NoRole
+rec-203-org,rec-3069-org,unk,f,31,19850107,,isabelle,streckfuss,nsw,buronga,3172,19,kingsford smith drive,,2 07960739,1714164,6,NoRole
+rec-59-org,rec-1311-org,cze,m,28,19880414,pfc,holly,kondrick,qld,ormeau,4210,3,learmonth drive,,613 04555084,6055048,9,NoRole
+rec-292-dup-0,rec-3606-org,chi,,,19950301,,,lo,vic,glenocrhy,7426,2,burara cre scent,,8 70392031,8488992,3,NoRole
+rec-2926-org,rec-2727-org,chi,,25,19911006,dr,max,san,vic,violet town,2232,23,yumba avenue,,,7888259,3,NoRole
+rec-3412-dup-0,rec-2167-org,unk,f,,19642014,dr,jaoden,aaberg,ald,guanaba,4740,49,tazewell circuit,,03 17565641,6763790,2,NoRole
+rec-2706-org,rec-551-org,unk,m,36,19800216,ms,zach,aballon,,hazelbrook,6330,37,stieglitz circuit,rosedale,08 84524160,2555108,5,NoRole
+rec-2882-dup-0,rec-2909-org,fin,m,31,19850710,,shakirah,erkko,nsq,sconr,6162,9,ironbark crescent,,,8625823,3,NoRole
+rec-2480-org,rec-3739-org,usa,f,31,19850212,mr,aiden,fung,nsw,rushcutters bay,6147,14,,aichookoora,,2355344,4,NoRole
+rec-962-org,rec-1213-org,abo,m,,,ms,joel,goolagong,wa,green head,3975,25,humble court,bonny doon,8 40054893,2015594,5,NoRole
+rec-1583-dup-0,rec-3242-org,unk,f,82,19880429,,connpr,aaternir,,granville,3000,13,croton stceet,northroad,03 77133873,3236496,2,NoRole
+rec-1320-dup-0,rec-3842-org,ind,f,,19300228,dr,lauren,totani,vic,rocklands,4342,12,hallstron circuit,,08 43361781,1271551,7,NoRole
+rec-641-org,rec-1611-org,,m,31,19850515,ms,alicia,pongsupath,nsw,wellington point,4228,13,westfield shopping centre,,,1993963,3,NoRole
+rec-2567-org,rec-134-org,unk,f,38,19781214,ms,mia,abadi,sa,clovelly park,2710,1,hodgson crescent,,617 41275423,6800821,7,NoRole
+rec-560-org,rec-1534-org,usa,f,24,19920404,,mattheo,jensen,vic,ballarat north,4701,9,,,08 31564542,5516558,9,NoRole
+rec-2435-dup-0,rec-3996-org,unk,f,35,19861215,,mattyew,abbetmeybr,nsw,enngonia,2615,9,o'hea sreet,,612 98428822,8246089,9,NoRole
+rec-3244-org,rec-3860-org,unk,f,35,19810710,,matisse,sckel,,bundaberg south,2090,20,spalding street,,08 32619420,8073459,1,NoRole
+rec-1590-dup-0,rec-929-org,eng,,,19960520,,james,strojd,nt,gunn,3730,81,burkitt street,ronato,08 62876585,2298835,2,NoRole
+rec-2410-org,rec-1268-org,ser,f,30,19860819,,abbie,kamesivic,nsw,trungley hall,4216,14,bussau close,,02 73186778,4967244,1,NoRole
+rec-43-dup-0,rec-2274-org,ara,n,21,,ms,joel,hindh,sz,pasadrna,3943,120,harwood court,,02 31531339,1196904,7,NoRole
+rec-718-org,rec-3046-org,eng,,24,19920413,ms,riley,savidge,qld,rural view,3690,1,ina gregory circuit,acacia hills street,3 93146230,5546620,0,NoRole
+rec-2296-org,rec-3689-org,eng,f,25,19910325,,james,derrickson,,lakemba,3280,1,bradfield street,,07 25209574,9130955,2,NoRole
+rec-785-dup-0,rec-3553-org,eng,,36,19800808,ms,jackson,bloxjam,,ascot park,3813,840,,,08 96090387,4885781,7,NoRole
+rec-2401-org,rec-2232-org,eng,f,26,19900711,,joanna,verity,wa,caljie,2617,822,marconi crescent,murrong,08 77185753,6941433,9,NoRole
+rec-2759-dup-0,rec-2985-org,eng,f,,19671216,,nathanson,jaykob,nsw,morpefh,0820,8,du faur street,,,1817605,1,NoRole
+rec-652-org,rec-145-org,ina,f,33,19830312,,matthew,kurniawan,vic,devon meadows,2283,1,eaves street,townhouse 5,,8982461,0,NoRole
+rec-3965-org,rec-3202-org,chi,f,8,20080820,,alicia,ma,act,symonston,2287,69,gruner street,,02 62934487,5260274,7,NoRole
+rec-2635-dup-0,rec-1800-org,chi,m,20,19961117,,zakariah,,ncw,merrylands west,3181,79,chandlersstreet,parraweena,02 11227038,6023034,3,NoRole
+rec-2860-org,rec-3746-org,usa,f,35,19811207,,connor,kelley,sa,calca,3429,10,bromley street,,7 33928642,7111191,6,NoRole
+rec-2338-dup-0,rec-3203-org,pol,g,,19191301,,iree,,tas,palana,2065,4,gundaroo road,,07 89314352,7112380,6,NoRole
+rec-446-org,rec-978-org,ind,,22,19941106,,jayde,cherupara,wa,redgate,3936,6,booroondara street,,618 81707458,1167665,9,NoRole
+rec-1406-dup-0,rec-3002-org,unk,m,35,19810523,,nebe,aatervir,nsw,blackville,3015,4,,,04 36350015,7924457,4,NoRole
+rec-1327-org,rec-531-org,,f,26,,,oliver,chandler,,chester hill,,100,kerkeri close,trellech,03 77396131,1758567,1,NoRole
+rec-1424-org,rec-1103-org,unk,f,22,,mr,brett,abadi,nsw,girvan,3898,67,grounds crescent,lochenfels,02 00773844,6027322,6,NoRole
+rec-1446-dup-0,rec-2285-org,ind,,30,19861127,,lars,thadani,vic,wisdart,7000,23,kiewa dtreet,,08 75999759,7894971,6,NoRole
+rec-914-org,rec-372-org,eng,f,23,19930808,,robert,savidge,qld,goldsborough,2207,3,dookie street,,613 72038030,5394624,2,NoRole
+rec-1779-dup-0,rec-3353-org,chi,f,32,19840427,,caitlin,qia,nss,kogarh,4556,6,lambriggxstreet,,612 17452077,4726490,5,NoRole
+rec-1182-org,rec-2166-org,usa,m,28,19880407,,philip,stafford,vic,mitcham,2630,86,noongale court,hollydale,618 93817084,4705130,4,NoRole
+rec-309-dup-0,rec-3876-org,chi,f,7,20090922,ms,portma,lod,vuc,morrisons,7170,111,prichar circuit,huntlyood,8 18360416,7182902,4,NoRole
+rec-3662-org,rec-2940-org,,f,33,19830912,ms,kiana,gaylard,qld,jubilee pocket,2147,7,gooreen street,platina,3 95304445,4632500,7,NoRole
+rec-3773-dup-0,rec-2751-org,eng,m,36,19803911,ms,barnany,bourke,nswi,vauclwuse,6701,6,salomons place,,2 42388474,4392403,6,NoRole
+rec-1692-org,rec-2567-org,eng,,11,20050803,ms,isabelle,herberts,vic,victoria valley,2113,59,tilden place,,08 18199138,8284398,8,NoRole
+rec-3227-org,rec-3246-org,ind,f,31,19850607,mr,katelyn,mannem,,south perth,4717,63,walker crescent,,08 00151463,7818603,0,NoRole
+rec-3488-dup-0,rec-3662-org,por,c,26,19090824,,hollu,aldair,,kingsford,,17,braddon place,bracken leigh,03 08904894,5650222,6,NoRole
+rec-2750-org,rec-3511-org,tur,f,30,19860823,hon,bayden,periganovlu,sa,nailsworth,6062,58,mcmaster street,,7 73154963,7504325,4,NoRole
+rec-1516-org,rec-2939-org,eng,m,31,19850206,ms,alannah,badcocke,nsw,barden ridge,4070,1,spigl street,,07 95243098,8552399,7,NoRole
+rec-926-org,rec-1673-org,chi,f,37,19790206,dr,dylan,jaw,qld,mount rooper,7248,19,,,03 87782610,4882473,4,NoRole
+rec-111-dup-0,rec-3919-org,,g,24,19920301,ms,tobu,iacopetta,sa,beverley,3875,55,shackleton cnrcuit,,7 54784985,9458222,4,NoRole
+rec-1044-org,rec-2678-org,eng,,27,,,chloe,merrick,nsw,grogan,3160,26,cooks street,,2 60128979,8108573,4,NoRole
+rec-1216-org,rec-558-org,chi,f,33,19830517,ms,imogen,ang,wa,lamington,4034,149,maddison close,,08 76669374,2372385,1,NoRole
+rec-871-dup-0,rec-2698-org,unk,v,19,19970211,ms,erin,aakre,vic,neuxrpurr,3660,6,newman morris mcircuit,,08 80009619,6895432,5,NoRole
+rec-273-org,rec-2071-org,eng,f,34,19821025,pfc,keeley,winter,vic,moonambel,4120,3,fishburn street,frank jeffrey hostel,04 85524140,4407363,4,NoRole
+rec-1573-dup-0,rec-296-org,fin,f,29,19870111,,nichols,lassila,qld,kandsanga,2756,57,strettonkcrescent,,3 48870983,4838964,9,NoRole
+rec-507-org,rec-3244-org,eng,f,23,19930213,,jared,christopherson,wa,mount barker,6004,18,damala street,,04 04454415,2274556,2,NoRole
+rec-2627-dup-0,rec-2793-org,jap,,,19250220,,gracd,toyama,,koonwarra,6035,161,sproulencircuit,,08 48245572,7217476,8,NoRole
+rec-253-org,rec-2263-org,eng,f,,19060309,,jacob,abram,sa,salisbury downs,3052,6,bullock circuit,keriroca,617 00370433,9460960,6,NoRole
+rec-1286-dup-0,rec-2299-org,eng,f,38,19780122,,jonathon,alfrpdson,nsw,cootamunmdra,4165,23,torrensvstreet,,,6849667,7,NoRole
+rec-3019-org,rec-2521-org,eng,f,32,,,,bloxam,nsw,mount victoria,4500,113,hawkesbury crescent,woorinyan,08 04458550,1832369,8,NoRole
+rec-2748-dup-0,rec-1426-org,unk,,,,dr,lachlan,,tas,richond,2074,4,,,617 65159082,6934222,4,NoRole
+rec-3058-org,rec-1935-org,usa,m,23,19930831,,taylah,lau,vic,walpa,7030,24,tiptree crescent,naygoondy,,9924859,7,NoRole
+rec-681-org,rec-2635-org,eng,f,,19540421,,kate,wootton,nsw,tumbi umbi,2767,21,stobie place,clear creek,612 93071504,5795925,8,NoRole
+rec-898-dup-0,rec-2695-org,chi,g,31,19850713,,tai,mo,ndw,wagga wagga raaf,3878,,werriwa crescent,,2 70360092,8582498,0,NoRole
+rec-249-org,rec-3799-org,gre,,28,19880921,,caitlin,doumeni,qld,ashwood,2038,58,allport street,wrara,613 41590858,8241970,4,NoRole
+rec-2689-dup-0,rec-172-org,,,30,19860609,ms,judah,coulson,wj,toowoimba,3040,2,,,618 28967089,5678437,5,NoRole
+rec-1077-org,rec-352-org,ind,f,27,19890322,,,naganathan,wa,balla balla,2011,19,pelham close,,618 41451761,3396540,2,NoRole
+rec-2727-dup-0,rec-1693-org,abo,,29,19808818,,grayson,goolagong,nsw,galohg,2000,19,baldwin drive,,2 54430424,1517058,0,NoRole
+rec-3778-dup-0,rec-2783-org,usa,m,37,19791133,ms,alexandre,holcen,nsw,belmont,4006,138,derringtonhcrescent,,612 10464329,5206032,7,NoRole
+rec-1474-org,rec-2271-org,unk,m,25,19911114,,ebony,scolastique,nsw,kogarah,4740,10,busby street,,612 01850817,4644491,4,NoRole
+rec-678-org,rec-3142-org,eng,f,,19110725,,mitchell,babcocke,qld,eight mile plains,2045,9,mackenzie street,wyncliffe,07 80052851,7516800,9,NoRole
+rec-1233-org,rec-3123-org,eng,f,30,19860206,,shandril,walmsley,qld,woondul,3166,410,barada crescent,,,1951277,8,NoRole
+rec-371-org,rec-1881-org,fin,m,,19270327,mr,sophie,kiljunen,nsw,scarborough,2164,258,norton street,,02 90681933,7412431,2,NoRole
+rec-3293-dup-0,rec-2505-org,unk,f,23,19931824,ms,zachary,abbitt,nw,grafton,3212,1,sargood sreet,illoura glass studio,2 39470433,3860905,5,NoRole
+rec-234-org,rec-2313-org,eng,f,26,19901005,ms,tiana,becket,qld,ernestina,4021,11,madigan street,glenachcrawne,08 97916265,5668495,3,NoRole
+rec-108-org,rec-3941-org,eng,f,28,,ms,joshua,mcniel,,semaphore park,2107,123,brigalow street,,,2255097,3,NoRole
+rec-2929-dup-0,rec-82-org,ita,,20,19960714,ms,william,muslo,,greenacre,5092,25,howitt ntreet,rosetta village,02 62397032,9886727,9,NoRole
+rec-180-org,rec-1549-org,unk,f,,19720907,dr,oliver,sclater,vic,north bendigo,3550,28,moogerah street,marx garden world,08 39093026,6045232,2,NoRole
+rec-2196-dup-0,rec-1261-org,vie,,31,19850817,,ella,phurc,vci,glenrowan,3281,25,yarra street,,618 14480497,5676006,8,NoRole
+rec-3750-dup-0,rec-2075-org,usa,m,52,,mr,kier,nicholson,,swan gill,2502,86,spalding street,,08 49723012,5255669,8,NoRole
+rec-3925-org,rec-3398-org,pak,,,19840618,mr,lauren,dindar,tas,winkleigh,3183,441,madsen place,araucaria precinct,617 19271940,4713255,4,NoRole
+rec-199-org,rec-2685-org,ind,f,7,20090107,,kane,chablani,nsw,harbord,2100,15,belconnen way,lypiatt,,5914832,9,NoRole
+rec-3530-dup-0,rec-2871-org,eng,,26,19910127,pfc,mikaula,booner,tas,fern ree,6163,381,walsh pdace,,617 95806591,4674092,2,NoRole
+rec-382-org,rec-1061-org,ind,f,38,19780321,pfc,harrison,daryani,sa,birdwood,4220,8,,,7 37009850,7890853,1,NoRole
+rec-3367-dup-0,rec-1243-org,eng,f,30,19870522,,lochlan,scriven,nsw,parramatta park,4211,15,place easterbrook,,2 48305247,1946616,1,NoRole
+rec-3664-org,rec-2246-org,usa,f,,19040321,,dillon,mays,qld,shoalwater,2211,4,wehl place,rosedale,03 80902088,9321122,0,NoRole
+rec-128-dup-0,rec-594-org,unk,d,23,19930807,,nichllas,aaternir,nsw,balgowlah hieghts,2470,694,albermarlx place,,2 90330097,8690040,1,NoRole
+rec-1415-org,rec-2632-org,nor,f,39,19771229,,talia,abramssen,sa,whyalla stuart,3946,114,ina gregory circuit,,04 10778393,5371908,6,NoRole
+rec-2794-org,rec-2774-org,ita,f,41,19750517,,benjamin,luciani,nsw,bulli,4570,5,kanooka street,,2 02863750,4932708,8,NoRole
+rec-459-org,rec-706-org,eng,f,31,19850410,hon,noah,scrivener,nsw,grasmere,2720,12,keverstone circuit,culgoa,612 29993814,1594851,5,NoRole
+rec-3318-dup-0,rec-2041-org,usa,,28,19910413,,ella,robertson,ws,buntine,6282,3,fitchettwstreet,,618 60082272,8680714,4,NoRole
+rec-3982-dup-0,rec-3377-org,eng,c,32,19840110,,tomasco,danielson,vif,,4820,2,harbisonccrescent,,8 37752419,9322722,1,NoRole
+rec-3388-org,rec-840-org,afr,f,35,19811026,ms,kobe,kazadi,vic,yarraville west,3806,632,hopkins street,,8 38709796,7652970,8,NoRole
+rec-1908-org,rec-3929-org,rom,f,31,19850103,,annabelle,chisca,vic,nandaly,3939,26,alli place,,,9548813,6,NoRole
+rec-2949-dup-0,rec-2312-org,eng,d,35,19810523,ms,daniel,hutson,sa,marrer,5259,47,leist street,,07 67445508,6485409,9,NoRole
+rec-231-org,rec-1791-org,eng,f,,19420303,,latham,kitchens,nsw,kanwal,3196,30,hagelthorn street,meadow view,612 33394864,7660305,0,NoRole
+rec-2684-org,rec-3588-org,unk,,28,19880531,ms,kiara,abadi,vic,grovedale,2750,6,richards street,north avenue,08 68746581,8418205,9,NoRole
+rec-935-dup-0,rec-932-org,unk,v,30,19860311,,prue,scofirld,nss,bibbencuke,5451,61,maygar street,,612 84483382,7034387,4,NoRole
+rec-166-org,rec-1653-org,usa,f,30,,ms,macy,joseph,vic,collingwood,6057,70,kidman close,,,3636132,3,NoRole
+rec-3789-org,rec-2679-org,sri,f,26,19900401,ms,zachary,yatawara,nsw,tallwood,4069,56,studley street,,2 48675319,1083706,3,NoRole
+rec-3658-org,rec-1532-org,unk,,29,19870207,mr,lachlan,scirri,wa,bramley,3550,2,gascoyne circuit,riverbourne,08 09588449,5465290,7,NoRole
+rec-937-dup-0,rec-2468-org,usa,l,37,19790220,,nicholsa,allison,qd,yengarie,2357,39,sinclair srreet,,03 28571876,2835050,7,NoRole
+rec-2492-dup-0,rec-2513-org,eng,,36,19790608,dr,,,nsw,bownba,2086,167,bertram street,,612 07010863,6809906,1,NoRole
+rec-3302-org,rec-2488-org,unk,m,10,20060225,,millie,scime,nsw,summerland point,2077,17,britten-jones drive,,612 98295534,6678589,9,NoRole
+rec-1735-dup-0,rec-398-org,ind,,30,19780225,,heath,gajrav,sa,mclaren flat,5168,24,darambal street,,03 71387243,9857767,4,NoRole
+rec-3634-org,rec-2703-org,eng,m,22,19940110,ms,cooper,patrickson,act,black mountain,4500,38,bainton crescent,kurrajong,612 72466649,4377637,8,NoRole
+rec-384-dup-0,rec-198-org,cze,f,38,19781529,,jimmy,nĚmec,qlc,mount usrprise,4005,14,ivo whittok circuit,,613 25503387,6351767,5,NoRole
+rec-3327-org,rec-2903-org,unk,f,28,19880509,mr,luke,scofield,nsw,buckenbowra,0880,28,drysdale circuit,sunny hills,02 05121868,8739371,7,NoRole
+rec-2746-dup-0,rec-1257-org,usa,,27,19891227,mr,leahc,walkr,nsw,rydeield,7290,25,ellenborough street,,02 65322602,4914819,6,NoRole
+rec-1475-org,rec-1153-org,usa,f,32,19841019,,jacob,kennedy,vic,st kilda east,4740,5,,tullimbah inn,618 20229141,9704619,8,NoRole
+rec-2705-dup-0,rec-2584-org,usa,,23,,ms,kafin,jefferson,vic,mortlake,3058,11,ferris dtreet,banksian,08 33875489,2641810,0,NoRole
+rec-3875-org,rec-2961-org,jap,f,26,19900308,mr,james,shirahata,,naracoorte,4017,66,moore street,,08 46460521,6712574,5,NoRole
+rec-942-org,rec-612-org,chi,m,,19431127,,kayden,tau,vic,balwyn north,3931,5,kent street,,,8585845,7,NoRole
+rec-2604-dup-0,rec-2460-org,gre,,,19680702,,ryley,klaraw,qle,plainland,6167,1788,newman morris circuit,,613 37258910,9521063,3,NoRole
+rec-3960-org,rec-3239-org,usa,f,12,20040127,,daniel,dorsey,vic,lysterfield south,2217,24,,spring banks,03 96153755,8515055,7,NoRole
+rec-1020-org,rec-3305-org,usa,f,22,,,hanna,levine,nsw,wollongong,2196,1,higinbotham street,,612 08542491,5585578,9,NoRole
+rec-2864-dup-0,rec-767-org,jew,,,19980831,,ethan,leverxon,vicl,cohuna,2152,25,sullivan crescent,edinburgh vlge,03 31553635,4197085,8,NoRole
+rec-888-org,rec-3159-org,eng,m,27,,ms,nikki,merrickson,wa,wandana,2261,59,bywaters place,leveritt park,08 76774537,8813181,3,NoRole
+rec-1090-dup-0,rec-3007-org,ara,,,19811410,mr,lily,liyaba,vi,garden city,4036,156,torrens street,,08 91818355,3149371,7,NoRole
+rec-1167-org,rec-169-org,jap,m,28,19881213,,anika,okanaya,vic,watchem,5046,17,allchin circuit,ra 23076,8 34453868,5891181,4,NoRole
+rec-3461-dup-0,rec-1752-org,chi,,29,,,clemelt,shuang,nsw,double hay,4116,6,rivettfstreet,buderim meadows cokvenience centre,08 50625977,1078604,2,NoRole
+rec-3830-org,rec-1692-org,iri,m,35,19810404,ms,sophie,mallon,qld,boyne island,6253,54,martens crescent,,03 09434881,8330587,5,NoRole
+rec-1031-org,rec-1827-org,chi,m,50,19660603,ms,jacob,wie,qld,yandilla,3677,22,torrens street,,3 49972951,8368825,1,NoRole
+rec-3389-org,rec-735-org,eng,,,19401226,pfc,montana,merricks,nsw,eden,2211,42,cleeve place,,02 39689875,6404805,9,NoRole
+rec-2659-dup-0,rec-1135-org,eng,f,36,19800928,hon,jack,morrish,vic,millo o,2035,19,aspinall street,,618 41795236,1477304,3,NoRole
+rec-326-org,rec-3988-org,jap,f,,19411016,,teegan,endoso,nsw,baldry,2096,11,purbrick street,poverty hill,612 50242381,4530392,5,NoRole
+rec-845-dup-0,rec-895-org,cze,c,13,20003718,,annabelle,muzik,nsw,brindsbella,7004,402,montgomery place,wandendi,07 46496290,1816622,3,NoRole
+rec-3385-org,rec-1648-org,unk,f,30,19860422,mr,james,aarcy,nsw,fern bay,3356,257,port jackson circuit,,02 35718710,8770256,8,NoRole
+rec-3942-dup-0,rec-3916-org,chi,f,29,19870714,,lam,jack,vic,vermont,3046,366,currie cprescent,,618 31574172,6642222,1,NoRole
+rec-1811-org,rec-2499-org,swe,m,26,19901017,ms,nicholas,grÖnberg,nsw,lynchs creek,6030,24,duncan street,mcedwards,612 43332123,5078765,1,NoRole
+rec-1597-dup-0,rec-29-org,chi,d,,19590330,,jotdan,nyou,ws,the spewctacles,,12,sentry crescent,,08 02209379,1224788,5,NoRole
+rec-1771-dup-0,rec-3586-org,ind,f,11,,,wilson,ponnjda,vikc,arnold,7307,46,pocket avenue,minalzinka,618 19646605,6227104,7,NoRole
+rec-345-org,rec-743-org,chi,f,,19760214,,sarah,ouyang,vic,yaapeet,3156,4,petterd street,,08 41617568,7352162,6,NoRole
+rec-3774-dup-0,rec-1929-org,unk,v,,19980118,ms,sciacca,caitlyn,qld,glenrae,2132,1,milehma street,,613 91298540,7221408,2,NoRole
+rec-1685-org,rec-2448-org,gre,f,25,19910225,,bailey,orfanakis,qld,bridgeman downs,2077,159,tristania street,arrowgrove,613 72404668,1133797,7,NoRole
+rec-1942-org,rec-3660-org,eng,f,33,19830728,,hayden,mottershead,sa,cross roads,3136,100,lahiff place,collier park vlge,617 05430974,6889555,0,NoRole
+rec-497-dup-0,rec-1958-org,usa,,36,,,harrison,fulfon,vic,hawt horn,3530,1,longworth place,waiweer,07 42457752,5658899,8,NoRole
+rec-931-org,rec-142-org,fre,,37,19791128,,sophie,mourge,qld,highland plains,2048,109,maddison close,lochlee,3 04587075,7585155,3,NoRole
+rec-2982-org,rec-1124-org,unk,,31,19850308,,lauren,streckfuss,qld,garradunga,3227,151,baldwin drive,,613 52023839,7800018,8,NoRole
+rec-3650-dup-0,rec-2902-org,sri,c,30,19860202,,lilian,leelani?,nsw,broadwaetr,2256,91,grounds crescent,,02 52417514,3304272,9,NoRole
+rec-2787-org,rec-3891-org,ira,f,21,19950713,,sophie,namdar,qld,aitkenvale,6051,151,andrews street,old cob,03 03229269,3726035,4,NoRole
+rec-3598-org,rec-3924-org,vie,f,26,19901006,,jordan,son,sa,plympton,3139,6,stretton crescent,station homestead,7 08699041,2016623,1,NoRole
+rec-1440-dup-0,rec-504-org,usa,,83,,cpt,sonia,dillard,ss,wingfield,2224,50,william we bb drive,northbourne,617 35146884,5038496,0,NoRole
+rec-3540-org,rec-2734-org,swe,f,37,19791107,,,sjovold,qld,yugar,3188,15,james street,,03 33183525,2950019,0,NoRole
+rec-481-dup-0,rec-2522-org,unk,f,,,,desi,aateenir,viv,wantirna south,3685,,alpen street,george forbies house,,9728933,7,NoRole
+rec-3105-org,rec-3629-org,eng,f,34,19820402,,joel,christinson,nsw,berkshire park,3219,171,singleton crescent,minoru,2 48876756,5656831,8,NoRole
+rec-2097-dup-0,rec-1127-org,eng,f,,19351011,,liam,tennison,nss,bosley park,4282,287,marti n street,blue mountaiy lagoon,02 20582120,1856118,8,NoRole
+rec-849-org,rec-2531-org,dan,f,37,,,mitchell,kjÖlbye,wa,yilkari,2278,6,naas close,,618 66989452,1750404,0,NoRole
+rec-3305-org,rec-2619-org,unk,m,27,19891119,pfc,caleb,abbitt,nsw,bulimba,7120,28,banks street,,612 49551610,2627583,1,NoRole
+rec-844-dup-0,rec-3638-org,usa,f,31,18950621,pfc,rhyx,greey,sa,woodvikle,3801,59,fenner street,,07 02446325,6685824,8,NoRole
+rec-2808-org,rec-159-org,usa,,32,19840821,ms,toby,caldwell,nsw,woolloomooloo,2770,19,mayo street,brentwood vlge,,7644868,4,NoRole
+rec-1390-dup-0,rec-1871-org,chi,r,32,19850202,,matilda,,qld,chirn park,3195,18,crescent eggleston,,08 43515845,1968863,1,NoRole
+rec-2944-org,rec-1095-org,eng,f,29,19870928,,sarah,quick,,wendouree,3131,35,burdekin avenue,longridge village,07 21705392,9210797,5,NoRole
+rec-2080-org,rec-1251-org,chi,f,36,19801207,ms,taylah,xin,nsw,maroota,2527,16,letters street,llangollen,612 91016702,1084070,5,NoRole
+rec-2585-org,rec-2765-org,usa,f,30,,mr,keira,cherry,nsw,padstow,5000,24,garran place,,02 24134871,2547924,0,NoRole
+rec-3781-dup-0,rec-1276-org,chi,f,25,19913214,,lauren,ngo,ns,bredbo,6164,1,mirams place,,612 69403984,7279094,9,NoRole
+rec-3754-org,rec-3850-org,eng,,32,19840313,ms,gracie,daniell,nsw,killabakh,3352,1,cambridge street,the willows,2 09532205,1380841,4,NoRole
+rec-493-org,rec-2302-org,chi,m,28,19880515,mr,thomas,auyeung,nsw,concord repatriation hospital,4514,70,coningham street,,02 35083567,6972661,1,NoRole
+rec-3112-dup-0,rec-2282-org,ser,,38,19920928,,taliasa,plecnik,sa,mansfield park,5013,31,parfitt cvescent,victoria mill estate,7 43545186,8401623,7,NoRole
+rec-1907-org,rec-762-org,eng,m,30,19860409,,diamond,danniell,nsw,bomaderry,3025,11,anketell street,,2 19456079,6895750,7,NoRole
+rec-969-org,rec-3176-org,unk,f,25,19910122,,amy,aakre,qld,sumner,6107,6,logan street,,03 05561000,8097564,1,NoRole
+rec-179-dup-0,rec-335-org,unk,,28,,,izaac,straw,qld,vasa ivews,7215,6,baracchk crescent,,03 93845822,7558592,5,NoRole
+rec-3248-org,rec-3342-org,afr,f,29,19870216,mr,jordan,kamau,nsw,wahroonga,3150,7,fortitude street,,08 17141395,1722567,6,NoRole
+rec-1289-dup-0,rec-2255-org,ind,c,29,,,jack,rohra,nsw,chayswood,3082,2125,aspinall street,,08 99887627,5904067,9,NoRole
+rec-3197-org,rec-1723-org,chi,f,36,19801118,,jakob,chu,qld,moura,3840,8,drake brockman drive,,03 52200843,6470309,7,NoRole
+rec-2112-dup-0,rec-733-org,usa,m,31,19850725,,connor,aslhey,vif,ballaratnorth,6043,98,launceston street,,618 28255234,3353089,8,NoRole
+rec-2661-dup-0,rec-3313-org,ger,f,,20070712,,julietta,chauveau,nsw,basin view,4570,,callaghan street,akenfield,,1262024,5,NoRole
+rec-1287-org,rec-2563-org,eng,f,34,19820523,,nicholas,harrelson,wa,red hill,2064,6,joyner place,,08 85889478,2467226,1,NoRole
+rec-1894-dup-0,rec-3026-org,eng,,29,19871129,,jack,hawkihg,,mavlern,2535,561,blackburm street,,07 74928214,5340610,6,NoRole
+rec-683-org,rec-505-org,unk,f,35,19811011,dr,,abbondandola,qld,delan,7252,118,,,613 97401604,6410604,7,NoRole
+rec-900-dup-0,rec-416-org,,g,,,,jemma,seddon,nsw,amiens,6026,55,bungonia street,,613 66401911,9381118,2,NoRole
+rec-964-org,rec-737-org,eng,,35,,,emiily,isaacson,,yenda,6153,,morrison street,civic centre,02 99976397,7747926,6,NoRole
+rec-1718-dup-0,rec-1660-org,unk,r,25,19910816,,krra,strampher,sc,upper hermitage,5015,11,smeaton circuit,,617 67263372,2110835,2,NoRole
+rec-2672-dup-0,rec-3608-org,nor,d,12,20041029,pfc,veitberg,jacobie,qld,mooie,2880,32,mckeown place,,613 98228261,7723558,0,NoRole
+rec-2094-org,rec-2891-org,ind,,28,19881207,ms,lily,tanmaya,nsw,st kilda,5065,39,jackie howe crescent,,02 52085852,4079273,2,NoRole
+rec-1380-dup-0,rec-2357-org,ser,e,,19100319,,ryan,basic,sxa,taplqn,5084,47,florence fullee crescent,,07 52379184,2890266,1,NoRole
+rec-1967-org,rec-2854-org,eng,f,31,19850108,,christina,dennel,nsw,manyana,3030,3,phillip avenue,,612 88900173,4255228,6,NoRole
+rec-3300-org,rec-2350-org,ira,,26,19900331,ms,isabella,vakili,nsw,artarmon,6102,16,blackwood terrace,,2 61998198,3121771,2,NoRole
+rec-1401-org,rec-1529-org,ara,f,26,19900827,ms,taylor,shafath,vic,morwell,2088,32,dacomb court,,8 34923316,4486824,9,NoRole
+rec-26-dup-0,rec-2614-org,unk,,1,20150611,,rachel,scyby,qld,mount kukes,4820,119,,,03 27808868,1082483,0,NoRole
+rec-3729-org,rec-678-org,usa,f,26,,,mia,burke,qld,babinda,2747,2,lexcen avenue,southwold,,8544212,9,NoRole
+rec-1933-dup-0,rec-1470-org,chi,f,32,19851123,,dylan,cheosg,nsw,oxley vale,2295,56,goodchild street,forest lakes,02 61867720,9541742,1,NoRole
+rec-909-org,rec-2446-org,ger,f,28,19880416,,jack,boderode,,eatons hill,4868,9,dunstan street,mountview,08 13754913,5501417,6,NoRole
+rec-1071-org,rec-3655-org,usa,,8,20080606,,byron,jimenez,nsw,lemon tree,6081,59,clive steele avenue,,07 93816187,6067588,4,NoRole
+rec-2400-org,rec-355-org,usa,m,9,20071104,ms,holly,cote,qld,cootharaba,2114,33,macleay street,,613 82759592,3957262,9,NoRole
+rec-3611-org,rec-3259-org,eng,f,22,,,dylan,hogarth,nsw,kings langley,4850,99,lloyd place,,,6721234,0,NoRole
+rec-2630-dup-0,rec-36-org,abo,f,,19981101,ms,cajeb,munyarryun,nsw,fletcher,2096,18,landor lace,,,7460354,5,NoRole
+rec-983-org,rec-710-org,por,f,28,19881201,,tarnia,lopes,nsw,cameron park,3167,11,city walk,the boulevarde,2 19328356,9867780,6,NoRole
+rec-2455-dup-0,rec-3727-org,usa,m,53,19839513,,emm,malone,acy,narrabundah,2112,29,ijong street,brentwood vlge,612 43977322,3887891,5,NoRole
+rec-1058-org,rec-3990-org,jap,m,26,19900821,ms,kirra,watnabe,vic,eurobin,2582,34,altson circuit,laurel vale poll hereford stud,8 11530136,2941707,2,NoRole
+rec-872-dup-0,rec-2248-org,usa,,,19800223,ms,katw,cline,nsw,aberdeen,0828,61,badimara street,stockwell hotel,2 49044020,2430343,0,NoRole
+rec-1523-dup-0,rec-483-org,eng,d,26,19900220,,joek,nathanson,qld,rowville,4158,24,sherbrooke street,,03 34131259,7471885,8,NoRole
+rec-975-dup-0,rec-299-org,unk,,35,19804017,,brianna,scollsrd,vic,penirth,5214,216,vidal ftreet,,618 34027572,1989518,9,NoRole
+rec-3672-org,rec-2569-org,unk,f,26,19900611,,kyle,schwanke,nsw,bexley north,3936,108,bancks crescent,aronui,04 71150176,9723851,6,NoRole
+rec-3434-org,rec-1976-org,jap,f,,19221226,,sana,sone,vic,underbool,5495,19,andrea place,mount patrick,8 07951711,1346947,3,NoRole
+rec-2211-dup-0,rec-569-org,tha,f,31,19850126,,brendan,nakpadith,qld,kingamroy,2560,15,robson qstreet,,03 43900999,8760493,6,NoRole
+rec-547-dup-0,rec-2534-org,chi,f,32,19880520,,kriistin,thien,tas,kingoonya,5070,19,hoddinott street,,617 83274376,4045272,3,NoRole
+rec-638-dup-0,rec-3426-org,ara,f,34,19821017,,,samirah,qls,bentley park,4807,43,la perousewstreet,,3 06427206,9302030,7,NoRole
+rec-3671-org,rec-1715-org,usa,,28,19880608,,stella,eaton,nsw,spring hill,7140,4,madigan street,,612 16843498,5825287,6,NoRole
+rec-556-dup-0,rec-453-org,usa,f,7,20090313,,georgina,mcdanirl,vic,dovetuon,3950,23,armstrong frescent,,08 19607130,1807229,5,NoRole
+rec-523-org,rec-2181-org,usa,m,23,19931017,,eliza,peterson,vic,bedford road,4487,5,bruxner close,calanna medcl centre,08 54962270,5129201,0,NoRole
+rec-1114-org,rec-3521-org,usa,f,,19940622,,kyah,workman,qld,beechmont,4020,5,allchin circuit,,613 54536398,8897287,2,NoRole
+rec-1664-dup-0,rec-68-org,unk,,21,19950424,ms,samantha,strapp,nsh,unaderra,7022,6,eaglemont retreat,,612 08024021,5697721,2,NoRole
+rec-2106-org,rec-1336-org,ger,f,32,,rev,riley,umstaedter,qld,newell,6112,23,board place,chateau royal,3 92134597,7614594,5,NoRole
+rec-1848-dup-0,rec-1350-org,usa,f,,20006127,ms,jaslun,rios,vic,broadmeadows,4560,5,hodgson cerscent,valencia park,08 70792058,1113001,6,NoRole
+rec-2076-org,rec-3869-org,unk,,9,20070907,,dayna,strapp,nsw,moranbah,3200,47,heagney crescent,,612 80142260,5052464,8,NoRole
+rec-540-org,rec-1000-org,ser,f,10,20060412,,zachary,bourek,nsw,ocean shores,2487,83,fuhrman street,greater cess vill,02 01802404,4917485,4,NoRole
+rec-1542-dup-0,rec-2137-org,eng,f,28,19880531,,nathna,morrish,vi,coes,2640,24,jondol place,,08 29587560,6401589,9,NoRole
+rec-2967-dup-0,rec-765-org,gre,f,20,19910124,ms,jess,moschonis,sa,aberfoyle park,4231,427,burkitt street,kirkdale,07 41116272,5212130,1,NoRole
+rec-104-org,rec-3575-org,chi,f,25,,,joshua,deng,tas,poatina,3113,21,champ place,,617 64243520,6235604,4,NoRole
+rec-2469-org,rec-3130-org,chi,f,23,,,joshua,chang,sa,panorama,2790,45,argyle square,kelrama,07 76314894,3867933,9,NoRole
+rec-2497-dup-0,rec-393-org,usa,m,,19430624,,zachary,neal,,emerald lbeach,3047,32,narran street,,08 32309667,2650447,8,NoRole
+rec-3837-org,rec-2560-org,abo,f,,19130216,,,goolagong,nsw,mount pritchard,6112,20,moule place,,02 24528540,4102321,0,NoRole
+rec-502-org,rec-280-org,eng,f,25,,,harry,dickens,sa,bradbury,6000,190,denny street,,617 87935903,1696687,6,NoRole
+rec-1183-dup-0,rec-3434-org,usa,f,13,,,sara,pace,tas,nile,2359,5,lazarus place,,,1049901,7,NoRole
+rec-1232-dup-0,rec-499-org,jew,,22,19940323,mr,jasmne,rivkin,nsw,sedan,4114,17,antill street,,7 11940610,8384756,2,NoRole
+rec-1285-org,rec-2865-org,eng,f,30,19861001,ms,william,melville,,high range,7054,2,wilkins street,,02 99003700,1676864,6,NoRole
+rec-2209-org,rec-976-org,ina,f,33,,,tate,budiman,,revesby,3130,274,young street,,08 72410616,6597545,2,NoRole
+rec-1068-dup-0,rec-570-org,chi,f,15,,,andie,dunz,vic,marlo,3377,55,archibald ztreet,ainslie chmbrs,8 37437084,8866878,6,NoRole
+rec-3871-dup-0,rec-834-org,eng,f,38,19760224,,jaie,patrickson,vivc,berriwillock,5984,12,carstensztstreet,,8 30208170,8005471,0,NoRole
+rec-3505-org,rec-3532-org,ger,m,27,19890322,ms,benjamin,zetter,,gwynneville,2199,134,arabana street,waioma,,9462586,3,NoRole
+rec-1946-org,rec-371-org,unk,f,31,19850203,,gemaley,scogin,vic,guys hill,4035,62,,,08 18098140,1849933,3,NoRole
+rec-3499-dup-0,rec-0-org,usa,f,,19820819,ms,hugh,gibso n,vic,watsn,2069,16,namatjira drive,,612 15677668,6843973,3,NoRole
+rec-3573-org,rec-3301-org,usa,f,,19100905,ms,lachlan,tran,qld,dimbulah,2153,57,caldwell street,,03 86383072,8390086,6,NoRole
+rec-2167-org,rec-1908-org,pol,,30,19860131,,elizabeth,bocian,nsw,harrington,2322,2,swanton street,leumeah,08 34265345,3946592,1,NoRole
+rec-3015-org,rec-1838-org,usa,f,,19660707,,joshua,walsh,qld,martinsville,4226,6,forwood street,,613 94927898,4783956,9,NoRole
+rec-1336-dup-0,rec-3482-org,chi,,92,19870138,mr,jamie,guang,qld,tangaoooma,2444,2,whitford place,mulgunna,613 79463129,7096770,8,NoRole
+rec-2217-org,rec-19-org,eng,m,27,19890205,,elki,beckett,vic,avoca,6050,47,percy crescent,,8 59669727,9956668,5,NoRole
+rec-1248-dup-0,rec-305-org,ind,,34,19730906,,petwr,shdailya,nsw,springwood,4308,5,groom street,,02 90435574,6898808,7,NoRole
+rec-3941-org,rec-3443-org,dut,,29,19870510,,zali,vandenbosch,sa,one tree hill,3152,11,clive steele avenue,,7 02597035,3224233,7,NoRole
+rec-981-dup-0,rec-3563-org,unk,f,32,,,brooke,strazzari,qld,kair,2154,10,macnaughton street,,613 18151995,9255878,4,NoRole
+rec-3012-org,rec-3711-org,afg,,31,19850305,,spencer,prhangi,qld,auchenflower,2090,15,mctaggart crescent,villa 80,3 11616131,1970884,0,NoRole
+rec-1053-dup-0,rec-1448-org,vie,f,37,19790618,,vupham,joshua,vic,wyuna,2112,39,duncan stueet,,618 94512553,2663178,6,NoRole
+rec-1850-org,rec-461-org,usa,f,,19390326,,joel,dawson,nt,borroloola,2530,,skertchly place,,3 45895865,7683581,9,NoRole
+rec-3366-dup-0,rec-3231-org,eng,,32,,,kelsey,danell,wa,schroeder,6207,1,dennys place,,08 78415252,7994440,6,NoRole
+rec-1714-org,rec-5-org,chi,m,26,19900417,,troy,kai,nsw,scone,6153,6,groom street,jarrah,612 72584822,8148530,7,NoRole
+rec-622-org,rec-2688-org,chi,f,28,19880131,,rebecca,,qld,sun valley,,59,investigator street,,,3603487,7,NoRole
+rec-3915-org,rec-414-org,ind,f,26,19900328,,tansy,vivek,vic,lexton,7310,110,lutwyche street,tinbidgeree,08 27709096,7602050,3,NoRole
+rec-951-dup-0,rec-2386-org,usa,,,19160432,,rebwcca,lindsey,,,2093,5,moruya vircuit,cooloola farms,03 91323467,2805754,0,NoRole
+rec-3192-org,rec-366-org,fin,f,,19880620,ms,chelsea,kallela,vic,ascot vale,3122,11,,,08 64825821,8249458,8,NoRole
+rec-973-org,rec-1118-org,ger,,,19750612,,marley,kohlruss,wa,noble park,2211,1,mcalpine place,,,3036976,8,NoRole
+rec-3343-dup-0,rec-1262-org,usa,f,28,19808522,ms,cross,aaron,wma,alkimos,5114,45,yambina crescent,,618 68613421,9515165,8,NoRole
+rec-2853-org,rec-288-org,chi,f,23,19930605,,shakirah,hsin,vic,talgarno,3337,11,hemmant street,,8 98198107,5327725,9,NoRole
+rec-1864-dup-0,rec-1822-org,ind,f,35,19801409,,sascha,mhambrey,qld,nevilton,4703,1,rudall street,,03 62320224,8024323,7,NoRole
+rec-965-org,rec-1956-org,chi,f,35,19810213,,reuben,zhen,sa,ashbourne,3055,138,,,,4388110,6,NoRole
+rec-1621-org,rec-2595-org,usa,f,,19660515,,nicholas,macias,wa,wallaroo,6150,60,caley crescent,,618 01765680,2908082,6,NoRole
+rec-677-dup-0,rec-1216-org,pak,f,31,19815011,,tes,ansari,qlr,mount buller,3136,30,crowder cibcuit,,613 09362271,6350604,6,NoRole
+rec-302-org,rec-1919-org,eng,f,,19810212,,kirra,roydon,qld,black snake,7250,3,swanton street,,03 84546461,7103639,1,NoRole
+rec-793-org,rec-791-org,eng,f,28,19880729,,sam,arrington,qld,lefthand branch,6056,56,melba street,karingal age hostel,03 35902479,2996445,6,NoRole
+rec-1600-dup-0,rec-320-org,eng,f,01,20060350,,lucy,samuelson,qld,jackson,2154,21,nummerak xlose,,,8480945,4,NoRole
+rec-2822-org,rec-3769-org,fin,f,34,19820403,ms,tara,pykkonen,vic,waubra,2046,445,,the wedge,618 76062497,8535434,9,NoRole
+rec-1448-dup-0,rec-1015-org,dut,m,10,20061104,,joshua,devries,tax,akaroa,2534,6,sternber g crescent,,08 55475652,1782462,0,NoRole
+rec-1080-org,rec-1055-org,unk,f,26,19900102,,jake,abbatista,nsw,eastwood,2640,30,arabana street,,08 74996010,9383084,8,NoRole
+rec-84-org,rec-2683-org,abo,f,29,19870306,ms,trey,munyarryun,wa,jindong,6147,36,marchant circuit,,8 49577441,8431169,6,NoRole
+rec-3259-dup-0,rec-1510-org,ser,n,29,19881110,mr,alex,mihalic,,padstown,2340,59,scantlebury crescent,,07 07698554,5209818,8,NoRole
+rec-2361-org,rec-2901-org,,,30,19860910,ms,sophie,,,maryborough,3184,12,captain cook crescent,rocklea,02 30513719,7661194,1,NoRole
+rec-2647-org,rec-516-org,hun,f,37,19791018,,matteus,rdzsavolgygi,,brighton,3025,51,bosworth circuit,,03 60724103,1020337,5,NoRole
+rec-3304-dup-0,rec-2885-org,usa,q,,19960206,ms,jamke,molina,vic,bellarine,2283,11,rose place,north 523,8 06727719,3008803,9,NoRole
+rec-1382-org,rec-1354-org,eng,f,31,19850330,dr,brinley,bristow,qld,terrica,2903,62,moonbi crescent,,03 87012013,5831752,9,NoRole
+rec-511-org,rec-1322-org,ind,,,19550405,,georgia,kahlon,nsw,tilba tilba,2680,25,haines street,cornucopia,612 62225379,5006787,5,NoRole
+rec-3379-dup-0,rec-1137-org,unk,f,27,19890406,mr,tansy,anai,nsw,lindfield,4560,76,mayo sgreet,,07 27113885,4557685,9,NoRole
+rec-628-org,rec-638-org,eng,f,27,19890110,ms,michelle,sutherland,nsw,woolgoolga,2194,245,chippindall circuit,aremar,02 15533460,5274149,2,NoRole
+rec-2109-dup-0,rec-2669-org,usa,f,26,19900301,mr,gregory,sherman,nsw,birminghamegardens,2052,1,kingsmill street,,612 12548330,8669887,1,NoRole
+rec-1107-org,rec-158-org,iri,m,35,19810516,ms,claudia,oclery,wa,beeliar,6156,8,calculus lane,,618 62225057,3629844,9,NoRole
+rec-3785-org,rec-3971-org,eng,f,31,19850529,,livia,huddleson,vic,calulu,7250,24,,,08 50702614,4927793,2,NoRole
+rec-2406-dup-0,rec-2821-org,chi,f,16,20065031,dr,felicity,xing,vic,wangaratta,2340,32,quiros street,hse 4,08 87813536,6948169,1,NoRole
+rec-1357-org,rec-740-org,chi,f,28,19881031,ms,jade,man,nsw,quorrobolong,,8,fleetwood smith street,,612 14688751,7371765,3,NoRole
+rec-3487-dup-0,rec-1551-org,chi,m,27,20080409,,tobh,lau,,surrey hill,6062,17,richter close,,,9686548,7,NoRole
+rec-3988-org,rec-3079-org,usa,f,41,19750109,mr,jayden,leonard,nsw,carcoar,2505,45,downes place,wattle place,2 65509591,2816930,2,NoRole
+rec-817-dup-0,rec-1720-org,ser,m,34,19820301,,madisozn,greif,nsw,urisono,2098,22,tepper circuit,,2 14227201,8995882,3,NoRole
+rec-411-org,rec-1873-org,chi,f,,19550209,,blayke,luk,vic,patchewollock,2612,8,couvreur street,pacific terraces,618 55617853,9068497,0,NoRole
+rec-1929-org,rec-2020-org,vie,m,29,19870321,,finlay,danh,qld,egypt,3214,63,boolimba crescent,,3 53047619,5467328,9,NoRole
+rec-2821-dup-0,rec-2236-org,,,26,19901127,pfc,dale,heeon,qld,millaa m illaa,5109,5,duffy street,,613 01037623,5129763,5,NoRole
+rec-399-org,rec-2123-org,chi,f,,19110202,,brodie,zha,nsw,cawongla,2044,17,riordan street,,07 75087357,7770324,1,NoRole
+rec-2099-org,rec-2030-org,,m,39,19770820,hon,edward,alderson,qld,rochedale,4305,45,igera place,,3 30025666,7799831,4,NoRole
+rec-3764-org,rec-1690-org,eng,,27,19891013,,delaney,mckenny,,cloverdale,3033,39,moore street,binnalong,02 94551554,1350319,6,NoRole
+rec-2993-org,rec-878-org,unk,,26,19900223,,nicholas,strampher,vic,bayles,6743,9,bimbiang crescent,,618 18805043,2826640,0,NoRole
+rec-706-dup-0,rec-3781-org,usa,g,33,19930730,hon,clodagh,eatdn,qld,mount molloy,3870,8,longstay caravn park,highvale village,04 44804563,9624296,4,NoRole
+rec-1263-org,rec-1232-org,chi,f,20,19961003,,katelyn,koi,,bayview,3028,86,lee-steere crescent,,04 48553392,1806561,4,NoRole
+rec-2564-dup-0,rec-1869-org,eng,,35,19910921,,nicholas,jeffrirs,ws,green with,4343,22,,,07 94944439,8703122,3,NoRole
+rec-3956-org,rec-167-org,hun,f,30,19860225,,hugo,balassa,,winmalee,5096,23,shenton crescent,,07 75289132,6979973,9,NoRole
+rec-3133-org,rec-893-org,usa,f,31,19850103,ms,,dillard,qld,myrtleford,2067,10,clive steele avenue,,03 14293690,9422308,0,NoRole
+rec-1515-org,rec-2358-org,usa,f,32,19840921,ms,stephanie,ramsey,qld,kioma,4036,1,mcgowan street,,3 41554901,1487690,3,NoRole
+rec-1695-dup-0,rec-3373-org,unk,u,24,19920014,dr,,streckfuss,naw,denman,4737,16,noarlunga vrescent,,612 83396145,9485163,3,NoRole
+rec-418-org,rec-70-org,usa,f,30,19860822,,emiily,coleman,qld,wurtulla,2114,17,lathlain street,,03 04870285,3698799,7,NoRole
+rec-2546-dup-0,rec-3264-org,ara,g,28,19880429,ms,seab,shaajrah,qld,deception bay,5062,78,barron street,,613 95117941,2926843,9,NoRole
+rec-1171-org,rec-1010-org,usa,,31,,ms,evan,talley,qld,yargullen,2259,24,chewings street,browie,03 69724835,7325871,3,NoRole
+rec-1063-org,rec-3730-org,eng,f,32,19840402,mr,daniel,bullard,nsw,woollahra,2166,88,,manresa,02 77784166,2326633,3,NoRole
+rec-3061-org,rec-363-org,eng,f,34,19820810,mr,flynn,lund,nsw,fingal head,5244,,rodway street,,2 16958066,2407422,5,NoRole
+rec-1618-org,rec-1312-org,spa,f,31,19850125,,sam,xovi,nsw,kangy angy,2020,242,,karlea,612 36682214,6990216,7,NoRole
+rec-2893-dup-0,rec-1134-org,chi,g,37,19790206,ms,magnds,yang,nsw,double bay,3138,50,minter place,high balley,612 09898901,7620421,9,NoRole
+rec-423-org,rec-979-org,,f,30,19861007,,lachlan,hyland,qld,grasstree beach,6044,7,neptune street,,3 55498558,4225686,7,NoRole
+rec-158-dup-0,rec-2379-org,usa,m,27,19809521,,thomas,gross,wz,glen innes,3016,13,,,08 93833798,9107204,6,NoRole
+rec-2927-dup-0,rec-2238-org,ind,r,,20070122,dr,vanessa,padmaant,voc,moonee ponds,3730,43,fitchett treet,rodeo ground,8 58036831,1058137,8,NoRole
+rec-2277-org,rec-967-org,chi,f,25,19911209,,jasper,lam,,revesby,4500,55,barraclough crescent,,,9563058,6,NoRole
+rec-2953-dup-0,rec-380-org,unk,m,27,19890805,,,strazari,,melviclle,2126,28,torrens street,croudac house,02 05126522,8983048,1,NoRole
+rec-3384-org,rec-2701-org,ger,f,32,19841219,mr,james,grosse,wa,karratha industrial estate,3192,6,kosciusko avenue,,08 28135042,1740582,7,NoRole
+rec-2218-dup-0,rec-1441-org,ina,f,39,,,teneile,budiman,vic,macquarie fields,2232,23,jemalongstreet,,618 03608964,8238390,1,NoRole
+rec-1280-org,rec-2788-org,eng,f,37,19790404,,delaney,wortham,qld,lanefield,4213,11,broadbent street,,613 08072665,1154199,6,NoRole
+rec-515-org,rec-1335-org,hun,f,37,19791212,,deakin,groditje,nsw,woolomin,2161,14,marlock street,,2 88518164,9121562,7,NoRole
+rec-3003-dup-0,rec-3073-org,eng,f,32,19840326,mr,lachlan,tiptogn,qld,south ysaamba,2010,12,franklin treet,,613 25272855,6012460,5,NoRole
+rec-2668-org,rec-2129-org,eng,f,34,19820920,,tahlia,joiner,nsw,hyams beach,2825,175,beaumont close,rosedale,612 31718797,3538154,8,NoRole
+rec-3433-dup-0,rec-1170-org,pol,,52,19912722,,kye,bartosz,viv,manangatang,2026,17,kohlhagen street,berri cottage hmes,03 16882629,1366846,1,NoRole
+rec-1570-dup-0,rec-212-org,ser,f,31,19850724,ms,ela,ahmetovic,,wyoing,2282,24,booroondarz street,,08 51041821,3167724,0,NoRole
+rec-2814-org,rec-3401-org,unk,f,27,19890218,hon,toby,abbetmeyer,sa,riverton,6071,23,yelland place,,7 73807573,1444817,8,NoRole
+rec-737-org,rec-2467-org,iri,f,32,,,xanthe,ohannigain,nsw,boambee east,2528,19,candlebark close,royal brisbane hospital,02 54598102,1489246,4,NoRole
+rec-141-dup-0,rec-964-org,usa,v,63,,,nick,markh,act,weetangera,6016,5,vasey cresfent,kittani,612 62897275,6564833,7,NoRole
+rec-911-org,rec-2682-org,chi,f,32,19840426,,lukas,ger,qld,rangemore,4680,56,howey place,,613 64065987,6763327,8,NoRole
+rec-1236-dup-0,rec-3475-org,eng,f,25,19930502,,rebrcca,younge,vic,buln buln,3175,1,aspinall street,,08 56477546,8235292,8,NoRole
+rec-3914-org,rec-358-org,dan,f,,19221031,,macormack,sponneck,,malvern east,3083,17,albermarle place,,07 37975218,3690578,2,NoRole
+rec-395-org,rec-3911-org,chi,f,22,19940328,,dylan,mu,nsw,port kembla,3142,6,thomas place,,2 94496315,1627989,9,NoRole
+rec-1972-dup-0,rec-118-org,usa,k,43,19820802,mr,portia,waters,tas,cuprona,4305,3,,,03 30560949,2359834,6,NoRole
+rec-1145-dup-0,rec-2316-org,ser,f,,19850223,,luk,milanova,nsw,carrathool,5041,,grigg hplace,,04 72125193,3740412,5,NoRole
+rec-2464-org,rec-3747-org,ind,f,27,19890101,,joshua,naagesh,vic,maude,3941,74,outtrim avenue,,07 28970589,9295760,7,NoRole
+rec-2172-org,rec-3392-org,,,35,,,elysse,paterson,,vista,2650,3,connelly place,riversdale caravan park,02 31810199,9350202,9,NoRole
+rec-468-dup-0,rec-356-org,eng,,29,19870087,dr,hollie,taikor,vic,narre warren south,3551,7,aspinall treet,sec 1569,08 13138589,1963126,5,NoRole
+rec-1615-org,rec-3277-org,unk,,,19770517,,matthew,strangway,wa,wyola,2324,6,mckillop circuit,rabbit warren,08 78255655,7435511,5,NoRole
+rec-405-org,rec-132-org,usa,m,34,19820402,mr,fyynlay,hogan,,dutton park,3147,33,story place,,07 43064393,1629407,6,NoRole
+rec-2971-dup-0,rec-3825-org,ser,v,28,19880313,mr,mraxin,alinvaec,nsw,nerriga,2380,258,newbery crvescent,,04 58954392,6714714,6,NoRole
+rec-2783-org,rec-2684-org,usa,f,,19250319,,jordan,strong,qld,buderim,2000,69,nott street,pangani,613 97764068,7905872,3,NoRole
+rec-851-org,rec-2677-org,ser,m,32,19840904,mr,samuel,habazin,qld,tirroan,6163,97,lalor street,kay's place,3 15032678,1314893,7,NoRole
+rec-1174-org,rec-3526-org,cze,m,9,20070505,,lucy,szeszavny,qld,bellara,2763,21,mountain creek road,ferndale,03 23659558,1712684,9,NoRole
+rec-2898-dup-0,rec-2306-org,chi,,28,19885027,,fioma,pak,qrd,barringun,2537,15,scantlebury xrescent,,613 57247740,9389849,5,NoRole
+rec-724-org,rec-3782-org,eng,,21,19950707,mr,chloe,granger,nsw,smithtown,7015,11,bonython street,,2 37877704,7355779,9,NoRole
+rec-2168-dup-0,rec-587-org,usa,j,22,19943021,,lukw,paul,vic,girgarre,2166,14,moorehead place,d'naleri grove,02 42945299,5403792,5,NoRole
+rec-3509-org,rec-1044-org,unk,f,29,19871224,,tiana,scoby,sa,nildottie,2031,16,lockhart place,,,4079712,3,NoRole
+rec-650-dup-0,rec-1036-org,unk,g,21,19950104,,matthew,aaron,nsw,macksvklle,2477,5,crozier ckrcuit,,2 59542196,3683630,8,NoRole
+rec-3525-dup-0,rec-53-org,eng,f,28,,,caeb,jeffers,xic,toorsk,6430,16,ebenezer treet,,618 58515839,5725884,0,NoRole
+rec-334-dup-0,rec-1468-org,hun,m,,,ms,campbwll,lehotka,qkd,flagstonewcreek,2228,96,sherbrooke street,,3 78148697,4532056,7,NoRole
+rec-3265-org,rec-2576-org,ira,f,30,19860717,,joel,arab,vic,wandana heights,5253,142,curlewis crescent,craiglee station,8 56202219,6514657,2,NoRole
+rec-835-dup-0,rec-521-org,ger,d,,19530122,,benkamin,shrivdr,qld,dingo,5175,,castlereagh crescent,,02 85754506,7866592,1,NoRole
+rec-3059-org,rec-1517-org,chi,m,37,19791229,dr,olivia,hsiang,wa,barberton,6008,292,paloona place,,618 23098664,3337665,8,NoRole
+rec-1787-org,rec-1743-org,afg,f,32,,dr,brooke,dawarh,wa,lismore,5164,76,morrow street,,8 26552371,3115707,6,NoRole
+rec-414-org,rec-3894-org,ger,f,28,19880418,,lauren,scheidler,tas,flowerpot,3936,55,paul coe crescent,bessy sue,7 95159560,5167051,9,NoRole
+rec-3457-dup-0,rec-3621-org,fin,,32,19840686,ms,ambet,annumka,nsw,chester hill,1601,37,hugh mckaydcrescent,,02 05374677,7811170,5,NoRole
+rec-98-org,rec-1601-org,chi,f,34,19821005,,jordan,lou,qld,twin waters,3130,75,archibald street,,08 12250320,5523812,0,NoRole
+rec-3515-org,rec-3703-org,ita,f,6,20100124,,briley,sicco,qld,baree,4012,4,birbai place,mount flagstone,613 78402932,3415869,6,NoRole
+rec-3600-org,rec-783-org,ind,,31,19850814,,koula,namasri,nsw,tweed heads west,2216,19,gardiner street,,02 21876646,1984227,4,NoRole
+rec-1547-dup-0,rec-3529-org,ger,,89,19770103,,montana,webb,vic,elthamfnorth,2902,260,berriganicrescent,the vines caravan park,618 16841936,5892831,0,NoRole
+rec-2674-dup-0,rec-3300-org,eng,f,31,19961210,,kyld,hendry,,peregia beach,3127,57,hyndes crescent,,02 21625842,8796250,6,NoRole
+rec-335-org,rec-2147-org,eng,,23,19930704,,andrea,,vic,tarwin,3025,15,mainwaring rich circuit,,08 71732558,7851397,0,NoRole
+rec-2387-org,rec-318-org,pak,,32,19840306,,sean,hunza,nsw,junction hill,2117,22,warrumbul street,henley appartments,08 21116810,4281779,9,NoRole
+rec-2574-dup-0,rec-3474-org,usa,,27,19890812,mr,molly,robinon,vic,buxton,6112,8,macedon vrescent,,618 02997948,9607817,6,NoRole
+rec-52-org,rec-536-org,unk,f,10,20060330,,angelica,abbondandola,wa,acton park,3137,7,meerup street,,08 93149142,9239418,3,NoRole
+rec-2734-dup-0,rec-3140-org,pak,,29,19880311,dr,chloee,,nsw,old bonalbo,4350,13,groveland urescent,akenfild,612 61295481,7694123,4,NoRole
+rec-1902-org,rec-868-org,rom,,30,19861006,hon,georgia,serbanescu,nsw,whale beach,3181,14,douglas close,,612 40760268,1587050,1,NoRole
+rec-583-dup-0,rec-3836-org,ina,f,,,,ainslry,hartono,bic,yeo,2736,2,sladen place,niobka,,1938097,1,NoRole
+rec-2789-org,rec-2331-org,unk,,14,20020219,,andrew,scjum,nsw,macmasters beach,2146,105,dooley place,,2 70813991,8027912,5,NoRole
+rec-1456-dup-0,rec-1399-org,ind,f,,19840711,pfc,chaelotte,jayaram,,south perth,2113,,grant crescent,,02 36778259,7444724,3,NoRole
+rec-1730-org,rec-859-org,usa,f,33,19830426,,charlotte,lin,qld,geham,2100,117,edmond close,,03 52864840,6746185,2,NoRole
+rec-548-dup-0,rec-1567-org,usa,f,11,19880425,,mikhala,blaxk,qld,yarrawnga,2779,5,ashby circuit,,3 03971292,7214986,0,NoRole
+rec-3036-org,rec-3966-org,chi,f,21,19950614,ms,liam,huie,qld,balmoral,3071,162,shepherd street,,03 08501286,2539121,2,NoRole
+rec-3526-dup-0,rec-2572-org,eng,f,22,19940903,,chelzea,tollemahhe,qld,west kalgoorlie,4019,21,steinfeld court,bonnie doon,08 95739047,9560363,0,NoRole
+rec-3069-org,rec-1101-org,eng,f,32,19840905,,jordan,abbey,sa,paskeville,6005,20,,,07 23514644,7355311,1,NoRole
+rec-2555-dup-0,rec-3311-org,eng,f,35,19811019,,yasmin,paterson,nsw,kurnel,6021,23,conigrage place,,2 90530538,1236074,3,NoRole
+rec-1237-dup-0,rec-1512-org,ita,,21,19950584,,chkoe,palermo,wa,bookerbay,2265,120,,,,2719598,0,NoRole
+rec-2654-org,rec-310-org,usa,f,27,19890810,,isaac,burnett,qld,yaamba,2088,90,dumaresq street,,03 60316884,6296677,1,NoRole
+rec-442-org,rec-2417-org,chi,m,23,19930227,ms,riley,ssi,nsw,reefton,4179,59,o'connor circuit,,02 27845608,6405261,8,NoRole
+rec-2115-org,rec-2806-org,chi,m,37,19790515,ms,sophie,jue,nsw,brooklet,2020,9,conley drive,,612 81742451,8249297,1,NoRole
+rec-2680-dup-0,rec-2072-org,ger,,24,19920809,,stella,gottlieb,sa,wilming ton,2143,3,hussey cove,,02 19928707,5297162,9,NoRole
+rec-3783-org,rec-1886-org,usa,m,,19390225,,emmet,gaines,act,melba,2617,14,cockatoo close,,612 47835582,9152368,9,NoRole
+rec-1125-dup-0,rec-1486-org,chi,m,,19520302,,laureg,yi,nss,bogan,6482,6,lennard street,,612 59218483,7644723,7,NoRole
+rec-1265-dup-0,rec-1429-org,usa,,28,19881101,,sarsh,valentine,nsw,bogamgar,3126,8,wellington street,,612 76577879,6585025,0,NoRole
+rec-3766-org,rec-57-org,ina,f,42,19740806,hon,lachlan,santoso,vic,antwerp,4719,9,bursaria street,,8 59099397,5678605,4,NoRole
+rec-2204-dup-0,rec-2627-org,usa,f,,19680705,,betuany,marks,nse,highfields,2535,71,beazley crescent,brightview,02 21739081,8285199,5,NoRole
+rec-1061-org,rec-1201-org,eng,f,31,19851227,,samuel,hopson,nsw,ebor,4670,20,atherton street,,2 24201348,7934748,0,NoRole
+rec-3640-dup-0,rec-1573-org,eng,m,,,,sangster,james,nsw,kyle bqy,4301,38,,,612 51667317,3225043,3,NoRole
+rec-1770-org,rec-2845-org,tha,f,,19640609,ms,chelsea,khuntilanont,nsw,newbridge,2196,25,duterrau crescent,geregarow station,612 48910823,8270380,4,NoRole
+rec-1708-dup-0,rec-506-org,usa,c,20,19961211,ms,wilson,guerrfero,vic,moriac,7202,37,boehm close,,08 34138217,2433477,5,NoRole
+rec-2193-org,rec-1087-org,usa,f,25,19910803,,finn,frye,vic,springvale south,6532,7,cadell street,,8 44533848,5645972,5,NoRole
+rec-457-org,rec-1948-org,por,f,36,19800808,ms,nicholas,chissano,nsw,speers point,2566,8,sly place,vinery,2 18350382,1102618,0,NoRole
+rec-819-org,rec-2799-org,unk,m,25,19910408,mr,ned,abadi,wa,jindalee,4580,19,springvale drive,afflexian,618 91246246,3156067,5,NoRole
+rec-3241-org,rec-354-org,usa,f,29,19870202,ms,jasmine,walton,nsw,erina heights,5373,19,clive steele avenue,mountview,02 18586177,1974496,0,NoRole
+rec-3999-dup-0,rec-3414-org,chi,,35,19816021,ms,georgia,huie,wa,bunbiury,4184,6,cotton street,marungid park,8 42031695,9685214,6,NoRole
+rec-455-org,rec-1533-org,usa,f,27,19890315,ms,sam,fulton,sa,karratha,6020,9,packer street,lochisle,617 55989832,3539848,5,NoRole
+rec-41-dup-0,rec-1081-org,eng,,32,,,rhianon,,vic,alfreton,6052,,mawsondrive,,04 67274623,3219488,6,NoRole
+rec-3142-org,rec-3225-org,,m,34,19820909,,annabel,graue,qld,pacific pines,4118,11,douglass place,,3 91827432,9518312,1,NoRole
