@@ -1,10 +1,12 @@
 # Dynamic similarity-aware inverted indexing for real-time entity resolution
-This paper improves the Similarity-Aware Inverted Index approach from [@CG:Scalable:08] to allows dynamic additions to the index. Also it investigates the frequency-distribution of data and the effect of reducing the index to hold only frequent records.
-In recent years dynamic entity resolution becomes more and more important as
-many businesses used databases that are not static and change over time.
-Therefore blocking techniques for Real-time data should allow to change as well.
-Meaning that if new records are inserted they have to be applied to the
-blocked/indexed data as well.
+This paper improves the Similarity-Aware Inverted Index approach from
+[@CG:Scalable:08] to allows dynamic additions to the index. Also it investigates
+the frequency-distribution of data and the effect of reducing the index to hold
+only frequent records. In recent years dynamic entity resolution becomes more
+and more important as many businesses used databases that are not static and
+change over time. Therefore blocking techniques for Real-time data should allow
+to change as well. Meaning that if new records are inserted they have to be
+applied to the blocked/indexed data as well.
 
 ## Dynamic Similarity-Aware Inverted Index approach
 

@@ -20,7 +20,7 @@ matching quality.
 ### Requirements Real-time ER
 
 The requirements for a Real-time ER framework is to process a stream of query
-records a fast a possible against a (large) data set of existing entities. The
+records as fast as possible against a (large) data set of existing entities. The
 response time for such a system must be short (ideally sub-second). The result
 of a query is a ranked list with probabilities that a matched record refers to
 the same entity.
