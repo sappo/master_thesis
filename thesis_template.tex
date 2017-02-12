@@ -69,8 +69,17 @@
 	pdfsubject={\thesisSubject},% 	- subject (PDF meta)
 	pdfauthor={\thesisName},	% 	- author (PDF meta)
 	plainpages=false,			% 	-
-	colorlinks=false,			% 	- colorize links?
-	pdfborder={0 0 0},			% 	-
+$if(keywords)$
+    pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
+$endif$
+$if(colorlinks)$
+    colorlinks=true,
+    linkcolor=$if(linkcolor)$$linkcolor$$else$Maroon$endif$,
+    citecolor=$if(citecolor)$$citecolor$$else$Blue$endif$,
+    urlcolor=$if(urlcolor)$$urlcolor$$else$Blue$endif$,
+$else$
+    pdfborder={0 0 0},
+$endif$
 	breaklinks=true,			% 	- allow line break inside links
 	bookmarksnumbered=true,		%
 	bookmarksopen=true			%
@@ -154,11 +163,12 @@ $endif$
 $if(mathfont)$
     \setmathfont(Digits,Latin,Greek)[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
 $endif$
-
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
     \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-
+% Fix hypertarget shifting down stuff
+\let\oldhypertarget\hypertarget
+\renewcommand{\hypertarget}[2]{\leavevmode\oldhypertarget{#1}{#2}}
 % **************************************************
 % Document CONTENT
 % **************************************************
