@@ -1,9 +1,9 @@
 ---
 # Master-Thesis settings
 author: Kevin Sapper
-title: Analyse, Design, Entwicklung und Evaluation eines skalierbaren, Echtzeit Entity Resolution Streaming Framework
+title: Analyse, Design, Entwicklung und Evaluation eines selbstkonfigurierenden Entity Resolution Frameworks für Streaming-Daten
 subject: Masterarbeit
-date: 19.10.16
+date: 17.02.2017
 version: 0.1
 
 referentName: Prof. Dr. Adrian Ulges
@@ -26,5 +26,6 @@ universityLogo: hsrm_logo.png
 # Pandoc settings
 bibliography: thesis.bib
 csl: din-1505-2-numeric.csl
+link-citations: True
 nocite: |
 ---
