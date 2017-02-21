@@ -47,6 +47,20 @@
 \define@boolkey[ct]{cthesis}{sansserif}[true]{}
 \setkeys[ct]{cthesis}{sansserif=false}
 
+% OPTION sansfont
+% --> values = full font name
+\def\cthesis@sansfont{TeX Gyre Heros}
+\define@key[ct]{cthesis}{sansfont}{%
+    \def\cthesis@sansfont{#1}
+}
+
+% OPTION mainfont
+% --> values = full font name
+\def\cthesis@mainfont{TeX Gyre Pagella}
+\define@key[ct]{cthesis}{mainfont}{%
+    \def\cthesis@mainfont{#1}
+}
+
 % OPTION hangfigurecaption
 % --> values = true|false
 \define@boolkey[ct]{cthesis}{hangfigurecaption}[true]{}
@@ -233,10 +247,10 @@
 		%
 		%\RequirePackage{helvet}	% Font:	Helvetica
 		%\RequirePackage{nimbus}	% Font:	Nimbus Sans, a clone of the Helvetica
-		\RequirePackage{tgheros}	% Font:	TEX Gyre Heros
+		%\RequirePackage{tgheros}	% Font:	TEX Gyre Heros
 		%\RequirePackage{libertine}	% Font:	Biolinum, the standard sans serif typeface with the Libertine package
 		%\RequirePackage[scaled]{berasans} % Font:	Bera Sans, a a version of Bitstream Vera Sans slightly enhanced
-        \setsansfont{TeX Gyre Heros}
+        \setsansfont{\cthesis@sansfont}
 		\renewcommand*\familydefault{\sfdefault}%
 %	}{%
 \else
@@ -245,7 +259,7 @@
 		\RequirePackage{lmodern}	% font set: Latin Modern
 		\RequirePackage{charter}	% font set: Charter
 		%\RequirePackage{fourier}	% font set: (basically improved utopia)
-        \setmainfont{TeX Gyre Pagella}
+        \setmainfont{\cthesis@mainfont}
 %	}
 \fi
 
@@ -276,6 +290,8 @@
 		\DeclareCaptionFormat{llap}{\llap{#1#2}#3\par}%
 		\captionsetup{format=llap,labelsep=quad,singlelinecheck=false}%
 %	}{}
+\else
+		\captionsetup{format=plain,labelsep=quad,singlelinecheck=false}%
 \fi
 %
 \RequirePackage[					% page layout modifications
@@ -506,10 +522,10 @@
 }
 
 % own font definitions
-\newfontfamily\Helvetica[Mapping=tex-text]{TeX Gyre Heros}
-\newcommand{\helv}{\Helvetica\fontsize{9}{11}}
-\newcommand{\book}{\Helvetica\fontsize{11}{13}}
-\newcommand{\tgherosfont}{\Helvetica}
+\newfontfamily\headerfont[Mapping=tex-text]{\cthesis@sansfont}
+\newcommand{\helv}{\headerfont\fontsize{9}{11}}
+\newcommand{\book}{\headerfont\fontsize{11}{13}}
+\newcommand{\tgherosfont}{\headerfont}
 
 \newcommand{\thesispartlabelfont}{\color{ctcolorpartnum}\book\fontsize{60}{60}\selectfont}
 \newcommand{\thesispartfont}{\color{ctcolorparttext}\huge \tgherosfont}
@@ -575,14 +591,14 @@
 %
 \titleformat{\chapter}[display]%
 	{\usekomafont{chapter}}%
-	{\vspace{-8em}\raggedleft{%
+	{\vspace{-9em}\raggedleft{%
 		{\color{ctcolorchapterline}%
-			\rule[-5pt]{2pt}{5cm}}\quad%
+			\rule[-5pt]{2pt}{8em}}\quad%
 		{\color{ctcolorchapternum}
 			\fontsize{60}{60}\selectfont\thechapter}%
 		}%
 	}%
-	{-4.0em}%
+	{-3em}%
 	{\ctformatchapter}%
 	[\phantomsection]
 %
@@ -593,7 +609,7 @@
 %	{%
 		\titleformat{\section}[hang]%
 			{\usekomafont{section}}%
-			{\color{ctcolorblack}\thesection\hspace*{10pt}}%
+            {\llap{\hspace*{-2em}\color{ctcolorblack}\thesection\hfill}}
 			{0pt}%
 			{\raggedright}%
 			[\phantomsection]
@@ -615,7 +631,8 @@
 %	{%
 		\titleformat{\subsection}[hang]%
 			{\usekomafont{subsection}}%
-			{\color{ctcolorblack}\thesubsection\hspace*{10pt}}%
+            {\llap{\hspace*{-2.9em}\color{ctcolorblack}\thesubsection\hfill}}
+			%{\color{ctcolorblack}\thesubsection\hspace*{10pt}}%
 			{0pt}%
 			{\raggedright}%
 			[\phantomsection]

@@ -24,6 +24,10 @@ universityPostalCode: 65197
 universityLogo: hsrm_logo.png
 
 # Pandoc settings
+sansfont: Libre Franklin
+mainfont: Libre Baskerville
+mathfont: Latin Modern Math
+monofont: Source Code Pro Medium
 bibliography: thesis.bib
 csl: din-1505-2-numeric.csl
 link-citations: True

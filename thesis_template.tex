@@ -57,6 +57,8 @@
 \usepackage[					% clean thesis style
 	figuresep=colon,%
 	sansserif=false,%
+    $if(sansfont)$sansfont={$sansfont$},$endif$
+    $if(mainfont)$mainfont={$mainfont$},$endif$
 	hangfigurecaption=false,%
 	hangsection=true,%
 	hangsubsection=true,%
@@ -160,10 +162,20 @@ $endif$
 \usepackage{amssymb,amsmath}
 \newcommand\floor[1]{\lfloor#1\rfloor}
 \newcommand\ceil[1]{\lceil#1\rceil}
-$if(mathfont)$
-    \setmathfont(Digits,Latin,Greek)[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+$if(monofont)$
+    \setmonofont[Mapping=tex-ansi$if(monofontoptions)$,$for(monofontoptions)$$monofontoptions$$sep$,$endfor$$endif$]{$monofont$}
 $endif$
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
+$if(mathfont)$
+$if(mathspec)$
+  \ifxetex
+    \setmathfont(Digits,Latin,Greek)[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+  \else
+    \setmathfont[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+  \fi
+$else$
+  \setmathfont[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+$endif$
+$endif$\setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
     \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 % Fix hypertarget shifting down stuff
