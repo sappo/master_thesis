@@ -270,6 +270,7 @@
 \RequirePackage{microtype}			% typographic tuning
 \RequirePackage{setspace}			% for line spacing, e.g. \onehalfspacing
 \RequirePackage[]{graphicx}			% graphics import features
+\RequirePackage{forest}             % draw trees
 \RequirePackage{fancyhdr}			% for header and footer modifications
 \RequirePackage{enumitem}			% for simple list modifications
 \RequirePackage{blindtext}	    	% package for blind text
@@ -288,10 +289,10 @@
 \ifct@cthesis@hangfigurecaption
 %	{%
 		\DeclareCaptionFormat{llap}{\llap{#1#2}#3\par}%
-		\captionsetup{format=llap,labelsep=quad,singlelinecheck=false}%
+		\captionsetup{format=llap,labelsep=quad,singlelinecheck=false, belowskip=1.5em}%
 %	}{}
 \else
-		\captionsetup{format=plain,labelsep=quad,singlelinecheck=false}%
+		\captionsetup{format=plain,labelsep=quad,singlelinecheck=false, belowskip=1.5em}%
 \fi
 %
 \RequirePackage[					% page layout modifications
@@ -698,10 +699,12 @@
 % -- modifications regarding the table of contents,
 %    the list of figures and the list of tables
 %
-%
 % The tocloft package enables us to control the typographic design of the
 % table of contents, list of figures and list of tables
 \RequirePackage{tocloft}
+\RequirePackage{longtable}
+% The multirow package allows us to merge cells in a table
+\RequirePackage{multirow}
 %
 % > adjusts the indention for figure and table entries (lof and lot)
 %   -- \cftsetindents{entry}{indent}{numwidth} sets the entry's indent to
@@ -754,6 +757,3 @@
 %
 % Clean signs around word origins in definitions
 %\newcommand{\cthesisorigin}[1]{\textsf{\textlangle}#1\textsf{\textrangle}}
-
-
-
