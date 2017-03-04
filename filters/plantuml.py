@@ -11,10 +11,9 @@ import os
 import sys
 from subprocess import call
 
-from pandocfilters import toJSONFilter, Para, Image, get_filename4code, get_caption, get_extension
+from pandocfilters import toJSONFilter, Para, Image, get_filename4code, get_caption, get_extension, stringify
 
-
-def plantuml(key, value, format, _):
+def plantuml(key, value, format, meta):
     if key == 'CodeBlock':
         [[ident, classes, keyvals], code] = value
 
@@ -27,11 +26,24 @@ def plantuml(key, value, format, _):
             src = filename + '.uml'
             dest = filename + '.' + filetype
 
+            skinparams = [
+                "skinparam monochrome true",
+                "skinparam shadowing false",
+            ]
+            metaMonoFont = meta.get('monofont', None)
+            if metaMonoFont:
+                fontName = stringify(metaMonoFont['c'])
+                skinparams.append("skinparam defaultFontName %s" % fontName)
+
             if not os.path.isfile(dest):
                 txt = code.encode(sys.getfilesystemencoding())
                 txt = txt.decode('utf-8')
                 if not txt.startswith("@start"):
-                    txt = "@startuml\n" + txt + "\n@enduml\n"
+                    params = ""
+                    for skinparam in skinparams:
+                        params += "%s\n" % skinparam
+
+                    txt = "@startuml\n" + params + txt + "\n@enduml\n"
                 with open(src, "w") as f:
                     f.write(txt)
 
