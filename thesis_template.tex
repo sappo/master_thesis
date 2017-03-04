@@ -183,6 +183,39 @@ $endif$\setlength{\emergencystretch}{3em}  % prevent overfull lines
 % Fix hypertarget shifting down stuff
 \let\oldhypertarget\hypertarget
 \renewcommand{\hypertarget}[2]{\leavevmode\oldhypertarget{#1}{#2}}
+
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+%\usepackage[noend]{algpseudocode}
+\usepackage{algpseudocode}
+\algrenewcommand\alglinenumber[1]{\tiny #1:}
+\captionsetup[algorithm]{font=scriptsize}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\makeatletter
+\newenvironment{breakablealgorithm}
+  {% \begin{breakablealgorithm}
+   \begin{center}
+     \refstepcounter{algorithm}% New algorithm
+     \hrule height.8pt depth0pt \kern2pt% \@fs@pre for \@fs@ruled
+     \renewcommand{\caption}[2][\relax]{% Make a new \caption
+       {\raggedright\textbf{\ALG@name~\thealgorithm} ##2\par}%
+       \ifx\relax##1\relax % #1 is \relax
+         \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
+       \else % #1 is not \relax
+         \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
+       \fi
+       \kern2pt\hrule\kern2pt
+     }
+  }{% \end{breakablealgorithm}
+     \kern2pt\hrule\relax% \@fs@post for \@fs@ruled
+   \end{center}
+  }
+\newcommand{\StatexIndent}[1][3]{%
+  \setlength\@tempdima{\algorithmicindent}%
+  \Statex\hskip\dimexpr#1\@tempdima\relax}
+\algdef{S}[WHILE]{WhileNoDo}[1]{\algorithmicwhile\ #1}%
+\makeatother
 % **************************************************
 % Document CONTENT
 % **************************************************
