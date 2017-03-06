@@ -216,6 +216,9 @@ $endif$\setlength{\emergencystretch}{3em}  % prevent overfull lines
   \Statex\hskip\dimexpr#1\@tempdima\relax}
 \algdef{S}[WHILE]{WhileNoDo}[1]{\algorithmicwhile\ #1}%
 \makeatother
+% No intend of the first paragraph of a section. Helpful to prevent first
+% bibliographic item to have an intend.
+\usepackage{indentfirst}
 % **************************************************
 % Document CONTENT
 % **************************************************
