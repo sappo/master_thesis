@@ -11,9 +11,9 @@ import os
 import sys
 from subprocess import call
 
-from pandocfilters import toJSONFilter, Para, Image, get_filename4code, get_caption, get_extension
+from pandocfilters import toJSONFilter, Para, Image, get_filename4code, get_caption, get_extension, stringify
 
-def ascii2svg(key, value, format, _):
+def ascii2svg(key, value, format, meta):
     if key == 'CodeBlock':
         [[ident, classes, keyvals], code] = value
 
@@ -21,21 +21,29 @@ def ascii2svg(key, value, format, _):
             caption, typef, keyvals = get_caption(keyvals)
 
             filename = get_filename4code("a2s", code)
-            filetype = get_extension(format, "svg")
+            typepandoc = get_extension(format, "pdf")
+            typea2s = "svg"
 
             src = filename + '.a2s'
-            dest = filename + '.' + filetype
+            desta2s = filename + '.' + typea2s
+            destpandoc = filename + '.' + typepandoc
 
-            if not os.path.isfile(dest):
+            fontName = ""
+            metaMonoFont = meta.get('monofont', None)
+            if metaMonoFont:
+                fontName = stringify(metaMonoFont['c'])
+
+            if not os.path.isfile(destpandoc):
                 txt = code.encode(sys.getfilesystemencoding())
                 txt = txt.decode('utf-8')
                 with open(src, "w") as f:
                     f.write(txt)
 
-                call(["a2s -i%s -o%s" % (src, dest)], shell=True)
-                sys.stderr.write('Created image ' + dest + '\n')
+                call(['a2s "-f%s" -i%s -o%s' % (fontName, src, desta2s)], shell=True)
+                call(["inkscape --without-gui --export-pdf=%s %s" % (destpandoc, desta2s)], shell=True)
+                sys.stderr.write('Created image ' + destpandoc + '\n')
 
-            return Para([Image([ident, [], keyvals], caption, [dest, typef])])
+            return Para([Image([ident, [], keyvals], caption, [destpandoc, typef])])
 
 if __name__ == "__main__":
     toJSONFilter(ascii2svg)
