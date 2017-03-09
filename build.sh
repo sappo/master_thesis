@@ -6,6 +6,7 @@ if [ "$1" == '--tex' ]; then
     pandoc --number-sections -V lang=de-DE --highlight-style=espresso \
            --filter=pandoc-crossref -M "crossrefYaml=pandoc-crossref-de.yaml" \
            --filter=pandoc-citeproc \
+           --filter=pandoc-citeproc-preamble -M citeproc-preamble=./citeproc-preamble.tex \
            --filter=./filters/plantuml.py \
            --filter=./filters/ascii2svg.py \
            --filter=./filters/latex_blocks.py \
@@ -15,6 +16,7 @@ else
     pandoc --number-sections -V lang=de-DE --highlight-style=espresso \
            --filter=pandoc-crossref -M "crossrefYaml=pandoc-crossref-de.yaml" \
            --filter=pandoc-citeproc \
+           --filter=pandoc-citeproc-preamble -M citeproc-preamble=./citeproc-preamble.tex \
            --filter=./filters/plantuml.py \
            --filter=./filters/ascii2svg.py \
            --filter=./filters/latex_blocks.py \
