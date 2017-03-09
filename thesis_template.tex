@@ -160,6 +160,9 @@ $if(graphics)$
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Only put figures onto their own page if they cover more than 75% of the page
+\renewcommand{\topfraction}{.75}
+\renewcommand{\floatpagefraction}{.75}
 $endif$
 \usepackage{amssymb,amsmath}
 \newcommand\floor[1]{\lfloor#1\rfloor}
