@@ -3,8 +3,8 @@
 author: Kevin Sapper
 title: Selbstkonfigurierendes Entity Resolution Frameworks für Streaming-Daten
 subject: Masterarbeit
-date: 11.03.2017
-version: 0.4
+date: 14.03.2017
+version: 0.5
 
 referentName: Prof. Dr. Adrian Ulges
 referentUniversity: Hochschule RheinMain
