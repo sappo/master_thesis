@@ -1,5 +1,10 @@
 # Cleanthesis with pandoc
 
+This project is pandoc markdown environment to write a thesis. It is based of
+the [Clean Thesis](http://cleanthesis.der-ric.de/) latex template by Ricardo
+Langner. There have been a lot of improvements so that everything can be setup
+from markdown and generated to pdf.
+
 ## Instalation
 
 Haskell tools:
@@ -49,3 +54,8 @@ But citation key into brackets: [@citation_key]
 ```a2s
 <your asscitosvg here>
 ```
+
+## Licence
+
+This project is GPL licensed as its based of the GPL licensed Clean Thesis
+project.
