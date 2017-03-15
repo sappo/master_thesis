@@ -40,3 +40,6 @@ clean:
 		   thesis.out \
 		   thesis.synctex.gz \
 		   thesis.toc
+
+dist-clean: clean
+	@rm -rf *-images

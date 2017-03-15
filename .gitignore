@@ -180,6 +180,5 @@ TSWLatexianTemp*
 # KBibTeX
 *~[0-9]*
 
-a2s-images
 datasets/ncvoter
-plantuml-images
+*-images/
