@@ -15,6 +15,7 @@ Other tools
 
 * python3 (required by filters)
 * java1.7+ (required by plantuml filter)
+* inkscape (required to convert svg/eps to pdf)
 
 ## Configuration
 
