@@ -35,6 +35,7 @@ clean:
  	  	   thesis.aux \
 		   thesis.lof \
 		   thesis.log \
+		   thesis.lop \
 		   thesis.lot \
 		   thesis.out \
 		   thesis.synctex.gz \
