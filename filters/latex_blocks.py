@@ -80,10 +80,10 @@ def latex_block(key, value, format, meta):
                     \vspace{0pt}
                     \centering
                     \begin{algorithm}[H]
+                        \caption{%s}
+                        \label{%s}
                         \tiny
                         \begin{algorithmic}[1]
-                            \caption{%s}
-                            \label{%s}
                             %s
                          \end{algorithmic}
                     \end{algorithm}
