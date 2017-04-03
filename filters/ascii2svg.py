@@ -26,24 +26,22 @@ def ascii2svg(key, value, format, meta):
 
             src = filename + '.a2s'
             desta2s = filename + '.' + typea2s
-            destpandoc = filename + '.' + typepandoc
 
             fontName = ""
             metaMonoFont = meta.get('monofont', None)
             if metaMonoFont:
                 fontName = stringify(metaMonoFont['c'])
 
-            if not os.path.isfile(destpandoc):
+            if not os.path.isfile(desta2s):
                 txt = code.encode(sys.getfilesystemencoding())
                 txt = txt.decode('utf-8')
                 with open(src, "w") as f:
                     f.write(txt)
 
                 call(['a2s "-f%s" -i%s -o%s' % (fontName, src, desta2s)], shell=True)
-                call(["inkscape --without-gui --export-pdf=%s %s" % (destpandoc, desta2s)], shell=True)
-                sys.stderr.write('Created image ' + destpandoc + '\n')
+                sys.stderr.write('Created image ' + desta2s + '\n')
 
-            return Para([Image([ident, [], keyvals], caption, [destpandoc, typef])])
+            return Para([Image([ident, [], keyvals], caption, [desta2s, typef])])
 
 if __name__ == "__main__":
     toJSONFilter(ascii2svg)
