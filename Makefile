@@ -11,6 +11,7 @@ FILTERS = \
 	--filter=filters/plantuml.py \
 	--filter=filters/ascii2svg.py \
 	--filter=filters/latex_blocks.py \
+	--filter=filters/svg2pdf.py \
 
 EXPORTS = PATH=$(PATH):$(PWD)/tools/:$(PWD)/tools/asciitosvg/
 
