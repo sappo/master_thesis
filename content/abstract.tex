@@ -1,14 +1,36 @@
 % !TEX root = ../thesis-example.tex
 %
-\pdfbookmark[0]{Abstract}{Abstract}
-\chapter*{Abstract}
+\pdfbookmark[0]{Zusammenfassung}{Zusammenfassung}
+\chapter*{Zusammenfassung}
 \label{sec:abstract}
 \vspace*{-10mm}
 
-\blindtext
-
-\vspace*{20mm}
-
-{\usekomafont{chapter}Abstract (different language)}\label{sec:abstract-diff} \\
-
-\blindtext
+Entity Resolution ist der Prozess, in einer oder mehreren Datenquellen,
+Gruppen von Datensätzen zu identifizieren, die derselben realen Entität
+entsprechen. Dabei gibt es kein einzigartiges Attribut, welche zur
+Zuordnung genutzt werden kann. Die Unterschiede in den Datensätzen sind,
+beispielsweise Rechtschreibfehler oder fehlende und vertauschte Attribute,
+welche eine Vieldeutigkeit erzeugen, die auch bei manueller Betrachtung
+durch einen Menschen, meist nur mit viel Zeitaufwand und eventuellen
+Zusatzinformationen, aufzulösen sind. Dabei liegt der Fokus dieser Arbeit
+auf Entity Resolution Verfahren für Event Stream Processing Systeme.
+Hierbei ist neben der Qualität der Ergebnisse auch die Antwortzeit von
+Bedeutung, welche oft im Subsekundenbereich liegen muss. Diese Anforderung
+ist herausfordernd, da die Suche nach Duplikaten mit enormen Kosten
+verbunden sind, die bei einer vollständigen Suche in einer quadratischen
+Komplexität resultiert. Ein Beitrag dieser Arbeit daher ein Verfahren zur
+Reduzierung der Komplexität, welches für Event Stream Processing tauglich
+ist. Damit dieses Verfahren die Anforderungen an Event Stream Processing
+erfüllt, muss eine entsprechende Konfiguration bestimmt werden. Diese
+Konfiguration ist allerdings von der Domäne der Daten abhängig und besteht
+aus einer Vielzahl von Parametern, die auch von Domänexperten nur
+aufwändig zu bestimmen ist. Deshalb wurden in dieser Arbeit Verfahren und
+Algorithmen analysiert und entwickelt, die eine Selbstkonfiguration der
+Parameter ermöglichen, die den Kompromiss zwischen Qualtiät und Effizienz
+für ein Event Stream Processing System eingehen. Die analysierten und
+entwickelten Verfahren wurden in einem prototypischen System
+implementiert, dass sich vor der Laufzeit selbst konfiguriert und
+anschließend Ereignisse aus einem Ereignisstrom beantwortet. Die
+Auswertung dieses Systems zeigt, dass die Selbstkonfiguration qualitativ
+gute Ergebnisse liefert und das System Anfragen effizient im
+Subsekundenbereich beantwortet.
