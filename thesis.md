@@ -1,23 +1,23 @@
 ---
 # Master-Thesis settings
 author: Kevin Sapper
-title: Selbstkonfigurierendes Entity Resolution Framework für Streaming-Daten
+title: Selbstkonfigurierendes Entity Resolution Framework für Event Stream Processing
 subject: Masterarbeit
-date: 11.04.2017
-version: 0.9
+date: 16.04.2017
+version: 0.9.1
 
 referentName: Prof. Dr. Adrian Ulges
 referentUniversity: Hochschule RheinMain
-referentFaculty: DCSM - Design Informatik Medien
+referentFaculty: Fachbereich Design Informatik Medien
 coreferentName: Prof. Dr. Reinhold Kröger
 coreferentUniversity: Hochschule RheinMain
-coreferentFaculty: DCSM - Design Informatik Medien
+coreferentFaculty: Fachbereich Design Informatik Medien
 handlerName: Thomas Strauß
 handlerCompany: Universum Group
 
 universityName: Hochschule RheinMain
-universityFaculty: DCSM - Design Informatik Medien
-universityDegreeCourse: Informatik (M.Sc.)
+universityFaculty: Fachbereich Design Informatik Medien
+universityDegreeCourse: Studiengang Master Informatik
 universityCity: Wiesbaden
 universityStreetAddress: Unter den Eichen 5
 universityPostalCode: 65195
