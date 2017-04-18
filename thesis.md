@@ -3,8 +3,8 @@
 author: Kevin Sapper
 title: Selbstkonfigurierendes Entity Resolution Framework für Event Stream Processing
 subject: Masterarbeit
-date: 16.04.2017
-version: 0.9.1
+date: 21.04.2017
+version: 1.0
 
 referentName: Prof. Dr. Adrian Ulges
 referentUniversity: Hochschule RheinMain
