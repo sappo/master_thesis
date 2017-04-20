@@ -143,11 +143,9 @@ $endif$
 $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
-$if(tables)$
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
 \IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
-$endif$
 $if(graphics)$
 \usepackage{graphicx,grffile}
 \usepackage{epstopdf}
@@ -312,14 +310,12 @@ $endif$
 % \listoflistings% Print List of Listings
 % \cleardoublepage
 
-$if(tables)$
 \chapter*{Tabellenverzeichnis}\label{tabellenverzeichnis}
 \addcontentsline{toc}{chapter}{Tabellenverzeichnis}
 \makeatletter
 \@starttoc{lot}% Print List of Tables
 \makeatother
 \cleardoublepage
-$endif$
 
 %\input{content/colophon}
 %\cleardoublepage
