@@ -61,6 +61,10 @@ But citation key into brackets: [@citation_key]
 ```
 ````
 
+## Vim
+
+If you're using vim and like a better pandoc markdown integration use my modified vim-markdown plugin https://github.com/sappo/vim-markdown.
+
 ## Licence
 
 This project is GPL licensed as its based of the GPL licensed Clean Thesis
