@@ -5,6 +5,8 @@ the [Clean Thesis](http://cleanthesis.der-ric.de/) latex template by Ricardo
 Langner. There have been a lot of improvements so that everything can be setup
 from markdown and generated to pdf.
 
+This is my acutal thesis but feel free to use it as an template to start your own :)
+
 ## Instalation
 
 Haskell tools:
