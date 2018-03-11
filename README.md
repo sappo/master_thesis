@@ -39,21 +39,27 @@ But citation key into brackets: [@citation_key]
 
 * Use plain tex markup which is pased to latex engine unmodified:
 
+````
 ```tex
 <your tex markup here>
 ```
+````
 
 * Convert plantuml codeblocks into images:
 
+````
 ```plantuml
 <your plantuml here>
 ```
+````
 
 * Convert asciitosvg codeblocks into images:
 
+````
 ```a2s
 <your asscitosvg here>
 ```
+````
 
 ## Licence
 
